@@ -8,7 +8,27 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*header css*/
+#fixedBackground
+{
+  position: fixed;
+  display: block;
+  width: 1080px;
+  background-color: rgba(89,82,6,1);
+  background-position: center;
+}
+#fixedBackground > .header
+{
+  display: block;
+  position: relative;
+  width: 50%;
+  background-color: rgba(7,207,251,1);
+  font-family: sans-serif;
+}
+#fixedBackground > .header > .name
+{
+  display: inline-block;
+}
 
 /*@media (max-width: 500px) 
 {
