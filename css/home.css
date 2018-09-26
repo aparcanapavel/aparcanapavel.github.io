@@ -16,7 +16,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.);
 }
 #container
 {
@@ -26,8 +26,8 @@
 }
 #container > .header
 {
-  margin: 0px auto;
-  width: 960px;
+  margin: 0px;
+  width: 100%;
   display: block;
   position: relative;
   height: 110px;
@@ -101,6 +101,7 @@
   margin-left: 15%;
   top: 55px;
   color: rgba(0,0,0,0.8);
+  opacity: 0;
 }
 #container > .welcomeStatement > hr
 {
@@ -125,10 +126,16 @@
 {
   padding-top: 60px;
   text-decoration: underline;
+  opacity: 0;
 }
 #container > .aboutMe > p
 {
   padding: 30px 40px;
+  opacity: 0;
+}
+#container > hr
+{
+  margin: -1px;
 }
 #container > .pages > .page-box
 {
@@ -136,15 +143,17 @@
   position: relative;
   width: 50%;
   height: 400px;
-  background-color: grey;
+  background-color: white;
   margin-right: -4px;
   font-family: sans-serif;
+  opacity: 0;
 }
 #container > .pages > .page-box > span
 {
   display: block;
   text-align: center;
   padding-top: 190px;
+  font-size: 30px;
 }
 /*experience tab*/
 #container > .pages > .page-box:nth-of-type(1)
@@ -152,7 +161,8 @@
   /*blue*/
   /*background-color: rgba(22,129,174,1);*/
   /*red-ish*/
-  background-color: rgba(200,184,225,0.6);
+  /*background-color: rgba(200,184,225,0);*/
+  background-color: rgba(0,0,0,0.25);
 }
 /*Interests tab*/
 #container > .pages > .page-box:nth-of-type(2)
@@ -167,18 +177,18 @@
 /*Contact tab*/
 #container > .pages > .page-box:nth-of-type(4)
 {
-  background-color: rgba(176,68,110,0.5);
+  /*background-color: rgba(176,68,110,0);*/
+  background-color: rgba(0,0,0,0.1);
 }
 #container > .footer  > .quickLinks
 {
   display: block;
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 110px;
   background-color: rgb(72,91,109);
   color: white;
   font-family: sans-serif;
-  text-align: center;
 }
 #container > .footer  > .quickLinks > h3
 {
@@ -187,15 +197,29 @@
   padding-bottom: 10px;
 
 }
-#container > .footer  > .quickLinks > div> a
+#container > .footer  > .quickLinks > li  
 {
-  text-decoration: none;
   width: 30%;
   color: white;
-  padding: 90px;
+  padding: 0px 90px;
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
 }
-
-
+#container > .footer  > .quickLinks > li > a
+{
+  width: 100%;
+  color: white;
+  text-decoration:none;
+  text-align: left;
+  padding-left: 50px;  
+}
+#container > .footer  > .signature
+{
+  background-color: rgba(72,91,109,0.95);
+  text-align: right;
+  padding-right: 5px; 
+}
 
 
 
