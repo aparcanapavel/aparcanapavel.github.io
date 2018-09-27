@@ -1,7 +1,7 @@
 $('.welcomeStatement > p').delay(100).animate({'opacity':'1'},4000);
 $('.aboutMe > h2, .aboutMe > p').delay(100).animate({'opacity':'1'},2000);
 
-// the next 21 lines of code are partially borrowed from Anna Larson's Element Fade in on Scoll.
+//the next 21 lines of code are partially borrowed from Anna Larson's Element Fade in on Scoll.
 //https://codepen.io/annalarson/pen/GesqK
 $(document).ready(function() {
     
@@ -23,5 +23,36 @@ $(document).ready(function() {
         }); 
     
     });
+    // Experience Panel
+    $('.page-box:nth-child(1)').mouseover(function(){
+        $('.page-box:nth-child(1)').css({'background-color': 'white', 'transition' : '1s'});
+        $('.page-box:nth-child(1) > a').css({'border': 'solid black', 'transition' : '1s'});
+    });
+    $('.pages > .page-box').mouseout(function(){
+        $('.page-box:nth-child(1)').css("background-color", "rgba(0,0,0,0.25)");
+         $('.page-box:nth-child(1) > a').css({'border': 'solid transparent', 'transition' : '1.2s'});        
+        $('.page-box:nth-child(2)').css("background-color", "rgba(22,129,174,1)");
+         $('.page-box:nth-child(2) > a').css({'border': 'solid transparent', 'transition' : '1.2s'});
+        $('.page-box:nth-child(3)').css("background-color", "rgba(22,129,174,0.5)");
+         $('.page-box:nth-child(3) > a').css({'border': 'solid transparent', 'transition' : '1.2s'});
+        $('.page-box:nth-child(4)').css("background-color", "rgba(0,0,0,0.1)");
+         $('.page-box:nth-child(4) > a').css({'border': 'solid transparent', 'transition' : '1.2s'});
+    });
+    // Interests Panel
+    $('.page-box:nth-child(2)').mouseover(function(){
+        $('.page-box:nth-child(2)').css({'background-color': 'white', 'transition' : '1.2s'});
+        $('.page-box:nth-child(2) > a').css({'border': 'solid black', 'transition' : '1s'}); 	
+    });
+    //PROJECTS PANEL
+    $('.page-box:nth-child(3)').mouseover(function(){
+        $('.page-box:nth-child(3)').css({'background-color': 'white', 'transition' : '1.2s'});
+        $('.page-box:nth-child(3) > a').css({'border': 'solid black', 'transition' : '1s'});
+  	});
+    // Contact Panel
+    $('.page-box:nth-child(4)').mouseover(function(){
+        $('.page-box:nth-child(4)').css({'background-color': 'white', 'transition' : '1s'});
+        $('.page-box:nth-child(4 ) > a').css({'border': 'solid black', 'transition' : '1s'});
+ 	});
+
     
 });

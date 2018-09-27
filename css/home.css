@@ -20,8 +20,8 @@
 }
 #container
 {
-  /*line below controls the background color if greater than 1080px, center it*/
   width: 960px;
+  /*line below controls the background color if greater than 1080px, center it*/
   margin: 0px auto;
 }
 #container > .header
@@ -36,7 +36,6 @@
   background-color: rgba(7,207,251,0.7);
   font-family: sans-serif;
   left: 0px;
-  
 }
 #container > .header > .name
 {
@@ -148,12 +147,22 @@
   font-family: sans-serif;
   opacity: 0;
 }
-#container > .pages > .page-box > span
+/*#container > .pages > .page-box > span:hover
+{
+  background-color: white;
+  transition: 1s;
+}*/
+#container > .pages > .page-box > a
 {
   display: block;
   text-align: center;
-  padding-top: 190px;
+  margin: 150px 100px;
   font-size: 30px;
+  text-decoration: none;
+  color: black;
+  border: 5px;
+  border: solid transparent;
+  padding: 10px;
 }
 /*experience tab*/
 #container > .pages > .page-box:nth-of-type(1)
@@ -214,6 +223,10 @@
   text-align: left;
   padding-left: 50px;  
 }
+#container > .footer  > .quickLinks > li:nth-of-type(1)
+ {
+   margin-left: -4px;
+ }
 #container > .footer  > .signature
 {
   background-color: rgba(72,91,109,0.95);
@@ -225,9 +238,384 @@
 
 
 
-/*@media (max-width: 500px) 
+@media (max-width: 960px) 
 {
-    .header > #nav + label + .main-menu
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .header
+  {
+    margin: 0px;
+    width: 100%;;
+    height: 110px;
+    background-color: white;
+    /*line below is to change the background color of the header.*/
+    background-color: rgba(7,207,251,0.7);
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 55px;
+    left: 15px;
+    font-size: 50px;
+    color: black;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .header > .quickContact > li:nth-child(2)
+  {
+    text-decoration: white;
+    color: black;
+    padding-right: 3px;
+    background-color: white;
+  }
+  #container > .welcomeStatement
+  {
+    height: 500px;
+    width: 100%;
+    /*background-color: rgba(7,207,251,0.7);*/
+  }
+  #container > .welcomeStatement > p
+  {
+    width: 70%;
+    font-size: 55px;
+    text-align: center;
+    font-family: Caveat;
+    margin-left: 15%;
+    top: 55px;
+    color: rgba(0,0,0,0.8);
+    opacity: 0;
+  }
+  #container > .welcomeStatement > hr
+  {
+    display: block;
+    width: 60%;
+    color: rgba(22,129,174,1);
+    bottom: 5px;
+  }
+  #container > .aboutMe
+  {
+    height: 275px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 110%;
+  }
+  #container > .aboutMe > h2
+  {
+    padding-top: 40px;
+    text-decoration: underline;
+    opacity: 0;
+  }
+  #container > .aboutMe > p
+  {
+    padding: 30px 40px;
+    opacity: 0;
+  }
+  #container > hr
+  {
+    margin: -1px;
+  }
+  #container > .pages > .page-box
+  {
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    margin-right: -4px;
+  }
+  #container > .pages > .page-box > a
+  {
+    display: block;
+    text-align: center;
+    margin: 150px 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: 5px;
+    border: solid transparent;
+    padding: 10px;
+  }
+  /*experience tab*/
+  #container > .pages > .page-box:nth-of-type(1)
+  {
+    /*blue*/
+    /*background-color: rgba(22,129,174,1);*/
+    background-color: rgba(0,0,0,0.25);
+  }
+  /*Interests tab*/
+  #container > .pages > .page-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,1);
+  }
+  /*Projects tab*/
+  #container > .pages > .page-box:nth-of-type(3)
+  {
+    background-color: rgba(22,129,174,0.5);
+  }
+  /*Contact tab*/
+  #container > .pages > .page-box:nth-of-type(4)
+  {
+    /*background-color: rgba(176,68,110,0);*/
+    background-color: rgba(0,0,0,0.1);
+  }
+  #container > .footer  > .quickLinks
+  {
+    display: block;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(72,91,109);
+    color: white;
+    font-family: sans-serif;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+  }
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    color: white;
+    padding: 0px 90px;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    color: white;
+    text-decoration:none;
+    text-align: left;
+    padding-left: 50px;  
+  }
+  #container > .footer  > .signature
+  {
+    background-color: rgba(72,91,109,0.95);
+    text-align: right;
+    padding-right: 5px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 744px) 
+{
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .header
+  {
+    margin: 0px;
+    width: 100%;;
+    height: 110px;
+    background-color: white;
+    /*line below is to change the background color of the header.*/
+    background-color: rgba(7,207,251,0.7);
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 45px;
+    left: 15px;
+    font-size: 50px;
+    color: black;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .header > .quickContact > li:nth-child(2)
+  {
+    text-decoration: white;
+    color: black;
+    padding-right: 3px;
+    background-color: white;
+  }
+  #container > .welcomeStatement
+  {
+    height: 500px;
+    width: 100%;
+    /*background-color: rgba(7,207,251,0.7);*/
+  }
+  #container > .welcomeStatement > p
+  {
+    width: 70%;
+    font-size: 50px;
+    text-align: center;
+    font-family: Caveat;
+    margin-left: 15%;
+    top: 40px;
+    color: rgba(0,0,0,0.8);
+    opacity: 0;
+  }
+  #container > .welcomeStatement > hr
+  {
+    display: block;
+    width: 60%;
+    color: rgba(22,129,174,1);
+    bottom: 5px;
+  }
+  #container > .aboutMe
+  {
+    height: 275px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 110%;
+  }
+  #container > .aboutMe > h2
+  {
+    padding-top: 40px;
+    text-decoration: underline;
+    opacity: 0;
+  }
+  #container > .aboutMe > p
+  {
+    padding: 30px 40px;
+    opacity: 0;
+  }
+  #container > hr
+  {
+    margin: -1px;
+  }
+  #container > .pages > .page-box
+  {
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    margin-right: -4px;
+  }
+  #container > .pages > .page-box > a
+  {
+    display: block;
+    text-align: center;
+    margin: 150px 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: 5px;
+    border: solid transparent;
+    padding: 10px;
+  }
+  /*experience tab*/
+  #container > .pages > .page-box:nth-of-type(1)
+  {
+    /*blue*/
+    /*background-color: rgba(22,129,174,1);*/
+    background-color: rgba(0,0,0,0.25);
+  }
+  /*Interests tab*/
+  #container > .pages > .page-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,1);
+  }
+  /*Projects tab*/
+  #container > .pages > .page-box:nth-of-type(3)
+  {
+    background-color: rgba(22,129,174,0.5);
+  }
+  /*Contact tab*/
+  #container > .pages > .page-box:nth-of-type(4)
+  {
+    /*background-color: rgba(176,68,110,0);*/
+    background-color: rgba(0,0,0,0.1);
+  }
+  #container > .footer  > .quickLinks
+  {
+    display: block;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(72,91,109);
+    color: white;
+    font-family: sans-serif;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+  }
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    color: white;
+    padding: 0px 90px;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    color: white;
+    text-decoration:none;
+    text-align: left;
+    padding-left: 0px;  
+  }
+  #container > .footer  > .quickLinks > li:nth-of-type(1)
+  {
+    margin-left: 0px;
+  }
+  #container > .footer  > .signature
+  {
+    background-color: rgba(72,91,109,0.95);
+    text-align: right;
+    padding-right: 5px; 
+  }
+}
+    /*.header > #nav + label + .main-menu
   {
     display: none;
                           
