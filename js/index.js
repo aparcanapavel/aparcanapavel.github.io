@@ -5,6 +5,14 @@ $('.aboutMe > h2, .aboutMe > p').delay(100).animate({'opacity':'1'},2000);
 //https://codepen.io/annalarson/pen/GesqK
 $(document).ready(function() {
     
+    $('input').click(function(){
+    	// $('.page-menu').css({
+    	// 	display: 'block',
+	    //     width: '120px'
+    	// })
+        $('.page-menu').toggle(500);
+    });
+
     $(window).scroll( function(){
     
         $('.pages > .page-box').each( function(i){

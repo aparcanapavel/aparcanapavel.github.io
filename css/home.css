@@ -24,18 +24,33 @@
   /*line below controls the background color if greater than 1080px, center it*/
   margin: 0px auto;
 }
+#container > .header-background
+{
+  width: 100%;
+  display: block;
+  position: absolute;
+  height: 110px;
+  background-color: rgba(22,129,174,0.7);
+  left: 0px;
+  z-index: -1;
+}
 #container > .header
 {
-  margin: 0px;
   width: 100%;
   display: block;
   position: relative;
   height: 110px;
-  background-color: white;
   /*line below is to change the background color of the header.*/
-  background-color: rgba(7,207,251,0.7);
+  /*background-color: rgba(7,207,251,0.7);*/
+  background-color: rgba(22,129,174,0);
   font-family: sans-serif;
   left: 0px;
+}
+#container > .header > input, 
+#container > .header > label,
+#container > .header > .page-menu 
+{
+  display: none;
 }
 #container > .header > .name
 {
@@ -195,7 +210,7 @@
   position: relative;
   width: 100%;
   height: 110px;
-  background-color: rgb(72,91,109);
+  /*background-color: rgb(72,91,109);*/
   color: white;
   font-family: sans-serif;
 }
@@ -229,9 +244,20 @@
  }
 #container > .footer  > .signature
 {
-  background-color: rgba(72,91,109,0.95);
+  background-color: rgb(72,91,109);
   text-align: right;
   padding-right: 5px; 
+  color: rgba(0,0,0,1);
+}
+#container > .footer-background
+{
+  display: block;
+  position: absolute;
+  height: 130px;
+  background-color: rgb(72,91,109);
+  width: 100%;
+  left: 0px;
+  z-index: -1;
 }
 
 
@@ -251,16 +277,13 @@
     margin: 0px;
     width: 100%;;
     height: 110px;
-    background-color: white;
-    /*line below is to change the background color of the header.*/
-    background-color: rgba(7,207,251,0.7);
     font-family: sans-serif;
     left: 0px;
   }
   #container > .header > .name
   {
     display: inline-block;
-    top: 55px;
+    top: 45px;
     left: 15px;
     font-size: 50px;
     color: black;
@@ -415,7 +438,6 @@
   }
   #container > .footer  > .signature
   {
-    background-color: rgba(72,91,109,0.95);
     text-align: right;
     padding-right: 5px; 
   }
@@ -442,10 +464,8 @@
     margin: 0px;
     width: 100%;;
     height: 110px;
-    background-color: white;
     /*line below is to change the background color of the header.*/
-    background-color: rgba(7,207,251,0.7);
-    font-family: sans-serif;
+    /*background-color: rgba(7,207,251,0.7);*/
     left: 0px;
   }
   #container > .header > .name
@@ -468,18 +488,12 @@
   }
   #container > .header > .quickContact > li > a
   {
-    text-decoration: white;
-    color: black;
     padding: 2px;
     margin: 2px 0 2px 0;
-    background-color: white;
   }
   #container > .header > .quickContact > li:nth-child(2)
   {
-    text-decoration: white;
-    color: black;
     padding-right: 3px;
-    background-color: white;
   }
   #container > .welcomeStatement
   {
@@ -555,21 +569,40 @@
     /*background-color: rgba(22,129,174,1);*/
     background-color: rgba(0,0,0,0.25);
   }
+  #container > .pages > .page-box:nth-of-type(1) > a
+  {
+    margin-left: 50px;
+    margin-right: 60px;
+  }
   /*Interests tab*/
   #container > .pages > .page-box:nth-of-type(2)
   {
     background-color: rgba(22,129,174,1);
+  }
+  #container > .pages > .page-box:nth-of-type(2) > a
+  {
+    margin-right: 90px;
   }
   /*Projects tab*/
   #container > .pages > .page-box:nth-of-type(3)
   {
     background-color: rgba(22,129,174,0.5);
   }
+  #container > .pages > .page-box:nth-of-type(3) > a
+  {
+    margin-left: 40px;
+    margin-right: 80px;
+  }
   /*Contact tab*/
   #container > .pages > .page-box:nth-of-type(4)
   {
     /*background-color: rgba(176,68,110,0);*/
     background-color: rgba(0,0,0,0.1);
+  }
+  #container > .pages > .page-box:nth-of-type(4) > a
+  {
+    margin-left: 70px;
+    margin-right: 80px;
   }
   #container > .footer  > .quickLinks
   {
@@ -610,89 +643,1095 @@
   }
   #container > .footer  > .signature
   {
-    background-color: rgba(72,91,109,0.95);
     text-align: right;
     padding-right: 5px; 
   }
 }
-    /*.header > #nav + label + .main-menu
+
+
+
+
+
+
+
+
+
+@media (max-width: 662px) 
+{
+  #container
   {
-    display: none;
-                          
-    padding: 1px; 
-    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .header
+  {
+    margin: 0px;
+    width: 100%;;
+    height: 110px;
+    background-color: white;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    background-color: rgba(22,129,174,0.7);
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 45px;
+    left: 15px;
+    font-size: 50px;
+    color: black;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .header > .quickContact > li:nth-child(2)
+  {
+    text-decoration: white;
+    color: black;
+    padding-right: 3px;
+    background-color: white;
+  }
+  #container > .welcomeStatement
+  {
+    height: 500px;
+    width: 100%;
+    /*background-color: rgba(7,207,251,0.7);*/
+  }
+  #container > .welcomeStatement > p
+  {
+    width: 70%;
+    font-size: 45px;
     text-align: center;
+    font-family: Caveat;
+    margin-left: 15%;
+    top: 40px;
+    color: rgba(0,0,0,0.8);
+    opacity: 0;
   }
-  .header
-  {
-    background-color: rgba(0,0,0,0);
-    width: 10px;
-    top: 15px;
-    right: 60px
-  }
-    .header > #nav:checked + label + .main-menu
+  #container > .welcomeStatement > hr
   {
     display: block;
-    transition: 1s;
-    width: 1750%;
-    right: -60px;
+    width: 60%;
+    color: rgba(22,129,174,1);
+    bottom: 5px;
   }
-  
-    .header > .main-menu {
-    
-    position: absolute;
-    top: 48px;
-    right: -50px;
-    z-index: 100;
+  #container > .aboutMe
+  {
+    height: 275px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 110%;
+  }
+  #container > .aboutMe > h2
+  {
+    padding-top: 40px;
+    text-decoration: underline;
+    opacity: 0;
+  }
+  #container > .aboutMe > p
+  {
+    padding: 30px 40px;
+    opacity: 0;
+  }
+  #container > hr
+  {
+    margin: -1px;
+  }
+  #container > .pages > .page-box
+  {
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    margin-right: -4px;
+  }
+  #container > .pages > .page-box > a
+  {
+    display: block;
+    text-align: center;
+    margin: 150px 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: 5px;
+    border: solid transparent;
+    padding: 10px;
+  }
+  /*experience tab*/
+  #container > .pages > .page-box:nth-of-type(1)
+  {
+    /*blue*/
+    /*background-color: rgba(22,129,174,1);*/
+    background-color: rgba(0,0,0,0.25);
+  }
+  #container > .pages > .page-box:nth-of-type(1) > a
+  {
+    margin-left:60px;
+    margin-right: 50px;
+  }
+  /*Interests tab*/
+  #container > .pages > .page-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,1);
+  }
+    #container > .pages > .page-box:nth-of-type(2) > a
+  {
+    margin-left: 60px;
+    margin-right: 80px;
+  }
+  /*Projects tab*/
+  #container > .pages > .page-box:nth-of-type(3)
+  {
+    background-color: rgba(22,129,174,0.5);
+  }
+  /*Contact tab*/
+  #container > .pages > .page-box:nth-of-type(4)
+  {
+    /*background-color: rgba(176,68,110,0);*/
+    background-color: rgba(0,0,0,0.1);
+  }
+  #container > .footer  > .quickLinks
+  {
+    display: block;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(72,91,109);
+    color: white;
+    font-family: sans-serif;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    color: white;
+    padding: 0px 70px;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    color: white;
+    text-decoration:none;
     text-align: left;
-    background-color: rgba(0,0,0,0.7);
-  }  
-    .header > label {
+  }
+  #container > .footer  > .quickLinks > li:nth-of-type(1)
+  {
+    margin-left: 0px;
+  }
+  #container > .footer  > .signature
+  {
+    text-align: right;
+    padding-right: 5px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 550px) 
+{
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .header > label
+  {
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
     display: inline-block;
     width: 60px;
     height: 60px;
-    padding: 16px;
-
+    padding: 10px;
     color: rgba(0,0,0,);
   }
-  .title > .apd
+  #container > .header > #nav + label + .page-menu
   {
-    font-size: 230%;
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 110px;
+    left: 0px;
+  }  
+  #container > .header > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .header > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
   }
-  .title > img
+  #container > .header > .page-menu > li:hover
   {
-    width:45px;
-    top: 10px;
-    left: 3%;
-  }
-  .title > .frat
-  {
-    font-size: 90%;
-    top: 40px;
-  }
-  .horizontal-line
-  {
-    font-size: 65%;
-    top: 50px;
-  }
-  .header > .main-menu > li:hover
-  {
-    background-color: rgb(121,0,201);
-    width: 100%;
+    background-color: rgba(22,129,174,0.7);
     transition: 1s;
   }
-  .header > .main-menu > li
+  #container > .header
   {
-    width: 100%;
+    width: 100%;;
+    height: 110px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    background-color: rgba(22,129,174,0.7);
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
     display: inline-block;
-    padding: 10px 0px;
-    margin: 0px;
+    top: 5px;
+    font-size: 40px;
+    border: 10px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    left: 50px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .welcomeStatement
+  {
+    height: 450px;
+    width: 100%;
+    /*background-color: rgba(7,207,251,0.7);*/
+  }
+  #container > .welcomeStatement > p
+  {
+    width: 70%;
+    font-size: 250%;
+    text-align: center;
+    font-family: Caveat;
+    margin-left: 15%;
+    top: 30px;
+    color: rgba(0,0,0,0.8);
+    opacity: 0;
+  }
+  #container > .welcomeStatement > hr
+  {
+    display: block;
+    width: 60%;
+    color: rgba(22,129,174,1);
+    bottom: -5px;
+    text-align: center;
+    z-index: 1;
+  }
+  #container > .aboutMe
+  {
+    height: 275px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 110%;
+  }
+  #container > .aboutMe > h2
+  {
+    padding-top: 40px;
+    text-decoration: underline;
+    opacity: 0;
+  }
+  #container > .aboutMe > p
+  {
+    padding: 30px 40px;
+    opacity: 0;
+  }
+  #container > hr
+  {
+    margin: -1px;
+  }
+  #container > .pages > .page-box
+  {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    margin-right: -4px;
+  }
+  #container > .pages > .page-box > a
+  {
+    display: block;
+    text-align: center;
+    margin: 150px 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: 5px;
+    border: solid transparent;
+    padding: 10px;
+  }
+  /*experience tab*/
+  #container > .pages > .page-box:nth-of-type(1)
+  {
+    /*blue*/
+    /*background-color: rgba(22,129,174,1);*/
+    background-color: rgba(0,0,0,0.25);
+  }
+  #container > .pages > .page-box:nth-of-type(1) > a
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*Interests tab*/
+  #container > .pages > .page-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,1);
+  }
+  #container > .pages > .page-box:nth-of-type(2) > a
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*Projects tab*/
+  #container > .pages > .page-box:nth-of-type(3)
+  {
+    background-color: rgba(22,129,174,0.5);
+  }
+  #container > .pages > .page-box:nth-of-type(3) > a
+  {
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  /*Contact tab*/
+  #container > .pages > .page-box:nth-of-type(4)
+  {
+    /*background-color: rgba(176,68,110,0);*/
+    background-color: rgba(0,0,0,0.1);
+  }
+  #container > .footer  > .quickLinks
+  {
+    display: block;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(72,91,109);
     color: white;
     font-family: sans-serif;
-    font-size: 90%;
-    text-transform: uppercase;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 45%;
+    color: white;
+    padding: 0px 50px;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    color: white;
+    text-decoration:none;
+    text-align: left;
+  }
+  #container > .footer  > .quickLinks > li:nth-of-type(1)
+  {
+    margin-left: 0px;
+  }
+  #container > .footer  > .signature
+  {
+    text-align: right;
+    padding-right: 5px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 490px) 
+{
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .header > label
+  {
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: rgba(0,0,0,);
+  }
+  #container > .header > #nav + label + .page-menu
+  {
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 110px;
+    left: 0px;
+  }  
+  #container > .header > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .header > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  #container > .header > .page-menu > li:hover
+  {
+    background-color: rgba(22,129,174,0.7);
     transition: 1s;
-  }*/
+  }
+  #container > .header
+  {
+    width: 100%;;
+    height: 110px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    background-color: rgba(22,129,174,0.7);
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 10px;
+    font-size: 40px;
+    border: 10px;
+    text-align: center;
+    width: 50%;
+    left: 50px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .header > .quickContact > li:nth-child(2)
+  {
+    text-decoration: white;
+    color: black;
+    padding-right: 3px;
+    background-color: white;
+  }
+  #container > .welcomeStatement
+  {
+    height: 500px;
+    width: 100%;
+    /*background-color: rgba(7,207,251,0.7);*/
+  }
+  #container > .welcomeStatement > p
+  {
+    width: 70%;
+    text-align: center;
+    font-family: Caveat;
+    margin-left: 15%;
+    top: 40px;
+    color: rgba(0,0,0,0.8);
+    opacity: 0;
+  }
+  #container > .welcomeStatement > hr
+  {
+    display: block;
+    width: 60%;
+    color: rgba(22,129,174,1);
+    bottom: 5px;
+  }
+  #container > .aboutMe
+  {
+    height: 275px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100%;
+  }
+  #container > .aboutMe > h2
+  {
+    padding-top: 40px;
+    text-decoration: underline;
+    opacity: 0;
+  }
+  #container > .aboutMe > p
+  {
+    padding: 30px 40px;
+    opacity: 0;
+  }
+  #container > hr
+  {
+    margin: -1px;
+  }
+  #container > .pages > .page-box
+  {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    margin-right: -4px;
+  }
+  #container > .pages > .page-box > a
+  {
+    display: block;
+    text-align: center;
+    margin: 150px 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: 5px;
+    border: solid transparent;
+    padding: 10px;
+  }
+  /*experience tab*/
+  #container > .pages > .page-box:nth-of-type(1)
+  {
+    /*blue*/
+    /*background-color: rgba(22,129,174,1);*/
+    background-color: rgba(0,0,0,0.25);
+  }
+  #container > .pages > .page-box:nth-of-type(1) > a
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*Interests tab*/
+  #container > .pages > .page-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,1);
+  }
+  #container > .pages > .page-box:nth-of-type(2) > a
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*Projects tab*/
+  #container > .pages > .page-box:nth-of-type(3)
+  {
+    background-color: rgba(22,129,174,0.5);
+  }
+  #container > .pages > .page-box:nth-of-type(3) > a
+  {
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  /*Contact tab*/
+  #container > .pages > .page-box:nth-of-type(4)
+  {
+    /*background-color: rgba(176,68,110,0);*/
+    background-color: rgba(0,0,0,0.1);
+  }
+
+}
 
 
+
+
+
+
+
+
+
+@media (max-width: 445px) 
+{
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .header > label
+  {
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: rgba(0,0,0,);
+  }
+  #container > .header > #nav + label + .page-menu
+  {
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 110px;
+    left: 0px;
+  }  
+  #container > .header > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .header > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  #container > .header > .page-menu > li:hover
+  {
+    background-color: rgba(22,129,174,0.7);
+    transition: 1s;
+  }
+  #container > .header
+  {
+    width: 100%;;
+    height: 110px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    background-color: rgba(22,129,174,0.7);
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 10px;
+    font-size: 40px;
+    border: 10px;
+    text-align: center;
+    width: 50%;
+    left: 50px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .header > .quickContact > li:nth-child(2)
+  {
+    text-decoration: white;
+    color: black;
+    padding-right: 3px;
+    background-color: white;
+  }
+  #container > .welcomeStatement
+  {
+    height: 500px;
+    width: 100%;
+    /*background-color: rgba(7,207,251,0.7);*/
+  }
+  #container > .welcomeStatement > p
+  {
+    width: 70%;
+    text-align: center;
+    font-family: Caveat;
+    margin-left: 15%;
+    top: 40px;
+    color: rgba(0,0,0,0.8);
+    opacity: 0;
+    font-size:240%;
+  }
+  #container > .welcomeStatement > hr
+  {
+    display: block;
+    width: 60%;
+    color: rgba(22,129,174,1);
+    bottom: 5px;
+  }
+  #container > .aboutMe
+  {
+    height: 275px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100%;
+  }
+  #container > .aboutMe > h2
+  {
+    padding-top: 40px;
+    text-decoration: underline;
+    opacity: 0;
+  }
+  #container > .aboutMe > p
+  {
+    padding: 30px 40px;
+    opacity: 0;
+  }
+  #container > hr
+  {
+    margin: -1px;
+  }
+  #container > .pages > .page-box
+  {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    margin-right: -4px;
+  }
+  #container > .pages > .page-box > a
+  {
+    display: block;
+    text-align: center;
+    margin: 150px 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: 5px;
+    border: solid transparent;
+    padding: 10px;
+  }
+  /*experience tab*/
+  #container > .pages > .page-box:nth-of-type(1)
+  {
+    /*blue*/
+    /*background-color: rgba(22,129,174,1);*/
+    background-color: rgba(0,0,0,0.25);
+  }
+  #container > .pages > .page-box:nth-of-type(1) > a
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*Interests tab*/
+  #container > .pages > .page-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,1);
+  }
+  #container > .pages > .page-box:nth-of-type(2) > a
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*Projects tab*/
+  #container > .pages > .page-box:nth-of-type(3)
+  {
+    background-color: rgba(22,129,174,0.5);
+  }
+  #container > .pages > .page-box:nth-of-type(3) > a
+  {
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  /*Contact tab*/
+  #container > .pages > .page-box:nth-of-type(4)
+  {
+    /*background-color: rgba(176,68,110,0);*/
+    background-color: rgba(0,0,0,0.1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 418px) 
+{
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .header > label
+  {
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: rgba(0,0,0,);
+  }
+  #container > .header > #nav + label + .page-menu
+  {
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 110px;
+    left: 0px;
+  }  
+  #container > .header > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .header > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  #container > .header > .page-menu > li:hover
+  {
+    background-color: rgba(22,129,174,0.7);
+    transition: 1s;
+  }
+  #container > .header
+  {
+    width: 100%;;
+    height: 110px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    background-color: rgba(22,129,174,0.7);
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 20px;
+    font-size: 35px;
+    border: 10px;
+    text-align: center;
+    width: 50%;
+    left: 50px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .header > .quickContact > li:nth-child(2)
+  {
+    text-decoration: white;
+    color: black;
+    padding-right: 3px;
+    background-color: white;
+  }
+  #container > .welcomeStatement
+  {
+    height: 500px;
+    width: 100%;
+    /*background-color: rgba(7,207,251,0.7);*/
+  }
+  #container > .welcomeStatement > p
+  {
+    width: 80%;
+    text-align: center;
+    font-family: Caveat;
+    margin-left: 10%;
+    top: 40px;
+    color: rgba(0,0,0,0.8);
+    opacity: 0;
+    font-size:210%;
+  }
+  #container > .welcomeStatement > hr
+  {
+    display: block;
+    width: 60%;
+    color: rgba(22,129,174,1);
+    bottom: 5px;
+  }
+  #container > .aboutMe
+  {
+    height: 285%;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100%;
+  }
+  #container > .aboutMe > h2
+  {
+    padding-top: 20px;
+    text-decoration: underline;
+    opacity: 0;
+  }
+  #container > .aboutMe > p
+  {
+    padding: 30px 40px;
+    opacity: 0;
+  }
+  #container > hr
+  {
+    margin: -1px;
+  }
+  #container > .pages > .page-box
+  {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    margin-right: -4px;
+  }
+  #container > .pages > .page-box > a
+  {
+    display: block;
+    text-align: center;
+    margin: 150px 100px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: 5px;
+    border: solid transparent;
+    padding: 10px;
+  }
+  /*experience tab*/
+  #container > .pages > .page-box:nth-of-type(1)
+  {
+    /*blue*/
+    /*background-color: rgba(22,129,174,1);*/
+    background-color: rgba(0,0,0,0.25);
+  }
+  #container > .pages > .page-box:nth-of-type(1) > a
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*Interests tab*/
+  #container > .pages > .page-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,1);
+  }
+  #container > .pages > .page-box:nth-of-type(2) > a
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*Projects tab*/
+  #container > .pages > .page-box:nth-of-type(3)
+  {
+    background-color: rgba(22,129,174,0.5);
+  }
+  #container > .pages > .page-box:nth-of-type(3) > a
+  {
+    margin-left: 70px;
+    margin-right: 80px;
+  }
+  /*Contact tab*/
+  #container > .pages > .page-box:nth-of-type(4)
+  {
+    /*background-color: rgba(176,68,110,0);*/
+    background-color: rgba(0,0,0,0.1);
+  }
 }
