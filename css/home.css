@@ -31,6 +31,7 @@
   position: absolute;
   height: 110px;
   background-color: rgba(22,129,174,0.7);
+  background-image: linear-gradient(rgba(22,129,174,0.7), white);
   left: 0px;
   z-index: -1;
 }
@@ -56,10 +57,19 @@
 {
   display: inline-block;
   position: absolute;
-  top: 45px;
+  top: 35px;
   left: 15px;
   font-size: 50px;
   color: black;
+}
+#container > .header > p
+{
+  display: block;
+  position: absolute;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  top: 85px;
+  left: 17px;
 }
 #container > .header > .quickContact
 {
@@ -86,15 +96,32 @@
   padding-right: 3px;
   background-color: white;
 }
+#container > .header > hr
+{
+  position: absolute;
+  display: block;
+  width: 60%;
+  /*color: rgba(22,129,174,1);*/
+  bottom: 0px;
+  left: 15%;
+  color: solid black;
+}
 #container > .welcomeStatement
 {
   position: relative;
   height: 500px;
-  background-color: white;
+  /*background-color: white;*/
   display: block;
   width: 100%;
   /*background-color: rgba(7,207,251,0.7);*/
 
+}
+#container > .welcomeStatement > img
+{
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  top: 80px;
 }
 #container > .welcomeStatement > h2
 {
@@ -102,20 +129,21 @@
   position: absolute;
   top: 34px;
   font-size: 80px;
-  text-align:center; 
+  text-align:right; 
 }
 #container > .welcomeStatement > p
 {
   position: absolute;
-  display: block;
-  width: 70%;
-  font-size: 55px;
-  text-align: center;
+  display: inline-block;
+  width: 60%;
+  font-size: 50px;
+  text-align: right;
   font-family: Caveat;
-  margin-left: 15%;
+  /*margin-left: 15%;*/
   top: 55px;
   color: rgba(0,0,0,0.8);
   opacity: 0;
+  right: 50px;
 }
 #container > .welcomeStatement > hr
 {
@@ -124,6 +152,7 @@
   width: 60%;
   color: rgba(22,129,174,1);
   bottom: 5px;
+  left: 15%;
 }
 #container > .aboutMe
 {
@@ -162,11 +191,6 @@
   font-family: sans-serif;
   opacity: 0;
 }
-/*#container > .pages > .page-box > span:hover
-{
-  background-color: white;
-  transition: 1s;
-}*/
 #container > .pages > .page-box > a
 {
   display: block;
@@ -210,7 +234,6 @@
   position: relative;
   width: 100%;
   height: 110px;
-  /*background-color: rgb(72,91,109);*/
   color: white;
   font-family: sans-serif;
 }
@@ -283,7 +306,7 @@
   #container > .header > .name
   {
     display: inline-block;
-    top: 45px;
+    /*top: 45px;*/
     left: 15px;
     font-size: 50px;
     color: black;
@@ -321,12 +344,11 @@
   }
   #container > .welcomeStatement > p
   {
-    width: 70%;
-    font-size: 55px;
-    text-align: center;
+    /*width: 70%;*/
+    /*font-size: 55px;*/
+    /*text-align: center;*/
     font-family: Caveat;
-    margin-left: 15%;
-    top: 55px;
+    top: 50px;
     color: rgba(0,0,0,0.8);
     opacity: 0;
   }
@@ -451,7 +473,7 @@
 
 
 
-@media (max-width: 744px) 
+@media (max-width: 774px) 
 {
   #container
   {
@@ -471,7 +493,7 @@
   #container > .header > .name
   {
     display: inline-block;
-    top: 45px;
+    /*top: 45px;*/
     left: 15px;
     font-size: 50px;
     color: black;
@@ -503,14 +525,11 @@
   }
   #container > .welcomeStatement > p
   {
-    width: 70%;
+    width: 69%;
     font-size: 50px;
-    text-align: center;
     font-family: Caveat;
-    margin-left: 15%;
     top: 40px;
     color: rgba(0,0,0,0.8);
-    opacity: 0;
   }
   #container > .welcomeStatement > hr
   {
@@ -656,7 +675,7 @@
 
 
 
-@media (max-width: 662px) 
+@media (max-width: 672px) 
 {
   #container
   {
@@ -669,17 +688,15 @@
     margin: 0px;
     width: 100%;;
     height: 110px;
-    background-color: white;
     /*line below is to change the background color of the header.*/
     /*background-color: rgba(7,207,251,0.7);*/
-    background-color: rgba(22,129,174,0.7);
     font-family: sans-serif;
     left: 0px;
   }
   #container > .header > .name
   {
     display: inline-block;
-    top: 45px;
+    /*top: 45px;*/
     left: 15px;
     font-size: 50px;
     color: black;
@@ -717,9 +734,8 @@
   }
   #container > .welcomeStatement > p
   {
-    width: 70%;
+    width: 69%;
     font-size: 45px;
-    text-align: center;
     font-family: Caveat;
     margin-left: 15%;
     top: 40px;
@@ -859,6 +875,23 @@
 
 
 
+
+@media (max-width: 607px) 
+{
+  #container > .welcomeStatement > p
+  {
+    width: 69%;
+    font-size: 43px;
+  }
+}
+
+
+
+
+
+
+
+
 @media (max-width: 550px) 
 {
   #container
@@ -913,11 +946,11 @@
   }
   #container > .header
   {
-    width: 100%;;
+    width: 100%;
     height: 110px;
     /*line below is to change the background color of the header.*/
     /*background-color: rgba(7,207,251,0.7);*/
-    background-color: rgba(22,129,174,0.7);
+    /*background-color: rgba(22,129,174,0.7);*/
     font-family: sans-serif;
     left: 0px;
   }
@@ -925,12 +958,19 @@
   {
     display: inline-block;
     top: 5px;
-    font-size: 40px;
+    font-size: 35px;
     border: 10px;
     color: black;
     text-align: center;
     width: 50%;
-    left: 50px;
+    left: 25%;
+  }
+  #container > .header > p
+  {
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-size: 13px;
   }
   #container > .header > .quickContact
   {
@@ -958,9 +998,7 @@
   }
   #container > .welcomeStatement > p
   {
-    width: 70%;
     font-size: 250%;
-    text-align: center;
     font-family: Caveat;
     margin-left: 15%;
     top: 30px;
@@ -1165,19 +1203,16 @@
     height: 110px;
     /*line below is to change the background color of the header.*/
     /*background-color: rgba(7,207,251,0.7);*/
-    background-color: rgba(22,129,174,0.7);
+    /*background-color: rgba(22,129,174,0.7);*/
     font-family: sans-serif;
     left: 0px;
   }
   #container > .header > .name
   {
     display: inline-block;
-    top: 10px;
-    font-size: 40px;
     border: 10px;
     text-align: center;
     width: 50%;
-    left: 50px;
   }
   #container > .header > .quickContact
   {
@@ -1375,21 +1410,18 @@
   {
     width: 100%;;
     height: 110px;
-    /*line below is to change the background color of the header.*/
-    /*background-color: rgba(7,207,251,0.7);*/
-    background-color: rgba(22,129,174,0.7);
     font-family: sans-serif;
     left: 0px;
   }
   #container > .header > .name
   {
     display: inline-block;
-    top: 10px;
-    font-size: 40px;
+    /*top: 10px;*/
+    /*font-size: 40px;*/
     border: 10px;
     text-align: center;
-    width: 50%;
-    left: 50px;
+    /*width: 50%;*/
+    /*left: 50px;*/
   }
   #container > .header > .quickContact
   {
@@ -1588,21 +1620,18 @@
   {
     width: 100%;;
     height: 110px;
-    /*line below is to change the background color of the header.*/
-    /*background-color: rgba(7,207,251,0.7);*/
-    background-color: rgba(22,129,174,0.7);
     font-family: sans-serif;
     left: 0px;
   }
   #container > .header > .name
   {
     display: inline-block;
-    top: 20px;
-    font-size: 35px;
+    /*top: 20px;*/
+    /*font-size: 35px;*/
     border: 10px;
     text-align: center;
-    width: 50%;
-    left: 50px;
+    /*width: 50%;*/
+    /*left: 50px;*/
   }
   #container > .header > .quickContact
   {

@@ -1,6 +1,12 @@
 $('.welcomeStatement > p').delay(100).animate({'opacity':'1'},4000);
+$('.welcomeStatement > img').delay(100).animate({'opacity':'1'},2500);
 $('.aboutMe > h2, .aboutMe > p').delay(100).animate({'opacity':'1'},2000);
 
+//These line set the height for the backgound on the heade and welcome statement.
+var headerHeight = $('.header').height();
+var missionHeight = $('.welcomeStatement').height();
+var newHeaderHeight = parseInt(headerHeight) + parseInt(missionHeight);
+$('.header-background').css('height', newHeaderHeight); 
 //the next 21 lines of code are partially borrowed from Anna Larson's Element Fade in on Scoll.
 //https://codepen.io/annalarson/pen/GesqK
 $(document).ready(function() {
