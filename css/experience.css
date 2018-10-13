@@ -150,7 +150,80 @@
   color: white;
   text-transform: uppercase;
 }
-#container > .footer  > .quickLinks
+#container > .sections
+{
+  display: block;
+  position: relative;
+  height: 200px;
+  /*background-color: orange;*/
+  top: 50px;
+  width: 90%;
+  left: 5%;
+  text-align: center;
+}
+#container > .sections > .section-box
+{
+  display: inline-block;
+  width: 50%;
+  height: 100px;
+  /*background-color: white;*/
+  margin: 0px 0px 0px -4px;
+  font-family: sans-serif;
+  opacity: 1;
+}
+#container > .sections > .section-box > a
+{
+  position: relative;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border: 5px;
+  border-bottom: solid black;
+  /*padding: 10px;*/
+  top: 35px;
+}
+/*resume tab*/
+#container > .sections > .section-box:nth-of-type(1)
+{
+  /*blue*/
+  /*background-color: rgba(22,129,174,1);*/
+  /*red-ish*/
+  /*background-color: rgba(200,184,225,0);*/
+  background-color: rgba(0,0,0,0.25);
+}
+#container > .sections > .section-box:nth-of-type(1) > a
+{
+  padding: 10px 90px;
+}
+/*Interests tab*/
+#container > .sections > .section-box:nth-of-type(2)
+{
+  background-color: rgba(22,129,174,1);
+}
+#container > .sections > .section-box:nth-of-type(2) > a
+{
+  padding: 10px 40px;
+}
+/*Projects tab*/
+#container > .sections > .section-box:nth-of-type(3)
+{
+  background-color: rgba(22,129,174,0.5);
+}
+#container > .sections > .section-box:nth-of-type(3) > a
+{
+  padding: 10px 20px;
+}
+/*Contact tab*/
+#container > .sections > .section-box:nth-of-type(4)
+{
+  /*background-color: rgba(176,68,110,0);*/
+  background-color: rgba(0,0,0,0.1);
+}
+#container > .sections > .section-box:nth-of-type(4) > a
+{
+  padding: 10px 67px;
+}
+/*#container > .footer  > .quickLinks
 {
   display: block;
   position: relative;
@@ -204,3 +277,4 @@
   left: 0px;
   z-index: -1;
 }
+*/

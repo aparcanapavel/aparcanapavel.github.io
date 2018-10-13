@@ -150,6 +150,11 @@
   color: white;
   text-transform: uppercase;
 }
+#container > .footer
+{
+  vertical-align: bottom;
+}
+
 #container > .footer  > .quickLinks
 {
   display: block;
