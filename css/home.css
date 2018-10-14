@@ -178,7 +178,7 @@
 }
 #container > hr
 {
-  margin: -1px;
+  margin: -1px 0;
 }
 #container > .pages > .page-box
 {
