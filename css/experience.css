@@ -156,7 +156,7 @@
 {
   display: block;
   position: relative;
-  height: 200px;
+  height: 250px;
   /*background-color: orange;*/
   top: 50px;
   width: 90%;
@@ -238,7 +238,7 @@
 }
 #container > .sections > hr
 {
-  position: absolute;
+  position: relative;
   display: block;
   width: 60%;
   /*color: rgba(22,129,174,1);*/
@@ -246,13 +246,17 @@
   left: 20%;
   color: solid black;
 }
+html 
+{
+  scroll-behavior: smooth;
+}
 #container > .skills-certs
 {
   display: block;
   position: relative;
-  top: 150px;
+  top: 90px;
   font-family: sans-serif;
-  height: 300px;
+  height: 460px;
   width: 100%;
 }
 #container > .skills-certs > h2
@@ -269,6 +273,10 @@
   background-color: white;
   margin-right: -4px;
   font-family: sans-serif;
+}
+#container > .skills-certs > .skillData > div
+{
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
 #container  > .skills-certs > .skillData > ul
 {
@@ -290,18 +298,21 @@
   bottom: -50px;
   left: 20%;
   color: solid black;
+  background-image: linear-gradient(white,rgba(22,129,174,0.7));
 }
 #container > .pro-xp
 {
   display: block;
   position: relative;
-  top: 370px;
+  top: 92px;
   font-family: sans-serif;
-  height: 300px;
+  height: 840px;
   width: 100%;
+  background-color: rgba(22,129,174,0.5);
 }
 #container > .pro-xp > h3
 {
+  padding-top: 40px;
   text-decoration: underline;
   font-size: 35px;
   display: block;
@@ -348,6 +359,7 @@
 {
   margin: 0 auto;
   top: 80px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
 #container > .pro-xp > hr
 {
@@ -359,29 +371,64 @@
   left: 20%;
   color: solid black;
 }
-/*#container > .footer  > .quickLinks
+
+#container > .volunteer
 {
   display: block;
   position: relative;
+  top: 130px;
+  height: 580px;
+}
+#container > .volunteer > h4
+{
+  text-decoration: underline;
+  font-size: 35px;
+  display: block;
+}
+#container > .volunteer > .volunteering
+{
+  position: relative;
+  top: 20px;
+  display: block;
+  margin-bottom: 25px;
+}
+#container > .volunteer > .volunteering > li
+{
+  margin-bottom: 10px;
+}
+#container > .volunteer > div:nth-of-type(2)
+{
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+#container > .footer
+{
+  position: relative;
+  top: 140px;
   width: 100%;
-  height: 110px;
   color: white;
+}
+#container > .footer  > .quickLinks
+{
+  z-index: 100;
+  width: 100%;
+  height: 100px;
   font-family: sans-serif;
+  background-color:  rgb(72,91,109);
 }
 #container > .footer  > .quickLinks > h3
 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
-
 }
+
 #container > .footer  > .quickLinks > li  
 {
   width: 30%;
   color: white;
   padding: 0px 90px;
   list-style-type: none;
-  text-align: center;
   display: inline-block;
 }
 #container > .footer  > .quickLinks > li > a
@@ -392,25 +439,22 @@
   text-align: left;
   padding-left: 50px;  
 }
-#container > .footer  > .quickLinks > li:nth-of-type(1)
- {
-   margin-left: -4px;
- }
 #container > .footer  > .signature
 {
   background-color: rgb(72,91,109);
   text-align: right;
   padding-right: 5px; 
-  color: rgba(0,0,0,1);
+  color: white;
 }
+
 #container > .footer-background
 {
   display: block;
   position: absolute;
+  top: 2520px;
   height: 130px;
   background-color: rgb(72,91,109);
   width: 100%;
   left: 0px;
   z-index: -1;
 }
-*/
