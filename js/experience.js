@@ -1,3 +1,75 @@
+$('.menu > .page-menu > li:nth-child(1)').mouseover(function()
+{
+	$('.menu > .page-menu > li:nth-child(1)').css({'background-color': 'rgba(0,0,0,0.8)', 'transition' : '1s'});
+	$('.menu > .page-menu > li:nth-child(1) > a').css({'color': 'white', 'transition' : '1s'});
+});
+$('.menu > .page-menu > li:nth-child(2)').mouseover(function()
+{
+    $('.menu > .page-menu > li:nth-child(2)').css({'background-color': 'rgba(0,0,0,0.8)', 'transition' : '1s'});
+    $('.menu > .page-menu > li:nth-child(2) > a').css({'color': 'white', 'transition' : '1s'});
+});
+$('.menu > .page-menu > li:nth-child(3)').mouseover(function()
+{
+    $('.menu > .page-menu > li:nth-child(3)').css({'background-color': 'rgba(0,0,0,0.8)', 'transition' : '1s'});
+    $('.menu > .page-menu > li:nth-child(3) > a').css({'color': 'white', 'transition' : '1s'});
+});
+$('.menu > .page-menu > li:nth-child(4)').mouseover(function()
+{
+    $('.menu > .page-menu > li:nth-child(4)').css({'background-color': 'rgba(0,0,0,0.8)', 'transition' : '1s'});
+    $('.menu > .page-menu > li:nth-child(4) > a').css({'color': 'white', 'transition' : '1s'});
+});
+$('.menu > .page-menu > li:nth-child(5)').mouseover(function()
+{
+    $('.menu > .page-menu > li:nth-child(5)').css({'background-color': 'rgba(0,0,0,0.8)', 'transition' : '1s'});
+    $('.menu > .page-menu > li:nth-child(5) > a').css({'color': 'white', 'transition' : '1s'});
+});
+$('.menu > .page-menu').mouseout(function()
+{
+    //home
+    $('.menu > .page-menu > li:nth-child(1)').css({'background-color': 'white', 'transition' : '1.3s'});
+    $('.menu > .page-menu > li:nth-child(1) > a').css({'color': 'black', 'transition' : '1.3s'});
+    //experience
+    $('.menu > .page-menu > li:nth-child(2)').css({'background-color': 'white', 'transition' : '1.3s'});
+    $('.menu > .page-menu > li:nth-child(2) > a').css({'color': 'black', 'transition' : '1.3s'});
+    //Interests
+    $('.menu > .page-menu > li:nth-child(3)').css({'background-color': 'white', 'transition' : '1.3s'});
+    $('.menu > .page-menu > li:nth-child(3) > a').css({'color': 'black', 'transition' : '1.3s'});
+    //Projects
+    $('.menu > .page-menu > li:nth-child(4)').css({'background-color': 'white', 'transition' : '1.3s'});
+    $('.menu > .page-menu > li:nth-child(4) > a').css({'color': 'black', 'transition' : '1.3s'});
+    //Contact
+    $('.menu > .page-menu > li:nth-child(5)').css({'background-color': 'white', 'transition' : '1.3s'});
+    $('.menu > .page-menu > li:nth-child(5) > a').css({'color': 'black', 'transition' : '1.3s'});
+});
+
+//SECTION BOXES.
+//resume
+$('.section-box:nth-child(1)').mouseover(function()
+{
+	$('.section-box:nth-child(1) > a').css({'border-bottom': 'solid black', 'transition' : '1s'});
+});
+//return after mouse is not hovering.
+$('.section-box').mouseout(function(){
+	$('.section-box:nth-child(1) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+	$('.section-box:nth-child(2) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+	$('.section-box:nth-child(3) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+	$('.section-box:nth-child(4) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+});
+//skills & certificates
+$('.section-box:nth-child(2)').mouseover(function()
+{
+	$('.section-box:nth-child(2) > a').css({'border-bottom': 'solid white', 'transition' : '1s'});
+});
+//professional experience
+$('.section-box:nth-child(3)').mouseover(function()
+{
+	$('.section-box:nth-child(3) > a').css({'border-bottom': 'solid white', 'transition' : '1s'});
+});
+//volunteer wo0rk
+$('.section-box:nth-child(4)').mouseover(function()
+{
+	$('.section-box:nth-child(4) > a').css({'border-bottom': 'solid black', 'transition' : '1s'});
+});
 // first slideshow
 var myIndex = 0;
 carousel();
@@ -38,5 +110,6 @@ $("a[href^='#']").click(function(e) {
 
 	$("body, html").animate({
 		scrollTop: position
-	} /* speed */ );
+	},50 );
 });
+
