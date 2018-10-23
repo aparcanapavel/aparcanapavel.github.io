@@ -938,6 +938,13 @@
     list-style: none;
     width: 150px;
   }  
+  #container > .header > .page-menu > li
+  {
+    margin-left: -4px;
+    text-align: left;
+    padding: 5px;
+    border-right: none;
+  }
   #container > .header > .page-menu > li > a
   {
     text-decoration: none;
@@ -1596,20 +1603,24 @@
     padding: 10px 5px; 
     background-color: rgba(0,0,0,0.7);
     text-align: left;
-    top: 110px;
+    top: 119px;
     left: 0px;
   }  
   #container > .header > .page-menu 
   {
     position: absolute;
-    top: 1000px;
+    top: 1100px;
     left: 60px;
     z-index: 100;
     text-align: left;
     background-color: rgba(0,0,0,0.7);
     list-style: none;
     width: 150px;
-  }  
+  } 
+  #container > .header > .page-menu > li 
+  {
+    top: 1000px;
+  } 
   #container > .header > .page-menu > li > a
   {
     text-decoration: none;
@@ -1646,7 +1657,6 @@
     font-size: 25px;
     top: 5px;
     right: 15px;
-    
   }
   #container > .header > .quickContact > li > a
   {
@@ -1655,6 +1665,10 @@
     padding: 2px;
     margin: 2px 0 2px 0;
     background-color: white;
+  }
+  #container > .header > hr
+  {
+     bottom: -10px;
   }
   #container > .header > .quickContact > li:nth-child(2)
   {
