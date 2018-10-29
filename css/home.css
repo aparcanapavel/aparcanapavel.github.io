@@ -1782,4 +1782,8 @@
     /*background-color: rgba(176,68,110,0);*/
     background-color: rgba(0,0,0,0.1);
   }
+  .footer > .quickLinks > li:nth-of-type(1) > a
+  {
+    margin-left: -20px;
+  }
 }
