@@ -165,7 +165,7 @@
 {
   display: inline-block;
   width: 50%;
-  margin-left: -2px;
+  margin-left: -4px;
   padding-top: 160px;
   font-family: sans-serif;
   text-decoration: none;
@@ -173,15 +173,47 @@
 #container > .sections > .section-box > span
 {
   padding-left: 5px;
-  color: black;
+  color: white;
   font-size: 25px;
 }
 #container > .sections > .section-box:nth-of-type(1)
 {
-  background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/CompositeMe.png?raw=true);
+  background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/hikingBG.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  transition: background-size 1s;
 }
-
-
+#container > .sections > .section-box:nth-of-type(2)
+{
+  background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/cameraBG.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  transition: background-size 1s;
+}
+#container > .sections > .section-box:nth-of-type(3)
+{
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/logo.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: 115px;
+  background-position: center;
+  transition: background-size 1s;
+}
+#container > .sections > .section-box:nth-of-type(1):hover,
+#container > .sections > .section-box:nth-of-type(2):hover
+{
+  background-size: 120%;
+  transition: background-size 1s;
+}
+#container > .sections > .section-box:nth-of-type(3):hover
+{
+  background-size: 200%;
+  transition: background-size 1s;
+}
 
 
 #container > .footer
