@@ -290,7 +290,100 @@
   left: 20%;
   color: solid black;
 }
+#container > .photography
+{
+  position: relative;
+  top: 80px;
+  background-color: transparent;
+}
+#container > .photography > .photo-slideshow-container {
+  position: relative;
+  width: 90%;
+  right: -50px;
+}
 
+/* Hide the images by default */
+#container > .photography > .photo-slideshow-container > .mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+#container > .photography > .photo-slideshow-container > .prev,
+#container > .photography > .photo-slideshow-container > .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+#container > .photography > .photo-slideshow-container > .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#container > .photography > .photo-slideshow-container > .prev:hover,
+#container > .photography > .photo-slideshow-container > .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+#container > .photography > .photo-slideshow-container > .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+#container > .photography > .photo-slideshow-container > .caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 20px 16px;
+  color: white;
+}
+#container > .photography > .photo-slideshow-container > .row
+{
+  width: 100%
+}
+#container > .photography > .photo-slideshow-container > .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+#container > .photography > .photo-slideshow-container > .row > .column 
+{
+  width: 16.2%;
+  display: inline-block;
+}
+
+/* Add a transparency effect for thumnbail images */
+#container > .photography > .photo-slideshow-container > .row > .demo 
+{
+  opacity: 0.6;
+}
+
+#container > .photography > .photo-slideshow-container > .row > .active,
+#container > .photography > .photo-slideshow-container > .row > .demo:hover {
+  opacity: 1;
+}
 
 
 
@@ -349,7 +442,7 @@
 {
   display: block;
   position: absolute;
-  top: 2520px;
+  top: 3020px;
   height: 130px;
   background-color: rgb(72,91,109);
   width: 100%;
