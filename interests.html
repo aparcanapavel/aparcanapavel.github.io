@@ -24,17 +24,17 @@
       <p>Front end web Developer</p>
       <hr>
       <!-- quick contact ae the linked in, resume, contact me page. -->
-      <ul class="quickContact">
+       <ul class="quickContact">
         <li>
-          <a href="https://www.linkedin.com/in/pavel-aparcana" class="fab fa-linkedin"target="_blank" ></a>
+          <a href="https://www.linkedin.com/in/pavel-aparcana" class="fab fa-linkedin"target="_blank" title="LinkedIn"></a>
         </li>
         <!-- need to learn how to attach a file for users to download/view resume -->
         <li>
-          <a src="" class="fas fa-file-alt"></a>
+          <a href="images/resume.pdf" class="fas fa-file-alt" target="_blank" title="Resume"></a>
         </li>
         <li>
           <!-- this will lead to the contact page -->
-          <a href="google.com" target="_blank" class="fas fa-envelope-square"></a>
+          <a href="google.com" target="_blank" class="fas fa-envelope-square" title="Contact Me"></a>
         </li>
       </ul>
     </div>
@@ -60,6 +60,7 @@
 	        </li>
 	    </div>
 	  </div>
+
     <!-- title of the page. ex: expeience, interests projects etc. -->
     <div class="page-title">Interests</div>
 
@@ -102,7 +103,7 @@
       <hr>
     </div>
 
-    <div class="photography">
+    <div class="photography" id="photography">
       <h2>Photography</h2>
       <div class="photography-text">
         <p>Lorem ipsum dolor sit amet, essent possim erroribus ad est. Eam probatus disputationi ad, corpora eligendi per ei. Ad duo scripta delenit omittam. Qui ut nibh vituperatoribus. Lorem ipsum dolor sit amet, essent possim erroribus ad est.</p>
@@ -153,35 +154,41 @@
         <!-- Thumbnail images -->
         <div class="row">
           <div class="column">
-            <img class="demo" src="images/photography/babyGoat.png" style="width:100%" onclick="currentSlide(1)" alt="Baby Goats(kids)">
+            <img class="demo" src="images/photography/babyGoat.png" style="width:100%" onclick="currentSlide(1)" alt="Kids(Baby Goats)" title="Kids(Baby Goats)">
           </div>
           <div class="column"> 
-            <img class="demo" src="images/photography/mamba.png" style="width:100%" onclick="currentSlide(2)" alt="Dog">
+            <img class="demo" src="images/photography/mamba.png" style="width:100%" onclick="currentSlide(2)" alt="Dog" title="Dog">
           </div>
           <div class="column">
-            <img class="demo" src="images/photography/goat.png" style="width:100%" onclick="currentSlide(3)" alt="Goat">
+            <img class="demo" src="images/photography/goat.png" style="width:100%" onclick="currentSlide(3)" alt="Goat" title="Goat">
           </div>
           <div class="column">
-            <img class="demo" src="images/photography/vegasStrip.png" style="width:100%" onclick="currentSlide(4)" alt="Las Vegas Strip">
+            <img class="demo" src="images/photography/vegasStrip.png" style="width:100%" onclick="currentSlide(4)" alt="Las Vegas Strip" title="Las Vegas Strip">
           </div>
           <div class="column">
-            <img class="demo" src="images/photography/EDCstage.png" style="width:100%" onclick="currentSlide(5)" alt="EDC Main State">
+            <img class="demo" src="images/photography/EDCstage.png" style="width:100%" onclick="currentSlide(5)" alt="EDC Main State" title="EDC Main State">
           </div> 
           <div class="column">
-            <img class="demo" src="images/photography/temple.png" style="width:100%" onclick="currentSlide(6)" alt="Buddhist Temple">
+            <img class="demo" src="images/photography/temple.png" style="width:100%" onclick="currentSlide(6)" alt="Buddhist Temple" title="Buddhist Temple">
           </div>
         </div>
       </div>
       <hr>
     </div>
 
-
-
-
-
-
-
-
+    <div class="cinematography" id="cinematography">
+      <h3>Cinematography</h3>
+      <div class="cinema-text">
+        <a href="https://www.youtube.com/channel/UCSX5EecTV19BqQDjYIGa5Ug" target="_blank" title="Paction Youtube Channel">
+          <img src="images/logo.png">
+        </a>
+        <p>The art of Cinematography is something that has interest me ever since I was a child. My uncles would always have expensive camera equipment in which they would record all family gatherings and that is what sparked my interest in video recording and cinematography. After I acquired a DLSR Camera (Canon T5i), I began shooting videos and learning more about how to get amazing camera angles. After a year, I started taking courses on Cinema Studies, in which I learned the rules of cinematography, thus taking my skills to a new level. Cinematography has turned into a hobby that I am passionate about, but unfortunately, I have not uploaded any recent videos. All of my public videos have been recorded and edited by me, however, my videos are not monetized due to the music not belonging to me. Further, I plan on picking up this hobby once again soon when time allows me. To view more of my videos, click on my logo or on the video below!</p>
+      </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BEqlTJfaDEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <hr>
+    </div>
+    <div class="page-background"></div>
+    <div class="page-background-2"></div>
     <div class="footer-background"></div>
     <div class="footer">
        <div class="quickLinks">
@@ -210,7 +217,6 @@
     </div>
   </div>
   </div>
-
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 
   

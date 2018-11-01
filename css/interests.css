@@ -3,6 +3,7 @@
 @import url("//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css"); 
 @import url("https://use.fontawesome.com/releases/v5.0.9/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Caveat");
+@import url("https://fonts.googleapis.com/css?family=Carme");
 
 * {
   margin: 0;
@@ -151,6 +152,35 @@
   border: 3px solid black;
   margin-bottom: 25px;
 }
+html 
+{
+  scroll-behavior: smooth;
+}
+/*next two selectors are for the nacy blue background*/
+#container > .page-background
+{
+  display: block;
+  position: absolute;
+  top: 420px;
+  height: 2000px;
+  background-image: linear-gradient(white,rgb(72,91,109), rgb(72,91,109) );
+  /*background-color: rgb(72,91,109);*/
+  width: 100%;
+  left: 0px;
+  z-index: -1;
+}
+#container > .page-background-2
+{
+  display: block;
+  position: absolute;
+  top: 2400px;
+  height: 700px;
+  background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109), white);
+  /*background-color: rgb(72,91,109);*/
+  width: 100%;
+  left: 0px;
+  z-index: -1;
+}
 #container > .sections
 {
   position: relative;
@@ -237,6 +267,7 @@
   font-family: sans-serif;
   text-decoration: underline;
   font-size: 35px;
+  color: solid black;
 }
 #container > .hiking > .hikeData
 {
@@ -254,6 +285,7 @@
   font-family: caveat;
   text-align: center;
   padding-top: 80px;
+  color: white;
 }
 #container > .hiking > .hikeData > .hikePic
 {
@@ -274,6 +306,7 @@
   width: 50%;
   padding-top: 20px;
   font-family: caveat;
+  color: white;
 }
 #container > .hiking > .hikeData2 > .hikePicTwo
 {
@@ -299,6 +332,7 @@
   top: 125px;
   /*background-color: orange;*/
   height: 680px;
+  color: white;
 }
 #container > .photography > h2
 {
@@ -405,7 +439,7 @@
 /* Six columns side by side */
 #container > .photography > .photo-slideshow-container > .row > .column 
 {
-  width: 16%;
+  width: 16.07%;
   display: inline-block;
 }
 
@@ -430,6 +464,63 @@
   left: 20%;
   color: solid black;
 }
+#container > .cinematography
+{
+  position: relative;
+  display: block;
+  height: 675px;
+  /*background-color: orange;*/
+  top: 155px;
+  color: white;
+}
+/*same as  previous headers. keep congruency*/
+#container > .cinematography > h3
+{
+  font-family: sans-serif;
+  text-decoration: underline;
+  font-size: 35px;
+}
+#container > .cinematography > .cinema-text > a
+{
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  margin-left: -4px;
+  padding-top: 20px;
+  /*background-color: blue;*/
+}
+#container > .cinematography > .cinema-text > a > img
+{
+  width: 100%;
+}
+#container > .cinematography > .cinema-text > p
+{
+  width: 80%;
+  display: inline-block;
+  margin-left: 0px;
+  font-family: Carme;
+  font-size: 18px;
+  padding: 0px 50px;
+  position: relative;
+  top: 20px;
+}
+#container > .cinematography > iframe
+{
+  position: relative;
+  width: 60%;
+  left: 20%;
+  top: 40px;
+}
+#container > .cinematography > hr
+{
+  position: relative;
+  display: none;
+  width: 60%;
+  /*color: rgba(22,129,174,1);*/
+  bottom: -50px;
+  left: 20%;
+  color: solid black;
+}
 
 
 
@@ -441,7 +532,7 @@
 #container > .footer
 {
   position: relative;
-  top: 340px;
+  top: 240px;
   width: 100%;
   color: white;
 }
@@ -488,7 +579,7 @@
 {
   display: block;
   position: absolute;
-  top: 3020px;
+  top: 3170px;
   height: 130px;
   background-color: rgb(72,91,109);
   width: 100%;
