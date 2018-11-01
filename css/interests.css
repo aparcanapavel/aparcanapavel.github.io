@@ -4,6 +4,7 @@
 @import url("https://use.fontawesome.com/releases/v5.0.9/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Caveat");
 @import url("https://fonts.googleapis.com/css?family=Carme");
+@import url("https://fonts.googleapis.com/css?family=Courgette");
 
 * {
   margin: 0;
@@ -281,10 +282,10 @@ html
   float: right;
   right: 10px;
   width: 50%;
-  font-size: 30px;
-  font-family: caveat;
+  font-size: 18px;
+  font-family: Courgette;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 120px;
   color: white;
 }
 #container > .hiking > .hikeData > .hikePic
@@ -299,10 +300,10 @@ html
   top: 0px;
   width: 100%;
 }
-#container > .hiking > .hikeData2 > .hikeQuote
+#container > .hiking > .hikeData2 > p
 {
   left: 0px;
-  font-size: 25px;
+  font-size: 30px;
   width: 50%;
   padding-top: 20px;
   font-family: caveat;
@@ -329,7 +330,7 @@ html
 #container > .photography
 {
   position: relative;
-  top: 125px;
+  top: 145px;
   /*background-color: orange;*/
   height: 680px;
   color: white;
@@ -349,9 +350,9 @@ html
 #container > .photography > .photography-text > p
 {
   position: relative;
-  font-family: caveat;
+  font-family: Courgette;
   bottom: 200px;
-  font-size: 30px;
+  font-size: 18px;
   width: 90%;
   padding-left: 5px;
 }
@@ -498,7 +499,7 @@ html
   width: 80%;
   display: inline-block;
   margin-left: 0px;
-  font-family: Carme;
+  font-family: Courgette;
   font-size: 18px;
   padding: 0px 50px;
   position: relative;
