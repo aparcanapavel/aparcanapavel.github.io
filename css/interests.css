@@ -222,6 +222,7 @@
   left: 20%;
   top: 70px;
 }
+/*hiking container*/
 #container > .hiking 
 {
   /*background-color: orange;*/
@@ -249,8 +250,8 @@
   float: right;
   right: 10px;
   width: 50%;
-  font-size: 20px;
-  font-family: sans-serif;
+  font-size: 30px;
+  font-family: caveat;
   text-align: center;
   padding-top: 80px;
 }
@@ -269,9 +270,10 @@
 #container > .hiking > .hikeData2 > .hikeQuote
 {
   left: 0px;
-  font-size: 20px;
+  font-size: 25px;
   width: 50%;
   padding-top: 20px;
+  font-family: caveat;
 }
 #container > .hiking > .hikeData2 > .hikePicTwo
 {
@@ -290,20 +292,47 @@
   left: 20%;
   color: solid black;
 }
+/*photography container*/
 #container > .photography
 {
   position: relative;
-  top: 80px;
-  background-color: transparent;
+  top: 125px;
+  /*background-color: orange;*/
+  height: 680px;
 }
-#container > .photography > .photo-slideshow-container {
+#container > .photography > h2
+{
+  font-family: sans-serif;
+  text-decoration: underline;
+  font-size: 35px;
+}
+#container > .photography > .photography-text
+{
+  display: inline-block;
+  width: 40%;
+  margin-left: -4px;
+}
+#container > .photography > .photography-text > p
+{
   position: relative;
+  font-family: caveat;
+  bottom: 200px;
+  font-size: 30px;
   width: 90%;
-  right: -50px;
+  padding-left: 5px;
+}
+#container > .photography > .photo-slideshow-container 
+{
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  right: 0px;
+  margin-left: -4px;
 }
 
 /* Hide the images by default */
-#container > .photography > .photo-slideshow-container > .mySlides {
+#container > .photography > .photo-slideshow-container > .mySlides 
+{
   display: none;
 }
 
@@ -314,7 +343,8 @@
 
 /* Next & previous buttons */
 #container > .photography > .photo-slideshow-container > .prev,
-#container > .photography > .photo-slideshow-container > .next {
+#container > .photography > .photo-slideshow-container > .next 
+{
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -330,19 +360,22 @@
 }
 
 /* Position the "next button" to the right */
-#container > .photography > .photo-slideshow-container > .next {
+#container > .photography > .photo-slideshow-container > .next 
+{
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 #container > .photography > .photo-slideshow-container > .prev:hover,
-#container > .photography > .photo-slideshow-container > .next:hover {
+#container > .photography > .photo-slideshow-container > .next:hover 
+{
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text (1/3 etc) */
-#container > .photography > .photo-slideshow-container > .numbertext {
+#container > .photography > .photo-slideshow-container > .numbertext 
+{
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -351,7 +384,8 @@
 }
 
 /* Container for image text */
-#container > .photography > .photo-slideshow-container > .caption-container {
+#container > .photography > .photo-slideshow-container > .caption-container 
+{
   text-align: center;
   background-color: #222;
   padding: 20px 16px;
@@ -361,7 +395,8 @@
 {
   width: 100%
 }
-#container > .photography > .photo-slideshow-container > .row:after {
+#container > .photography > .photo-slideshow-container > .row:after 
+{
   content: "";
   display: table;
   clear: both;
@@ -370,19 +405,30 @@
 /* Six columns side by side */
 #container > .photography > .photo-slideshow-container > .row > .column 
 {
-  width: 16.2%;
+  width: 16%;
   display: inline-block;
 }
 
 /* Add a transparency effect for thumnbail images */
-#container > .photography > .photo-slideshow-container > .row > .demo 
+#container > .photography > .photo-slideshow-container > .row > .column > img
 {
   opacity: 0.6;
 }
 
 #container > .photography > .photo-slideshow-container > .row > .active,
-#container > .photography > .photo-slideshow-container > .row > .demo:hover {
+#container > .photography > .photo-slideshow-container > .row > .column > .demo:hover 
+{
   opacity: 1;
+}
+#container > .photography > hr
+{
+  position: relative;
+  display: block;
+  width: 60%;
+  /*color: rgba(22,129,174,1);*/
+  bottom: -50px;
+  left: 20%;
+  color: solid black;
 }
 
 
@@ -395,7 +441,7 @@
 #container > .footer
 {
   position: relative;
-  top: 140px;
+  top: 340px;
   width: 100%;
   color: white;
 }
