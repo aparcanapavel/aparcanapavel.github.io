@@ -47,23 +47,9 @@ if($(window).width() >= 551){
 $(document).ready(function() {
     
     $('input').click(function(){
-        // $('.page-menu').css({
-        //  display: 'block',
-        //     width: '120px'
-        // })
         $('.page-menu').toggle(500);
     });
 });
-
-// page menu hover border
-// $('.section-box:nth-child(1)').mouseover(function()
-// {
-//     $('.section-box:nth-child(1) > a').css({'border-bottom': 'solid black', 'transition' : '1s'});
-// });
-// //return after mouse is not hovering.
-// $('.section-box:nth-child(1)').mouseout(function(){
-//   $('.section-box:nth-child(1) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
-// });
 
 var slideIndex = 1;
 showSlides(slideIndex);

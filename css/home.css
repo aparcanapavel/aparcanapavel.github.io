@@ -47,11 +47,39 @@
   font-family: sans-serif;
   left: 0px;
 }
-#container > .header > input, 
-#container > .header > label,
-#container > .header > .page-menu 
+#container > .menu > input, 
+#container > .menu > label
 {
   display: none;
+}
+#container > .menu > .page-menu 
+{
+  list-style-type: none;
+  position: relative;
+  /*background-color: grey;*/
+  width: 100%;
+  top:5px;
+  font-family: sans-serif;
+}
+
+#container > .menu > .page-menu > li
+{
+  display: inline-block;
+  width: 20%;
+  margin-left: -4px;
+  text-align: center;
+  padding: 15px;
+  border-right: 1px solid black;
+}
+/*eliminate the contact border*/
+#container > .menu > .page-menu > li:nth-of-type(5)
+{
+  border-right: 0px;
+}
+#container > .menu > .page-menu > li > a
+{
+  text-decoration: none;
+  color: black;
 }
 #container > .header > .name
 {
@@ -228,29 +256,34 @@
   /*background-color: rgba(176,68,110,0);*/
   background-color: rgba(0,0,0,0.1);
 }
+#container > .footer
+{
+  position: relative;
+  top: 0px;
+  width: 100%;
+  color: white;
+}
 #container > .footer  > .quickLinks
 {
-  display: block;
-  position: relative;
+  z-index: 100;
   width: 100%;
-  height: 110px;
-  color: white;
+  height: 100px;
   font-family: sans-serif;
+  background-color:  rgb(72,91,109);
 }
 #container > .footer  > .quickLinks > h3
 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
-
 }
+
 #container > .footer  > .quickLinks > li  
 {
   width: 30%;
   color: white;
   padding: 0px 90px;
   list-style-type: none;
-  text-align: center;
   display: inline-block;
 }
 #container > .footer  > .quickLinks > li > a
@@ -261,30 +294,24 @@
   text-align: left;
   padding-left: 50px;  
 }
-#container > .footer  > .quickLinks > li:nth-of-type(1)
- {
-   margin-left: -4px;
- }
 #container > .footer  > .signature
 {
   background-color: rgb(72,91,109);
   text-align: right;
   padding-right: 5px; 
-  color: rgba(0,0,0,1);
+  color: white;
 }
+
 #container > .footer-background
 {
   display: block;
   position: absolute;
+  top: 1730px;
   height: 130px;
   background-color: rgb(72,91,109);
   width: 100%;
   left: 0px;
   z-index: -1;
-}
-#container > .footer > .signature > p
-{
-   color: white;
 }
 
 
@@ -429,43 +456,45 @@
     /*background-color: rgba(176,68,110,0);*/
     background-color: rgba(0,0,0,0.1);
   }
+  #container > .footer
+  {
+    /*top: 140px;*/
+    width: 100%;
+  }
   #container > .footer  > .quickLinks
   {
-    display: block;
     width: 100%;
-    height: 110px;
-    background-color: rgb(72,91,109);
-    color: white;
-    font-family: sans-serif;
+    height: 100px;
   }
   #container > .footer  > .quickLinks > h3
   {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
-
   }
+
   #container > .footer  > .quickLinks > li  
   {
     width: 30%;
-    color: white;
-    padding: 0px 90px;
-    list-style-type: none;
-    text-align: center;
-    display: inline-block;
+    padding: 0px 35px;
   }
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    color: white;
-    text-decoration:none;
-    text-align: left;
     padding-left: 50px;  
   }
   #container > .footer  > .signature
   {
-    text-align: right;
     padding-right: 5px; 
+  }
+
+  #container > .footer-background
+  {
+    /*top: 2520px;*/
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
   }
 }
 
@@ -529,7 +558,7 @@
   }
   #container > .welcomeStatement > p
   {
-    width: 69%;
+    width: 65%;
     font-size: 50px;
     font-family: Caveat;
     top: 40px;
@@ -627,47 +656,45 @@
     margin-left: 70px;
     margin-right: 80px;
   }
+  #container > .footer
+  {
+    /*top: 140px;*/
+    width: 100%;
+  }
   #container > .footer  > .quickLinks
   {
-    display: block;
     width: 100%;
-    height: 110px;
-    background-color: rgb(72,91,109);
-    color: white;
-    font-family: sans-serif;
+    height: 100px;
   }
   #container > .footer  > .quickLinks > h3
   {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
-
   }
+
   #container > .footer  > .quickLinks > li  
   {
     width: 30%;
-    color: white;
-    padding: 0px 90px;
-    list-style-type: none;
-    text-align: center;
-    display: inline-block;
+    padding: 0px 35px;
   }
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    color: white;
-    text-decoration:none;
-    text-align: left;
-    padding-left: 0px;  
-  }
-  #container > .footer  > .quickLinks > li:nth-of-type(1)
-  {
-    margin-left: 0px;
+    padding-left: 50px;  
   }
   #container > .footer  > .signature
   {
-    text-align: right;
     padding-right: 5px; 
+  }
+
+  #container > .footer-background
+  {
+    /*top: 2520px;*/
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
   }
 
 }
@@ -739,7 +766,7 @@
   }
   #container > .welcomeStatement > p
   {
-    width: 69%;
+    width: 65%;
     font-size: 45px;
     font-family: Caveat;
     margin-left: 15%;
@@ -830,7 +857,7 @@
     /*background-color: rgba(176,68,110,0);*/
     background-color: rgba(0,0,0,0.1);
   }
-  #container > .footer  > .quickLinks
+  /*#container > .footer  > .quickLinks
   {
     display: block;
     width: 100%;
@@ -869,7 +896,7 @@
   {
     text-align: right;
     padding-right: 5px; 
-  }
+  }*/
 }
 
 
@@ -881,12 +908,52 @@
 
 
 
-@media (max-width: 607px) 
+@media (max-width: 608px) 
 {
   #container > .welcomeStatement > p
   {
-    width: 69%;
-    font-size: 43px;
+    width: 65%;
+    font-size: 40px;
+  }
+  #container > .footer
+  {
+    /*top: 140px;*/
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    padding: 0px 35px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 50px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+  }
+
+  #container > .footer-background
+  {
+    /*top: 2520px;*/
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
   }
 }
 
@@ -905,9 +972,9 @@
     /*line below controls the background color if greater than 1080px, center it*/
     margin: 0px auto;
   }
-  #container > .header > label
+  #container > .menu > label
   {
-    position: relative;
+    position: absolute;
     top: 50px;
     font-size: 30px;
     left: -2px solid transparent;
@@ -917,17 +984,38 @@
     padding: 10px;
     color: rgba(0,0,0,);
   }
-  #container > .header > #nav + label + .page-menu
+  #container > .menu > #nav + label + .page-menu
   {
     /*hide the navbar when checkbox is unchekced, using display: none */
     display: none;
     padding: 10px 5px; 
     background-color: rgba(0,0,0,0.7);
     text-align: left;
-    top: 110px;
+    top: 109px;
     left: 0px;
-  }  
-  #container > .header > .page-menu 
+  } 
+   /**/
+  #container > .menu > .page-menu 
+  {
+    list-style-type: none;
+    position: relative;
+    /*background-color: grey;*/
+    width: 100%;
+    top:5px;
+    font-family: sans-serif;
+  }
+
+  #container > .menu > .page-menu > li
+  {
+    display: inline-block;
+    width: 100%;
+    margin-left: -4px;
+    text-align: left;
+    padding: 5px;
+    border-right: none;
+  }
+/**/
+  #container > .menu > .page-menu 
   {
     position: absolute;
     top: 1000px;
@@ -938,20 +1026,15 @@
     list-style: none;
     width: 150px;
   }  
-  #container > .header > .page-menu > li
-  {
-    margin-left: -4px;
-    text-align: left;
-    padding: 5px;
-    border-right: none;
-  }
-  #container > .header > .page-menu > li > a
+  #container > .menu > .page-menu > li > a
   {
     text-decoration: none;
     color: white;
     font-size: 25px;
+    display: block;
+    width: 100%;
   }
-  #container > .header > .page-menu > li:hover
+  #container > .menu > .page-menu > li:hover
   {
     background-color: rgba(22,129,174,0.7);
     transition: 1s;
@@ -1016,6 +1099,7 @@
     top: 30px;
     color: rgba(0,0,0,0.8);
     opacity: 0;
+    width: 65%;
   }
   #container > .welcomeStatement > hr
   {
@@ -1107,46 +1191,48 @@
     /*background-color: rgba(176,68,110,0);*/
     background-color: rgba(0,0,0,0.1);
   }
+  #container > .footer
+  {
+    /*top: 140px;*/
+    width: 100%;
+  }
   #container > .footer  > .quickLinks
   {
-    display: block;
     width: 100%;
-    height: 110px;
-    background-color: rgb(72,91,109);
-    color: white;
-    font-family: sans-serif;
+    height: 100px;
   }
   #container > .footer  > .quickLinks > h3
   {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
   }
+
   #container > .footer  > .quickLinks > li  
   {
-    width: 45%;
-    color: white;
-    padding: 0px 50px;
-    list-style-type: none;
-    text-align: center;
-    display: inline-block;
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
   }
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    color: white;
-    text-decoration:none;
-    text-align: left;
-  }
-  #container > .footer  > .quickLinks > li:nth-of-type(1)
-  {
-    margin-left: 0px;
+    padding-left: 50px;  
   }
   #container > .footer  > .signature
   {
-    text-align: right;
     padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
   }
+
+  #container > .footer-background
+  {
+    /*top: 2520px;*/
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
 }
 
 
@@ -1253,19 +1339,20 @@
   }
   #container > .welcomeStatement
   {
-    height: 500px;
+    height: 540px;
     width: 100%;
-    /*background-color: rgba(7,207,251,0.7);*/
+    /*background-color: orange;*/
   }
   #container > .welcomeStatement > p
   {
-    width: 70%;
-    text-align: center;
+    width: 62%;
+    text-align: right;
     font-family: Caveat;
     margin-left: 15%;
     top: 40px;
     color: rgba(0,0,0,0.8);
     opacity: 0;
+    font-size: 38px;
   }
   #container > .welcomeStatement > hr
   {
@@ -1462,20 +1549,20 @@
   }
   #container > .welcomeStatement
   {
-    height: 500px;
+    height: 540px;
     width: 100%;
-    /*background-color: rgba(7,207,251,0.7);*/
+    /*background-color: orange;*/
   }
   #container > .welcomeStatement > p
   {
-    width: 70%;
-    text-align: center;
+    width: 61%;
+    text-align: right;
     font-family: Caveat;
     margin-left: 15%;
     top: 40px;
     color: rgba(0,0,0,0.8);
     opacity: 0;
-    font-size:240%;
+    font-size: 36px;
   }
   #container > .welcomeStatement > hr
   {
@@ -1785,5 +1872,51 @@
   .footer > .quickLinks > li:nth-of-type(1) > a
   {
     margin-left: -20px;
+  }  #container > .footer
+  {
+    /*top: 140px;*/
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li:nth-of-type(1) > a
+  {
+    padding-left: 30px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 10px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
+  }
+
+  #container > .footer-background
+  {
+    top: 2520px;
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
   }
 }
