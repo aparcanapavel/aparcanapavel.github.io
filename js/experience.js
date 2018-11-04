@@ -62,26 +62,39 @@ $('.section-box:nth-child(1)').mouseover(function()
 	$('.section-box:nth-child(1) > a').css({'border-bottom': 'solid black', 'transition' : '1s'});
 });
 //return after mouse is not hovering.
-$('.section-box').mouseout(function(){
-	$('.section-box:nth-child(1) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
-	$('.section-box:nth-child(2) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
-	$('.section-box:nth-child(3) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
-	$('.section-box:nth-child(4) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+$('.section-box:nth-child(1)').mouseout(function(){
+  $('.section-box:nth-child(1) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
 });
+// $('.section-box').mouseout(function(){
+// 	$('.section-box:nth-child(1) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+// 	$('.section-box:nth-child(2) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+// 	$('.section-box:nth-child(3) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+// 	$('.section-box:nth-child(4) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+// });
 //skills & certificates
 $('.section-box:nth-child(2)').mouseover(function()
 {
 	$('.section-box:nth-child(2) > a').css({'border-bottom': 'solid white', 'transition' : '1s'});
+});
+
+$('.section-box:nth-child(2)').mouseout(function(){
+  $('.section-box:nth-child(2) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
 });
 //professional experience
 $('.section-box:nth-child(3)').mouseover(function()
 {
 	$('.section-box:nth-child(3) > a').css({'border-bottom': 'solid white', 'transition' : '1s'});
 });
+$('.section-box:nth-child(3)').mouseout(function(){
+  $('.section-box:nth-child(3) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
+});
 //volunteer wo0rk
 $('.section-box:nth-child(4)').mouseover(function()
 {
 	$('.section-box:nth-child(4) > a').css({'border-bottom': 'solid black', 'transition' : '1s'});
+});
+$('.section-box:nth-child(4)').mouseout(function(){
+  $('.section-box:nth-child(4) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
 });
 // first slideshow
 var myIndex = 0;
