@@ -44,6 +44,17 @@ if($(window).width() >= 551){
     });
 }
 
+$(document).ready(function() {
+    
+    $('input').click(function(){
+        // $('.page-menu').css({
+        //  display: 'block',
+        //     width: '120px'
+        // })
+        $('.page-menu').toggle(500);
+    });
+});
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

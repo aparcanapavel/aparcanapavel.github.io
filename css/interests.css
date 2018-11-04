@@ -1907,7 +1907,7 @@ last media has all the original values*/
     display: block;
     position: absolute;
     top: 420px;
-    height: 2200px;
+    height: 2500px;
     background-image: linear-gradient(white,rgb(72,91,109), rgb(72,91,109) );
     /*background-color: rgb(72,91,109);*/
     width: 100%;
@@ -1918,8 +1918,8 @@ last media has all the original values*/
   {
     display: block;
     position: absolute;
-    top: 2620px;
-    height: 800px;
+    top: 2900px;
+    height: 900px;
     background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109), white);
     /*background-color: rgb(72,91,109);*/
     width: 100%;
@@ -1998,7 +1998,7 @@ last media has all the original values*/
   }
   #container > .hiking > .hikeData2 > .hikePicTwo
   {
-    padding-left: 30px;
+    padding-left: 5px;
     width: 80%; 
     margin-left: 0px;
     display: block;
@@ -2077,7 +2077,7 @@ last media has all the original values*/
     display: block;
     height: 900px;
     /*background-color: orange;*/
-    top: 24px;
+    top: 72px;
     color: white;
     z-index: 100;
   }
@@ -2095,8 +2095,7 @@ last media has all the original values*/
     display: inline-block;
     width: 20%;
     margin-left: -4px;
-    padding-top: 20px;
-    bottom:80px;
+    bottom:120px;
     /*background-color: blue;*/
   }
   #container > .cinematography > .cinema-text > a > img
@@ -2117,8 +2116,8 @@ last media has all the original values*/
   #container > .cinematography > iframe
   {
     position: relative;
-    width: 76%;
-    left: 12%;
+    width: 90%;
+    left: 5%;
     top: 40px;
   }
   #container > .cinematography > hr
@@ -2134,7 +2133,7 @@ last media has all the original values*/
   #container > .footer
   {
     position: relative;
-    top: 70px;
+    top: 72px;
     width: 100%;
     color: white;
   }
@@ -2157,7 +2156,7 @@ last media has all the original values*/
   {
     width: 30%;
     color: white;
-    padding: 0px 90px;
+    padding: 0px 70px;
     list-style-type: none;
     display: inline-block;
   }
@@ -2167,17 +2166,797 @@ last media has all the original values*/
     color: white;
     text-decoration:none;
     text-align: left;
-    padding-left: 10px;  
+    padding-left: 0px;  
   }
-  #container > .footer-background
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 550px)
+{
+  /*header css*/
+  #container
   {
-    display: none;
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .menu > label
+  {
     position: absolute;
-    top: 3570px;
-    height: 130px;
-    background-color: rgb(72,91,109);
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: rgba(0,0,0,);
+  }
+  #container > .menu > #nav + label + .page-menu
+  {
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 109px;
+    left: 0px;
+  } 
+   /**/
+  #container > .menu > .page-menu 
+  {
+    list-style-type: none;
+    position: relative;
+    /*background-color: grey;*/
+    width: 100%;
+    top:5px;
+    font-family: sans-serif;
+  }
+
+  #container > .menu > .page-menu > li
+  {
+    display: inline-block;
+    width: 100%;
+    margin-left: -4px;
+    text-align: left;
+    padding: 5px;
+    border-right: none;
+  }
+/**/
+  #container > .menu > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .menu > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+  }
+  #container > .menu > .page-menu > li:hover
+  {
+    background-color: rgba(22,129,174,0.7);
+    transition: 1s;
+  }
+  #container > .header
+  {
+    width: 100%;
+    height: 110px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    /*background-color: rgba(22,129,174,0.7);*/
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 5px;
+    font-size: 35px;
+    border: 10px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+  }
+  #container > .header > p
+  {
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-size: 13px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .page-title
+  {
+    width: 70%;
+    left: 15%;
+    top: 20px;
+    height: 100px;
+    padding: 28px 0px;
+    font-size: 40px;
+  }
+    #container > .sections
+  {
+    position: relative;
+    display: block;
+    width: 80%;
+    /*background-color: orange;*/
+    top: 50px;
+    height: 575px;
+    margin: 0 auto;
+  }
+  #container > .sections > .section-box
+  {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 160px;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  #container > .sections > .section-box > span
+  {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+  }
+  #container > .sections > .section-box:nth-of-type(1)
+  {
+    background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/hikingBG.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    transition: background-size 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(2)
+  {
+    background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/cameraBG.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: background-size 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(3)
+  {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/logo.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: 115px;
+    background-position: center;
+    transition: background-size 1s;
+    border: 3px solid gray;
+  }
+  #container > .sections > .section-box:nth-of-type(1):hover,
+  #container > .sections > .section-box:nth-of-type(2):hover
+  {
+    background-size: 120%;
+    transition: background-size 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(3):hover
+  {
+    background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/logo.gif?raw=true);
+    transition: background-size 1s;
+  }
+  #container > hr
+  {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    top: 70px;
+  }
+    #container > .page-background
+  {
+    display: block;
+    position: absolute;
+    top: 420px;
+    height: 2800px;
+    background-image: linear-gradient(white,rgb(72,91,109), rgb(72,91,109) );
+    /*background-color: rgb(72,91,109);*/
     width: 100%;
     left: 0px;
     z-index: -1;
+  }
+  #container > .page-background-2
+  {
+    display: block;
+    position: absolute;
+    top: 3100px;
+    height: 900px;
+    background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109), white);
+    /*background-color: rgb(72,91,109);*/
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+  }
+  /*hiking container*/
+  #container > .hiking 
+  {
+    /*background-color: orange;*/
+    position: relative;
+    display: block;
+    top: 70px;
+    padding-top: 50px;
+    height: 1265px;
+    width: 100%;
+  }
+  #container > .hiking > h1
+  {
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 35px;
+    color: solid black;
+  }
+  #container > .hiking > .hikeData
+  {
+    display: block;
+    width: 97%;
+    position: relative;
+  }
+  /*Small paragraph about me hiking*/
+  #container > .hiking > .hikeData > p
+  {
+    display: block;
+    float: none;
+    right: 10px;
+    width: 50%;
+    font-size: 16px;
+    font-family: Courgette;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    padding-bottom: 20px;
+  }
+  #container > .hiking > .hikeData > .hikePic
+  {
+    left:0px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+
+  }
+  #container > .hiking > .hikeData2 
+  {
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+  }
+  #container > .hiking > .hikeData2 > .hikeQuote
+  {
+    font-size: 25px;
+    width: 80%;
+    padding-bottom: 30px;
+    font-family: caveat;
+    color: white;
+    margin-left: -4px;
+    display: block;
+    padding-left: 10px;
+    position: relative;
+    left: 10%;
+    text-align: center;
+  }
+  #container > .hiking > .hikeData2 > .hikePicTwo
+  {
+    padding-left: 5px;
+    width: 80%; 
+    margin-left: 0px;
+    display: block;
+    position: relative;
+    left: 10%;
+
+  }
+  #container > .hiking > hr
+  {
+    position: relative;
+    display: block;
+    width: 60%;
+    /*color: rgba(22,129,174,1);*/
+    bottom: -118px;
+    left: 20%;
+    color: solid black;
+  }
+  /*photography container*/
+  #container > .photography
+  {
+    position: relative;
+    top: 71px;
+    /*background-color: orange;*/
+    height: 930px;
+    color: white;
+  }
+  #container > .photography > h2
+  {
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 35px;
+    padding-top: 50px;
+  }
+  #container > .photography > .photography-text
+  {
+    display: block;
+    width: 80%;
+    margin-left: 0px;
+    position: relative;
+    left: 10%;
+  }
+  #container > .photography > .photography-text > p
+  {
+    position: relative;
+    font-family: Courgette;
+    font-size: 16px;
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 50px;
+    bottom: 10px;
+    text-align: center;
+  }
+  /*container for the slideshow*/
+  #container > .photography > .photo-slideshow-container 
+  {
+    position: relative;
+    display: block;
+    width: 80%;
+    right: 0px;
+    margin-left: 0px;
+    left: 10%
+  }
+  #container > .photography > hr
+  {
+    position: relative;
+    display: block;
+    width: 60%;
+    /*color: rgba(22,129,174,1);*/
+    bottom: -100px;
+    left: 20%;
+    color: solid black;
+  }
+  #container > .cinematography
+  {
+    position: relative;
+    display: block;
+    height: 1030px;
+    /*background-color: orange;*/
+    top: 72px;
+    color: white;
+    z-index: 100;
+  }
+  /*same as  previous headers. keep congruency*/
+  #container > .cinematography > h3
+  {
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 35px;
+    padding-top: 50px;
+  }
+  #container > .cinematography > .cinema-text > a
+  {
+    position: relative;
+    display: block;
+    width: 20%;
+    margin-left: 0px;
+    bottom:0px;
+    margin: 0 auto;
+    /*background-color: blue;*/
+  }
+  #container > .cinematography > .cinema-text > a > img
+  {
+    width: 100%;
+  }
+  #container > .cinematography > .cinema-text > p
+  {
+    width: 95%;
+    display: block;
+    margin-left: 0px;
+    font-family: Courgette;
+    font-size: 16px;
+    padding: 0px 50px;
+    position: relative;
+    top: 20px;
+    left: 2.5%;
+    text-align: center;
+  }
+  #container > .cinematography > iframe
+  {
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+    top: 40px;
+  }
+  #container > .cinematography > hr
+  {
+    position: relative;
+    display: none;
+    width: 60%;
+    /*color: rgba(22,129,174,1);*/
+    bottom: -50px;
+    left: 20%;
+    color: solid black;
+  }
+  #container > .footer
+  {
+    position: relative;
+    top: 72px;
+    width: 100%;
+    color: white;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 50px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 443px)
+{
+  #container > .page-title
+  {
+    width: 70%;
+    left: 15%;
+    top: 20px;
+    height: 100px;
+    padding: 28px 0px;
+    font-size: 40px;
+  }
+  #container > .sections
+  {
+    position: relative;
+    display: block;
+    width: 80%;
+    /*background-color: orange;*/
+    top: 50px;
+    height: 575px;
+    margin: 0 auto;
+  }
+  #container > .sections > .section-box
+  {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 160px;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  #container > .sections > .section-box > span
+  {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+  }
+  
+  #container > .page-background
+  {
+    display: block;
+    position: absolute;
+    top: 420px;
+    height: 2000px;
+    background-image: linear-gradient(white,rgb(72,91,109), rgb(72,91,109) );
+    /*background-color: rgb(72,91,109);*/
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+  }
+  #container > .page-background-2
+  {
+    display: block;
+    position: absolute;
+    top: 2300px;
+    height: 1950px;
+    background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109), white);
+    /*background-color: rgb(72,91,109);*/
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+  }
+  /*hiking container*/
+  #container > .hiking 
+  {
+    /*background-color: orange;*/
+    position: relative;
+    display: block;
+    top: 70px;
+    padding-top: 50px;
+    height: 1165px;
+    width: 100%;
+  }
+  #container > .hiking > h1
+  {
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 35px;
+    color: solid black;
+  }
+  #container > .hiking > .hikeData
+  {
+    display: block;
+    width: 97%;
+    position: relative;
+  }
+  /*Small paragraph about me hiking*/
+  #container > .hiking > .hikeData > p
+  {
+    display: block;
+    float: none;
+    right: 10px;
+    width: 50%;
+    font-size: 16px;
+    font-family: Courgette;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    padding-bottom: 20px;
+  }
+  #container > .hiking > .hikeData > .hikePic
+  {
+    left:0px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+
+  }
+  #container > .hiking > .hikeData2 
+  {
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+  }
+  #container > .hiking > .hikeData2 > .hikeQuote
+  {
+    font-size: 25px;
+    width: 80%;
+    padding-bottom: 30px;
+    font-family: caveat;
+    color: white;
+    margin-left: -4px;
+    display: block;
+    padding-left: 10px;
+    position: relative;
+    left: 10%;
+    text-align: center;
+  }
+  #container > .hiking > .hikeData2 > .hikePicTwo
+  {
+    padding-left: 5px;
+    width: 80%; 
+    margin-left: 0px;
+    display: block;
+    position: relative;
+    left: 10%;
+
+  }
+  #container > .hiking > hr
+  {
+    position: relative;
+    display: block;
+    width: 60%;
+    /*color: rgba(22,129,174,1);*/
+    bottom: -118px;
+    left: 20%;
+    color: solid black;
+  }
+  /*photography container*/
+  #container > .photography
+  {
+    position: relative;
+    top: 71px;
+    /*background-color: orange;*/
+    height: 947px;
+    color: white;
+  }
+  #container > .photography > h2
+  {
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 35px;
+    padding-top: 50px;
+  }
+  #container > .photography > .photography-text
+  {
+    display: block;
+    width: 90%;
+    margin-left: 0px;
+    position: relative;
+    left: 5%;
+  }
+  #container > .photography > .photography-text > p
+  {
+    position: relative;
+    font-family: Courgette;
+    font-size: 16.5px;
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 50px;
+    bottom: 10px;
+    text-align: center;
+  }
+  /*container for the slideshow*/
+  #container > .photography > .photo-slideshow-container 
+  {
+    position: relative;
+    display: block;
+    width: 90%;
+    right: 0px;
+    margin-left: 0px;
+    left: 5%
+  }
+  #container > .photography > hr
+  {
+    position: relative;
+    display: block;
+    width: 60%;
+    /*color: rgba(22,129,174,1);*/
+    bottom: -100px;
+    left: 20%;
+    color: solid black;
+  }
+  #container > .cinematography
+  {
+    position: relative;
+    display: block;
+    height: 1150px;
+    /*background-color: orange;*/
+    top: 72px;
+    color: white;
+    z-index: 100;
+  }
+  /*same as  previous headers. keep congruency*/
+  #container > .cinematography > h3
+  {
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 35px;
+    padding-top: 50px;
+  }
+  #container > .cinematography > .cinema-text > a
+  {
+    position: relative;
+    display: block;
+    width: 20%;
+    margin-left: 0px;
+    bottom:0px;
+    margin: 0 auto;
+    /*background-color: blue;*/
+  }
+  #container > .cinematography > .cinema-text > a > img
+  {
+    width: 100%;
+  }
+  #container > .cinematography > .cinema-text > p
+  {
+    width: 95%;
+    display: block;
+    margin-left: 0px;
+    font-family: Courgette;
+    font-size: 16px;
+    padding: 0px 50px;
+    position: relative;
+    top: 20px;
+    left: 2.5%;
+    text-align: center;
+  }
+  #container > .cinematography > iframe
+  {
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+    top: 40px;
+  }
+  #container > .cinematography > hr
+  {
+    position: relative;
+    display: none;
+    width: 60%;
+    /*color: rgba(22,129,174,1);*/
+    bottom: -50px;
+    left: 20%;
+    color: solid black;
+  }
+  #container > .footer
+  {
+    position: relative;
+    top: 72px;
+    width: 100%;
+    color: white;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 25px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
   }
 }
