@@ -2658,6 +2658,34 @@ last media has all the original values*/
 
 @media (max-width: 443px)
 {
+  #container > .header
+  {
+    width: 100%;
+    height: 120px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    /*background-color: rgba(22,129,174,0.7);*/
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 5px;
+    font-size: 35px;
+    border: 10px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+  }
+  #container > .header > p
+  {
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-size: 13px;
+  }
   #container > .page-title
   {
     width: 70%;
@@ -2665,7 +2693,7 @@ last media has all the original values*/
     top: 20px;
     height: 100px;
     padding: 28px 0px;
-    font-size: 40px;
+    font-size: 35px;
   }
   #container > .sections
   {
