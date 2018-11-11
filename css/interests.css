@@ -2338,7 +2338,7 @@ last media has all the original values*/
   }
   #container > .sections > .section-box:nth-of-type(1)
   {
-    /*background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/hikingBG.png?raw=true);*/
+    background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/hikingBG.png?raw=true);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -2346,7 +2346,7 @@ last media has all the original values*/
   }
   #container > .sections > .section-box:nth-of-type(2)
   {
-    /*background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/cameraBG.png?raw=true);*/
+    background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/cameraBG.png?raw=true);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -2357,7 +2357,7 @@ last media has all the original values*/
     background-color: black;
     width: 100%;
     text-align: center;
-    /*background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/logo.png?raw=true);*/
+    background-image: url(https://github.com/ruapd/ruapd.github.io/blob/master/images/logo.png?raw=true);
     background-repeat: no-repeat;
     background-size: 115px;
     background-position: center;
