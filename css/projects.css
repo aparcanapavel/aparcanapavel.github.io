@@ -270,8 +270,8 @@ html
 {
   display: block;
   width: 100%;
-  height: 4500px;
-  background-color: orange;
+  height: 4150px;
+  /*background-color: orange;*/
   font-family: sans-serif;
   padding-left: 10px;
 }
@@ -400,8 +400,97 @@ html
   font-size: 12px;
   padding:0 145px;
 }
-
-
+#trumpJr
+{
+  display: block;
+  padding-top:35px;
+  position: relative;
+  width: 100%;
+  text-align:center;
+}
+#trumpJr > p:nth-of-type(1)
+{
+  padding: 20px 145px;
+  font-size: 18px;
+}
+#trumpJr > .tweet
+{
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+#module2
+{
+  display: block;
+  padding-top:35px;
+  position: relative;
+  width: 100%;
+  text-align:center;
+}
+#module2 > p:nth-of-type(1)
+{
+  padding: 20px 145px;
+  font-size: 18px;
+}
+#module2 > .tweet2
+{
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+#module3
+{
+  display: block;
+  padding-top:35px;
+  position: relative;
+  width: 100%;
+}
+#module3 > .techCompanies, 
+#module3 > .government 
+{
+  display: inline-block;
+  width: 50%;
+  margin-left: -4px;
+}
+#module3 > .techCompanies > a > img, 
+#module3 > .government > a > img
+{
+  width: 95%;
+}
+#paction
+{
+  display: block;
+  width: 100%;
+  height: 1080px;
+  /*background-color: orange;*/
+  font-family: sans-serif;
+  padding-left: 10px;
+}
+#paction > h1
+{
+  padding-top: 50px;
+  text-decoration: underline;
+  font-size: 35px;
+}
+#paction > p
+{
+  padding-top: 20px;
+  font-family: sans-serif;
+  display: inline-block;
+  width: 98%;
+  margin-left: -4px;
+  padding-left: 44px;
+  padding-right: 40px;
+  font-size: 18px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#paction > a > img
+{
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
 
 
 
@@ -410,7 +499,7 @@ html
 #container > .footer
 {
   position: relative;
-  top: 140px;
+  top: 0px;
   width: 100%;
   color: white;
 }
@@ -457,7 +546,7 @@ html
 {
   display: block;
   position: absolute;
-  top: 6520px;
+  top: 7035px;
   height: 130px;
   background-color: rgb(72,91,109);
   width: 100%;
