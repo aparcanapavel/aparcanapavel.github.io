@@ -364,6 +364,7 @@ html
   position: relative;
   width: 100%;
   text-align: center;
+  color: white;
 }
 #brazil > p:nth-of-type(1)
 {
@@ -378,6 +379,10 @@ html
 {
   font-size: 12px;
 }
+#brazil > p > a
+{
+  color: rgba(22,129,225,1);
+}
 #favreau
 {
   display: block;
@@ -385,7 +390,13 @@ html
   position: relative;
   width: 100%;
   text-align:center;
+  color: white;
 }
+#favreau > p > a
+{
+  color: rgba(22,129,174,1);
+}
+
 #favreau > p:nth-of-type(1)
 {
   padding: 20px 145px;
@@ -407,6 +418,7 @@ html
   position: relative;
   width: 100%;
   text-align:center;
+  color: white;
 }
 #trumpJr > p:nth-of-type(1)
 {
@@ -419,6 +431,10 @@ html
   width: 50%;
   left: 25%;
 }
+#trumpJr > p > a
+{
+  color: rgba(22,129,174,1);
+}
 #module2
 {
   display: block;
@@ -426,6 +442,11 @@ html
   position: relative;
   width: 100%;
   text-align:center;
+  color: white;
+}
+#module2 > p > a
+{
+  color: rgba(22,129,174,1);
 }
 #module2 > p:nth-of-type(1)
 {
@@ -465,6 +486,7 @@ html
   /*background-color: orange;*/
   font-family: sans-serif;
   padding-left: 10px;
+  color: white;
 }
 #paction > h1
 {
@@ -492,7 +514,42 @@ html
   left: 10%;
 }
 
-
+#container > .pgBg1
+{
+  position: absolute;
+  z-index: -5;
+  /*white to light blue to light blue*/
+  background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+  width: 100%;
+  left: 0px;
+  display: block;
+  height: 1000px;
+  top: 400px;
+}
+#container > .pgBg2
+{
+  position: absolute;
+  z-index: -5;  
+  width: 100%;
+  /*light blue to dark blue to dark blue*/
+  background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+  left: 0px;
+  display: block;
+  height: 3500px;
+  top: 1400px;
+}
+#container > .pgBg3
+{
+  position: absolute;
+  z-index: -5;  
+  width: 100%;
+  /*dark blue to black to white*/
+  background-image: linear-gradient(rgb(72,91,109), black, white); 
+  left: 0px;
+  display: block;
+  height: 2000px;
+  top: 4900px;
+}
 
 
 
