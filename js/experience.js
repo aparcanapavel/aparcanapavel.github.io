@@ -65,12 +65,6 @@ $('.section-box:nth-child(1)').mouseover(function()
 $('.section-box:nth-child(1)').mouseout(function(){
   $('.section-box:nth-child(1) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
 });
-// $('.section-box').mouseout(function(){
-// 	$('.section-box:nth-child(1) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
-// 	$('.section-box:nth-child(2) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
-// 	$('.section-box:nth-child(3) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
-// 	$('.section-box:nth-child(4) > a').css({'border-bottom': 'solid transparent', 'transition' : '1.2s'});
-// });
 //skills & certificates
 $('.section-box:nth-child(2)').mouseover(function()
 {

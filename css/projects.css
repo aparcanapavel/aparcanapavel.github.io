@@ -108,7 +108,7 @@
 {
 	list-style-type: none;
 	position: relative;
-	background-color: transparent;
+	/*background-color: orange;*/
 	width: 100%;
   top:5px;
   font-family: sans-serif;
@@ -177,7 +177,7 @@ html
   text-align: center;
   height: 150px;
   vertical-align: middle;
-  padding-top: 50px;
+  padding-top: 45px;
 }
 #container > .sections > .section-box > div
 {
@@ -185,20 +185,32 @@ html
   color: white;
   font-size: 25px;
   /*border: 3px solid black;*/
+  transition: 1s;
 }
 #container > .sections > .section-box:nth-of-type(1)
 {
   background-color: rgba(22,129,174,1);
-  padding-top: 60px;
+  padding-top: 55px;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top-left-radius:  25px;
+  border-bottom-left-radius:  25px;
 }
 #container > .sections > .section-box:nth-of-type(2)
 {
   background-color: rgba(22,129,174,0.5);
-
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 #container > .sections > .section-box:nth-of-type(3)
 {
-  background-color: black;
+  background-color: rgb(72,91,109);
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top-right-radius:  25px;
+  border-bottom-right-radius:  25px;
 }
 #container > hr
 {
@@ -273,6 +285,28 @@ html
   width: 100%;
   left: 50%;
   color: white;
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+} 
+.button
+{
+  display: block;
+  position: relative;
+  text-align: right;
+  right: 100px;
+  font-size: 20px;
+  bottom: 25px;
+}
+.button > a
+{
+  color: white;
+}
+.button > p
+{
+  font-size: 12px;
+  color: white;
 }
 #fakeNews
 {
@@ -339,6 +373,10 @@ html
   width: 100%;
   padding-top: 20px;
 }
+#fakeNewsMenu > .btn
+{
+  animation: blinker 1.5s linear infinite;
+}
 #fakeNews > #fakeNewsMenu > .fakeNewsMenu >  h1
 {
   padding-bottom: 35px;
@@ -390,6 +428,10 @@ html
   /*background-color: orange;*/
   width: 100%;
   color: white;
+}
+#brazil > .btn:nth-of-type(2)
+{
+  animation: blinker 1.5s linear infinite;
 }
 #brazil
 {
@@ -454,6 +496,10 @@ html
   width: 100%;
   color: white;
 }
+#favreau > .btn:nth-of-type(2)
+{
+  animation: blinker 1.5s linear infinite;
+}
 #trumpJr
 {
   display: block;
@@ -485,6 +531,10 @@ html
   /*background-color: orange;*/
   width: 100%;
   color: white;
+}
+#trumpJr > .btn:nth-of-type(2)
+{
+  animation: blinker 1.5s linear infinite;
 }
 #module2
 {
@@ -536,6 +586,10 @@ html
   /*background-color: orange;*/
   width: 100%;
   color: white;
+}
+#module2 > .btn:nth-of-type(2)
+{
+  animation: blinker 1.5s linear infinite;
 }
 #paction
 {
@@ -678,3 +732,5356 @@ html
   left: 0px;
   z-index: -1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 960px)
+{
+  /*header css*/
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .header
+  {
+    width: 100%;
+    height: 110px;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    top: 35px;
+    left: 15px;
+    font-size: 50px;
+  }
+  #container > .header > p
+  {
+    top: 85px;
+    left: 17px;
+  }
+  #container > .header > .quickContact
+  {
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+  }
+  #container > .header > .quickContact > li > a
+  {
+    padding: 2px;
+    margin: 2px 0 2px 0;
+  }
+  #container > .header > .quickContact > li:nth-child(2)
+  {
+    padding-right: 3px;
+  }
+  #container > .header > hr
+  {
+    width: 60%;
+    bottom: 0px;
+    left: 20%;
+  }
+  #container > .menu > input, 
+  #container > .menu > label
+  {
+    display: none;
+  }
+  #container > .menu > .page-menu 
+  {
+    width: 100%;
+    top:5px;
+  }
+  #container > .menu > .page-menu > li
+  {
+    width: 20%;
+    margin-left: -4px;
+    text-align: center;
+    padding: 15px;
+  }
+  /*eliminate the contact border*/
+  #container > .menu > .page-menu > li:nth-of-type(5)
+  {
+    border-right: 0px;
+  }
+  #container > .menu > .page-menu > li > a
+  {
+    text-decoration: none;
+  }
+  #container > .page-title
+  {
+    width: 70%;
+    left: 15%;
+    top: 20px;
+    height: 100px;
+    padding: 28px 0px;
+    font-size: 40px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 914px)
+{
+  #container > .sections
+  {
+    position: relative;
+    display: block;
+    width: 60%;
+    /*background-color: orange;*/
+    top: 0px;
+    height: 250px;
+    left: 20%;
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  #container > .sections > .section-box
+  {
+    display: inline-block;
+    width: 33.4%;
+    margin-left: -4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    height: 150px;
+    vertical-align: middle;
+    padding-top: 45px;
+  }
+  #container > .sections > .section-box > div
+  {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+    /*border: 3px solid black;*/
+    transition: 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(1)
+  {
+    background-color: rgba(22,129,174,1);
+    padding-top: 45px;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-left-radius:  25px;
+    border-bottom-left-radius:  25px;
+  }
+  #container > .sections > .section-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,0.5);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+  #container > .sections > .section-box:nth-of-type(3)
+  {
+    background-color: rgb(72,91,109);
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-right-radius:  25px;
+    border-bottom-right-radius:  25px;
+  }
+  #container > hr
+  {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    top: 0px;
+  }
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1150px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #container > .passionProject > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #container > .passionProject > .passion-block1 > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 45%;
+    margin-left: -4px;
+    padding-left: 4px;
+    font-size: 16px;
+  }
+  #container > .passionProject > .passion-block1 > img
+  {
+    width: 50%;
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding-top: 40px;
+  }
+  /*second paragraph*/
+  #container > .passionProject > .passion-block2 > img
+  {
+    width: 40%;
+    display: inline-block;
+    margin-left: -4px;
+    padding-top: 20px;
+  }
+  #container > .passionProject > .passion-block2 > p
+  {
+    padding-top: 30px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 55%;
+    margin-left: -4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+    font-size: 16px;
+  }
+  #container > .passionProject > .passion-block3 > p
+  {
+    font-size: 16px;
+    padding: 0 25px;
+  }
+  #passionProject > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 50%;
+    color: white;
+    animation: blinker 1.5s linear infinite;
+  }
+  @keyframes blinker {  
+    50% { opacity: 0; }
+  } 
+  .button
+  {
+    display: block;
+    position: relative;
+    text-align: right;
+    right: 100px;
+    font-size: 20px;
+    bottom: 25px;
+  }
+  .button > a
+  {
+    color: white;
+  }
+  .button > p
+  {
+    font-size: 12px;
+    color: white;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 4450px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #module1 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 50%;
+    color: white;
+  }
+  #module1 > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #fakeNews > #module1
+  {
+    width: 100%;
+    padding-top: 20px;
+    /*background-color: orange;*/
+  }
+  #fakeNews > #module1 > .start
+  {
+    width: 50%;
+    margin-left: -4px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 30px 20px;
+    vertical-align: top;
+  }
+  #fakeNews > #module1 > .start > p:nth-of-type(2)
+  {
+    padding-top: 80px;
+  }
+  #fakeNews > #module1 > .start > .title,
+  #fakeNews > #module1 > .graph > .title
+  {
+    font-size: 25px;
+  }
+  #fakeNews > #module1 > .graph
+  {
+    width: 50%;
+    margin-left: -4px;
+    display: inline-block;
+  }
+  #fakeNews > #module1 > .graph > a > img
+  {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  #fakeNews > #fakeNewsMenu
+  {
+    width: 100%;
+    padding-top: 20px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu >  h1
+  {
+    padding-bottom: 35px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box
+  {
+    height: 155px;
+    width: 155px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 55px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box:nth-of-type(2)
+  {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  {
+    padding-top: 50px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    top: 30px;
+    color: white;
+  }
+  #fakeNews > hr
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 35px;
+  }
+  #brazil > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #brazil > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #brazil
+  {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  #brazil > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #brazil > img
+  {
+    width: 70%;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 12px;
+  }
+  #brazil > p > a
+  {
+    color: rgba(22,129,225,1);
+  }
+  #favreau
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #favreau > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+
+  #favreau > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #favreau> img
+  {
+    width: 70%;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding:0 145px;
+  }
+  #favreau > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #favreau > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #trumpJr
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #trumpJr > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #trumpJr > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #trumpJr > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #trumpJr > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #module2
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #module2 > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #module2 > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #module3
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+  }
+  #module3 > .techCompanies, 
+  #module3 > .government 
+  {
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+  }
+  #module3 > .techCompanies > a > img, 
+  #module3 > .government > a > img
+  {
+    width: 95%;
+  }
+  #module2 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #module2 > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    height: 1050px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: white;
+  }
+  #paction > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #paction > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 98%;
+    margin-left: -4px;
+    padding-left: 44px;
+    padding-right: 40px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  #paction > a > img
+  {
+    width: 80%;
+    position: relative;
+    left: 10%;
+  }
+  #paction > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 49%;
+    top: 20px;
+    color: white;
+  }
+  #container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 1000px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3500px;
+    top: 1400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2300px;
+    top: 4900px;
+  }
+
+
+
+  #container > .footer
+  {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    color: white;
+  }
+  #container > .footer  > .quickLinks
+  {
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    background-color:  rgb(72,91,109);
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    color: white;
+    padding: 0px 90px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    color: white;
+    text-decoration:none;
+    text-align: left;
+    padding-left: 30px;  
+  }
+  #container > .footer  > .signature
+  {
+    background-color: rgb(72,91,109);
+    text-align: right;
+    padding-right: 5px; 
+    color: white;
+  }
+
+  #container > .footer-background
+  {
+    display: none;
+    position: absolute;
+    top: 7364px;
+    height: 130px;
+    background-color: rgb(72,91,109);
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+  
+@media(max-width: 862px)
+{
+  #container > .sections
+  {
+    position: relative;
+    display: block;
+    width: 60%;
+    /*background-color: orange;*/
+    top: 0px;
+    height: 250px;
+    left: 20%;
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  #container > .sections > .section-box
+  {
+    display: inline-block;
+    width: 33.4%;
+    margin-left: -4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    height: 150px;
+    vertical-align: middle;
+    padding-top: 45px;
+  }
+  #container > .sections > .section-box > div
+  {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+    /*border: 3px solid black;*/
+    transition: 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(1)
+  {
+    background-color: rgba(22,129,174,1);
+    padding-top: 45px;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-left-radius:  25px;
+    border-bottom-left-radius:  25px;
+  }
+  #container > .sections > .section-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,0.5);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+  #container > .sections > .section-box:nth-of-type(3)
+  {
+    background-color: rgb(72,91,109);
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-right-radius:  25px;
+    border-bottom-right-radius:  25px;
+  }
+  #container > hr
+  {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    top: 0px;
+  }
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1170px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #container > .passionProject > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #container > .passionProject > .passion-block1 > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 45%;
+    margin-left: -4px;
+    padding-left: 4px;
+    font-size: 16px;
+  }
+  #container > .passionProject > .passion-block1 > img
+  {
+    width: 50%;
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding-top: 40px;
+  }
+  /*second paragraph*/
+  #container > .passionProject > .passion-block2 > img
+  {
+    width: 40%;
+    display: inline-block;
+    margin-left: -4px;
+    padding-top: 20px;
+  }
+  #container > .passionProject > .passion-block2 > p
+  {
+    padding-top: 0px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 55%;
+    margin-left: -4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    font-size: 16px;
+  }
+  #container > .passionProject > .passion-block3 > p
+  {
+    font-size: 16px;
+    padding: 0 5px;
+  }
+  #passionProject > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 50%;
+    color: white;
+    animation: blinker 1.5s linear infinite;
+  }
+  @keyframes blinker {  
+    50% { opacity: 0; }
+  } 
+  .button
+  {
+    display: block;
+    position: relative;
+    text-align: right;
+    right: 100px;
+    font-size: 20px;
+    bottom: 25px;
+  }
+  .button > a
+  {
+    color: white;
+  }
+  .button > p
+  {
+    font-size: 12px;
+    color: white;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 4450px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #module1 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 50%;
+    color: white;
+  }
+  #module1 > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #fakeNews > #module1
+  {
+    width: 100%;
+    padding-top: 20px;
+    /*background-color: orange;*/
+  }
+  #fakeNews > #module1 > .start
+  {
+    width: 50%;
+    margin-left: -4px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 30px 20px;
+    vertical-align: top;
+  }
+  #fakeNews > #module1 > .start > p:nth-of-type(2)
+  {
+    padding-top: 80px;
+  }
+  #fakeNews > #module1 > .start > .title,
+  #fakeNews > #module1 > .graph > .title
+  {
+    font-size: 25px;
+  }
+  #fakeNews > #module1 > .graph
+  {
+    width: 50%;
+    margin-left: -4px;
+    display: inline-block;
+  }
+  #fakeNews > #module1 > .graph > a > img
+  {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  #fakeNews > #fakeNewsMenu
+  {
+    width: 100%;
+    padding-top: 20px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu >  h1
+  {
+    padding-bottom: 35px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box
+  {
+    height: 155px;
+    width: 155px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 55px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box:nth-of-type(2)
+  {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  {
+    padding-top: 50px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    top: 30px;
+    color: white;
+  }
+  #fakeNews > hr
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 35px;
+  }
+  #brazil > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #brazil > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #brazil
+  {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  #brazil > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #brazil > img
+  {
+    width: 70%;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 12px;
+  }
+  #brazil > p > a
+  {
+    color: rgba(22,129,225,1);
+  }
+  #favreau
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #favreau > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+
+  #favreau > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #favreau> img
+  {
+    width: 70%;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding:0 145px;
+  }
+  #favreau > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #favreau > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #trumpJr
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #trumpJr > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #trumpJr > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #trumpJr > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #trumpJr > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #module2
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #module2 > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #module2 > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #module3
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+  }
+  #module3 > .techCompanies, 
+  #module3 > .government 
+  {
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+  }
+  #module3 > .techCompanies > a > img, 
+  #module3 > .government > a > img
+  {
+    width: 95%;
+  }
+  #module2 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #module2 > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    height: 1050px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: white;
+  }
+  #paction > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #paction > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 98%;
+    margin-left: -4px;
+    padding-left: 44px;
+    padding-right: 40px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  #paction > a > img
+  {
+    width: 80%;
+    position: relative;
+    left: 10%;
+  }
+  #paction > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 49%;
+    top: 20px;
+    color: white;
+  }
+  #container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 1000px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3500px;
+    top: 1400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2300px;
+    top: 4900px;
+  }
+
+
+
+  #container > .footer
+  {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    color: white;
+  }
+  #container > .footer  > .quickLinks
+  {
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    background-color:  rgb(72,91,109);
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    color: white;
+    padding: 0px 90px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    color: white;
+    text-decoration:none;
+    text-align: left;
+    padding-left: 15px;  
+  }
+  #container > .footer  > .signature
+  {
+    background-color: rgb(72,91,109);
+    text-align: right;
+    padding-right: 5px; 
+    color: white;
+  }
+
+  #container > .footer-background
+  {
+    display: none;
+    position: absolute;
+    top: 7364px;
+    height: 130px;
+    background-color: rgb(72,91,109);
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 821px)
+{
+  #container > .sections
+  {
+    position: relative;
+    display: block;
+    width: 60%;
+    /*background-color: orange;*/
+    top: 0px;
+    height: 250px;
+    left: 20%;
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  #container > .sections > .section-box
+  {
+    display: inline-block;
+    width: 33.4%;
+    margin-left: -4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    height: 150px;
+    vertical-align: middle;
+    padding-top: 45px;
+  }
+  #container > .sections > .section-box > div
+  {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+    /*border: 3px solid black;*/
+    transition: 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(1)
+  {
+    background-color: rgba(22,129,174,1);
+    padding-top: 45px;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-left-radius:  25px;
+    border-bottom-left-radius:  25px;
+  }
+  #container > .sections > .section-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,0.5);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+  #container > .sections > .section-box:nth-of-type(3)
+  {
+    background-color: rgb(72,91,109);
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-right-radius:  25px;
+    border-bottom-right-radius:  25px;
+  }
+  #container > hr
+  {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    top: 0px;
+  }
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1100px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #container > .passionProject > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #container > .passionProject > .passion-block1 > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 45%;
+    margin-left: -4px;
+    padding-left: 4px;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block1 > img
+  {
+    width: 50%;
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding-top: 40px;
+  }
+  /*second paragraph*/
+  #container > .passionProject > .passion-block2 > img
+  {
+    width: 40%;
+    display: inline-block;
+    margin-left: -4px;
+    padding-top: 20px;
+  }
+  #container > .passionProject > .passion-block2 > p
+  {
+    padding-top: 0px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 55%;
+    margin-left: -4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block3 > p
+  {
+    font-size: 15px;
+    padding: 0 5px;
+  }
+  #passionProject > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 50%;
+    color: white;
+    animation: blinker 1.5s linear infinite;
+  }
+  @keyframes blinker {  
+    50% { opacity: 0; }
+  } 
+  .button
+  {
+    display: block;
+    position: relative;
+    text-align: right;
+    right: 100px;
+    font-size: 20px;
+    bottom: 25px;
+  }
+  .button > a
+  {
+    color: white;
+  }
+  .button > p
+  {
+    font-size: 12px;
+    color: white;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 4350px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #module1 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 50%;
+    color: white;
+  }
+  #module1 > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #fakeNews > #module1
+  {
+    width: 100%;
+    padding-top: 20px;
+    /*background-color: orange;*/
+  }
+  #fakeNews > #module1 > .start
+  {
+    width: 50%;
+    margin-left: -4px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 30px 20px;
+    vertical-align: top;
+  }
+  #fakeNews > #module1 > .start > p:nth-of-type(2)
+  {
+    padding-top: 80px;
+  }
+  #fakeNews > #module1 > .start > .title,
+  #fakeNews > #module1 > .graph > .title
+  {
+    font-size: 25px;
+  }
+  #fakeNews > #module1 > .graph
+  {
+    width: 50%;
+    margin-left: -4px;
+    display: inline-block;
+  }
+  #fakeNews > #module1 > .graph > a > img
+  {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  #fakeNews > #fakeNewsMenu
+  {
+    width: 100%;
+    padding-top: 20px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu >  h1
+  {
+    padding-bottom: 35px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box
+  {
+    height: 155px;
+    width: 155px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 55px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box:nth-of-type(2)
+  {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  {
+    padding-top: 50px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    top: 30px;
+    color: white;
+  }
+  #fakeNews > hr
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 35px;
+  }
+  #brazil > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #brazil > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #brazil
+  {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  #brazil > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #brazil > img
+  {
+    width: 70%;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 12px;
+  }
+  #brazil > p > a
+  {
+    color: rgba(22,129,225,1);
+  }
+  #favreau
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #favreau > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+
+  #favreau > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #favreau> img
+  {
+    width: 70%;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding:0 145px;
+  }
+  #favreau > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #favreau > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #trumpJr
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #trumpJr > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #trumpJr > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #trumpJr > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #trumpJr > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #module2
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+    /*background-color: blue;*/
+  }
+  #module2 > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #module2 > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #module3
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    /*background-color: orange;*/
+  }
+  #module3 > .techCompanies, 
+  #module3 > .government 
+  {
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+  }
+  #module3 > .techCompanies > a > img, 
+  #module3 > .government > a > img
+  {
+    width: 95%;
+  }
+  #module2 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #module2 > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    height: 1050px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: white;
+  }
+  #paction > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #paction > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 98%;
+    margin-left: -4px;
+    padding-left: 44px;
+    padding-right: 40px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  #paction > a > img
+  {
+    width: 80%;
+    position: relative;
+    left: 10%;
+  }
+  #paction > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 49%;
+    top: 20px;
+    color: white;
+  }
+  #container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 1000px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3500px;
+    top: 1400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2000px;
+    top: 4900px;
+  }
+
+
+
+  #container > .footer
+  {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    color: white;
+  }
+  #container > .footer  > .quickLinks
+  {
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    background-color:  rgb(72,91,109);
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    color: white;
+    padding: 0px 90px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    color: white;
+    text-decoration:none;
+    text-align: left;
+    padding-left: 15px;  
+  }
+  #container > .footer  > .signature
+  {
+    background-color: rgb(72,91,109);
+    text-align: right;
+    padding-right: 5px; 
+    color: white;
+  }
+
+  #container > .footer-background
+  {
+    display: none;
+    position: absolute;
+    top: 7364px;
+    height: 130px;
+    background-color: rgb(72,91,109);
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 777px)
+{
+  #container > .sections
+  {
+    position: relative;
+    display: block;
+    width: 60%;
+    /*background-color: orange;*/
+    top: 0px;
+    height: 250px;
+    left: 20%;
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  #container > .sections > .section-box
+  {
+    display: inline-block;
+    width: 33.4%;
+    margin-left: -4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    height: 150px;
+    vertical-align: middle;
+    padding-top: 45px;
+  }
+  #container > .sections > .section-box > div
+  {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+    /*border: 3px solid black;*/
+    transition: 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(1)
+  {
+    background-color: rgba(22,129,174,1);
+    padding-top: 45px;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-left-radius:  25px;
+    border-bottom-left-radius:  25px;
+  }
+  #container > .sections > .section-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,0.5);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+  #container > .sections > .section-box:nth-of-type(3)
+  {
+    background-color: rgb(72,91,109);
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-right-radius:  25px;
+    border-bottom-right-radius:  25px;
+  }
+  #container > hr
+  {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    top: 0px;
+  }
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1120px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #container > .passionProject > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #container > .passionProject > .passion-block1 > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 45%;
+    margin-left: -4px;
+    padding-left: 4px;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block1 > img
+  {
+    width: 50%;
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding-top: 40px;
+  }
+  /*second paragraph*/
+  #container > .passionProject > .passion-block2 > img
+  {
+    width: 40%;
+    display: inline-block;
+    margin-left: -4px;
+    padding-top: 20px;
+  }
+  #container > .passionProject > .passion-block2 > p
+  {
+    padding-top: 0px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 55%;
+    margin-left: -4px;
+    padding-left: 5px;
+    padding-right: 0px;
+    vertical-align: top;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block3 > p
+  {
+    font-size: 15px;
+    padding: 0 5px;
+  }
+  #passionProject > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 50%;
+    color: white;
+    animation: blinker 1.5s linear infinite;
+  }
+  @keyframes blinker {  
+    50% { opacity: 0; }
+  } 
+  .button
+  {
+    display: block;
+    position: relative;
+    text-align: right;
+    right: 100px;
+    font-size: 20px;
+    bottom: 25px;
+  }
+  .button > a
+  {
+    color: white;
+  }
+  .button > p
+  {
+    font-size: 12px;
+    color: white;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 4350px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #module1 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 50%;
+    color: white;
+  }
+  #module1 > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #fakeNews > #module1
+  {
+    width: 100%;
+    padding-top: 20px;
+    /*background-color: orange;*/
+  }
+  #fakeNews > #module1 > .start
+  {
+    width: 50%;
+    margin-left: -4px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 30px 20px;
+    vertical-align: top;
+  }
+  #fakeNews > #module1 > .start > p:nth-of-type(2)
+  {
+    padding-top: 80px;
+  }
+  #fakeNews > #module1 > .start > .title,
+  #fakeNews > #module1 > .graph > .title
+  {
+    font-size: 25px;
+  }
+  #fakeNews > #module1 > .graph
+  {
+    width: 50%;
+    margin-left: -4px;
+    display: inline-block;
+  }
+  #fakeNews > #module1 > .graph > a > img
+  {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  #fakeNews > #fakeNewsMenu
+  {
+    width: 100%;
+    padding-top: 20px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu >  h1
+  {
+    padding-bottom: 35px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box
+  {
+    height: 155px;
+    width: 155px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 55px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box:nth-of-type(2)
+  {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  {
+    padding-top: 50px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    top: 30px;
+    color: white;
+  }
+  #fakeNews > hr
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 35px;
+  }
+  #brazil > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #brazil > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #brazil
+  {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  #brazil > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #brazil > img
+  {
+    width: 70%;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 12px;
+  }
+  #brazil > p > a
+  {
+    color: rgba(22,129,225,1);
+  }
+  #favreau
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #favreau > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+
+  #favreau > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #favreau> img
+  {
+    width: 70%;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding:0 145px;
+  }
+  #favreau > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #favreau > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #trumpJr
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #trumpJr > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #trumpJr > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #trumpJr > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #trumpJr > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #module2
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+    /*background-color: blue;*/
+  }
+  #module2 > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #module2 > p:nth-of-type(1)
+  {
+    padding: 20px 145px;
+    font-size: 18px;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #module3
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    /*background-color: orange;*/
+  }
+  #module3 > .techCompanies, 
+  #module3 > .government 
+  {
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+  }
+  #module3 > .techCompanies > a > img, 
+  #module3 > .government > a > img
+  {
+    width: 95%;
+  }
+  #module2 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #module2 > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    height: 1050px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: white;
+  }
+  #paction > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+  #paction > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 98%;
+    margin-left: -4px;
+    padding-left: 44px;
+    padding-right: 40px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  #paction > a > img
+  {
+    width: 80%;
+    position: relative;
+    left: 10%;
+  }
+  #paction > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 49%;
+    top: 20px;
+    color: white;
+  }
+  #container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 1000px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3500px;
+    top: 1400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2000px;
+    top: 4900px;
+  }
+
+
+
+  #container > .footer
+  {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    color: white;
+  }
+  #container > .footer  > .quickLinks
+  {
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    background-color:  rgb(72,91,109);
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    color: white;
+    padding: 0px 90px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    color: white;
+    text-decoration:none;
+    text-align: left;
+    padding-left: 15px;  
+  }
+  #container > .footer  > .signature
+  {
+    background-color: rgb(72,91,109);
+    text-align: right;
+    padding-right: 5px; 
+    color: white;
+  }
+
+  #container > .footer-background
+  {
+    display: none;
+    position: absolute;
+    top: 7364px;
+    height: 130px;
+    background-color: rgb(72,91,109);
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 740px)
+{
+  #container > .sections
+  {
+    position: relative;
+    display: block;
+    width: 50%;
+    /*background-color: orange;*/
+    top: 0px;
+    height: 400px;
+    left: 25%;
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  #container > .sections > .section-box
+  {
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    height: 100px;
+    vertical-align: middle;
+    padding-top: 35px;
+  }
+  #container > .sections > .section-box > div
+  {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+    /*border: 3px solid black;*/
+    transition: 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(1)
+  {
+    background-color: rgba(22,129,174,1);
+    padding-top: 35px;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius:  25px;
+    border-top-right-radius:  25px;
+  }
+  #container > .sections > .section-box:nth-of-type(2)
+  {
+    background-color: rgba(22,129,174,0.5);
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+  }
+  #container > .sections > .section-box:nth-of-type(3)
+  {
+    background-color: rgb(72,91,109);
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 0px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius:  25px;
+    border-bottom-right-radius:  25px;
+  }
+  #container > hr
+  {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    top: 0px;
+  }
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1380px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #container > .passionProject > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #container > .passionProject > .passion-block1 > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+    padding-right: 20px;
+    padding-left: 24px;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block1 > img
+  {
+    width: 100%;
+    display: block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 64px;
+  }
+  /*second paragraph*/
+  #container > .passionProject > .passion-block2 > img
+  {
+    width: 40%;
+    float: left;
+    margin-left: -4px;
+    padding-top: 20px;
+    /*padding-right: 64px;
+    padding-left: 60px;*/
+  }
+  #container > .passionProject > .passion-block2 > p
+  {
+    position: relative;
+    top: 15px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    display: inline;
+    width: 100%;
+    margin-left: -4px;
+    padding-left: 15px;
+    padding-right: 0px;
+    vertical-align: top;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block3 > p
+  {
+    font-size: 15px;
+    padding: 0px;
+    position: relative;
+    padding-top: 15px;
+  }
+  #passionProject > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 50%;
+    color: white;
+    animation: blinker 1.5s linear infinite;
+  }
+  @keyframes blinker {  
+    50% { opacity: 0; }
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3500px;
+    top: 1400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2500px;
+    top: 4900px;
+  }
+  #module1 > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 4500px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #fakeNews > #module1
+  {
+    width: 100%;
+    padding-top: 20px;
+    /*background-color: orange;*/
+  }
+  #fakeNews > #module1 > .start
+  {
+    width: 100%;
+    margin-left: -4px;
+    display: block;
+    font-size: 18px;
+    padding: 30px 20px;
+    vertical-align: top;
+  }
+  #fakeNews > #module1 > .start > p:nth-of-type(2)
+  {
+    padding-top: 20px;
+    text-align: center;
+  }
+  #fakeNews > #module1 > .start > .title,
+  #fakeNews > #module1 > .graph > .title
+  {
+    font-size: 25px;
+  }
+  #fakeNews > #module1 > .graph
+  {
+    width: 100%;
+    margin-left: -4px;
+    display: block;
+    padding-left: 20px;
+  }
+  #fakeNews > #module1 > .graph > a > img
+  {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-left: 40px;
+  }
+  #fakeNews > #fakeNewsMenu
+  {
+    width: 100%;
+    padding-top: 20px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu >  h1
+  {
+    padding-bottom: 35px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box
+  {
+    height: 155px;
+    width: 155px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 55px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box:nth-of-type(2)
+  {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  {
+    padding-top: 50px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    top: 30px;
+    color: white;
+  }
+  #fakeNews > hr
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 35px;
+  }
+  #brazil > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #brazil > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #brazil
+  {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  #brazil > p:nth-of-type(1)
+  {
+    padding: 20px 105px;
+    font-size: 18px;
+  }
+  #brazil > img
+  {
+    width: 70%;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 12px;
+  }
+  #brazil > p > a
+  {
+    color: rgba(22,129,225,1);
+  }
+  #favreau
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #favreau > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+
+  #favreau > p:nth-of-type(1)
+  {
+    padding: 20px 105px;
+    font-size: 18px;
+  }
+  #favreau> img
+  {
+    width: 70%;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding:0 145px;
+  }
+  #favreau > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #favreau > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #trumpJr
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #trumpJr > p:nth-of-type(1)
+  {
+    padding: 20px 105px;
+    font-size: 18px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #trumpJr > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #trumpJr > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #trumpJr > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #module2
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+    /*background-color: blue;*/
+  }
+  #module2 > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #module2 > p:nth-of-type(1)
+  {
+    padding: 20px 105px;
+    font-size: 18px;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #module3
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    /*background-color: orange;*/
+  }
+  #module3 > .techCompanies, 
+  #module3 > .government 
+  {
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+  }
+  #module3 > .techCompanies > a > img, 
+  #module3 > .government > a > img
+  {
+    width: 95%;
+  }
+  #module2 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #module2 > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    height: 950px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: white;
+  }
+  #paction > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 596px)
+{
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 5150px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #module3
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    /*background-color: orange;*/
+  }
+  #module3 > .techCompanies, 
+  #module3 > .government 
+  {
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+  }
+  #module3 > .techCompanies > a > img, 
+  #module3 > .government > a > img
+  {
+    width: 95%;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3500px;
+    top: 1400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 3300px;
+    top: 4900px;
+  }
+
+  #container > .footer
+  {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    color: white;
+  }
+  #container > .footer  > .quickLinks
+  {
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    background-color:  rgb(72,91,109);
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    color: white;
+    padding: 0px 60px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    color: white;
+    text-decoration:none;
+    text-align: left;
+    padding-left: 0px;  
+  }
+  #container > .footer  > .signature
+  {
+    background-color: rgb(72,91,109);
+    text-align: right;
+    padding-right: 5px; 
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 550px)
+{
+  /*header css*/
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .menu > label
+  {
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: rgba(0,0,0,);
+  }
+  #container > .menu > #nav + label + .page-menu
+  {
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 109px;
+    left: 0px;
+  } 
+   /**/
+  #container > .menu > .page-menu 
+  {
+    list-style-type: none;
+    position: relative;
+    /*background-color: grey;*/
+    width: 100%;
+    top:5px;
+    font-family: sans-serif;
+  }
+
+  #container > .menu > .page-menu > li
+  {
+    display: inline-block;
+    width: 100%;
+    margin-left: -4px;
+    text-align: left;
+    padding: 5px;
+    border-right: none;
+  }
+/**/
+  #container > .menu > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .menu > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+  }
+  #container > .menu > .page-menu > li:hover
+  {
+    background-color: rgba(22,129,174,0.7);
+    transition: 1s;
+  }
+  #container > .header
+  {
+    width: 100%;
+    height: 110px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    /*background-color: rgba(22,129,174,0.7);*/
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 5px;
+    font-size: 35px;
+    border: 10px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+  }
+  #container > .header > p
+  {
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-size: 13px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .page-title
+  {
+    width: 70%;
+    left: 15%;
+    top: 20px;
+    height: 100px;
+    padding: 28px 0px;
+    font-size: 40px;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 4650px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #fakeNews > #module1
+  {
+    width: 100%;
+    padding-top: 20px;
+    /*background-color: orange;*/
+  }
+  #fakeNews > #module1 > .start
+  {
+    width: 100%;
+    margin-left: -4px;
+    display: block;
+    font-size: 16px;
+    padding: 30px 20px;
+    vertical-align: top;
+  }
+  #fakeNews > #module1 > .start > p:nth-of-type(2)
+  {
+    padding-top: 20px;
+    text-align: center;
+  }
+  #fakeNews > #module1 > .start > .title,
+  #fakeNews > #module1 > .graph > .title
+  {
+    font-size: 25px;
+  }
+  #fakeNews > #module1 > .graph
+  {
+    width: 100%;
+    margin-left: -4px;
+    display: block;
+    padding-left: 20px;
+  }
+  #fakeNews > #module1 > .graph > a > img
+  {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-left: 40px;
+  }
+  #fakeNews > #fakeNewsMenu
+  {
+    width: 100%;
+    padding-top: 20px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu >  h1
+  {
+    padding-bottom: 35px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box
+  {
+    height: 155px;
+    width: 155px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 55px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box:nth-of-type(2)
+  {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  {
+    padding-top: 50px;
+  }
+  #fakeNewsMenu > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    top: 30px;
+    color: white;
+  }
+  #fakeNews > hr
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 35px;
+  }
+  #brazil > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #brazil > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #brazil
+  {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  #brazil > p:nth-of-type(1)
+  {
+    padding: 20px 75px;
+    font-size: 16px;
+  }
+  #brazil > img
+  {
+    width: 70%;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 12px;
+  }
+  #brazil > p > a
+  {
+    color: rgba(22,129,225,1);
+  }
+  #favreau
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #favreau > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+
+  #favreau > p:nth-of-type(1)
+  {
+    padding: 20px 75px;
+    font-size: 16px;
+  }
+  #favreau> img
+  {
+    width: 70%;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding:0 75px;
+  }
+  #favreau > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #favreau > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #trumpJr
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+  }
+  #trumpJr > p:nth-of-type(1)
+  {
+    padding: 20px 75px;
+    font-size: 16px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #trumpJr > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #trumpJr > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #trumpJr > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #module2
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+    /*background-color: blue;*/
+  }
+  #module2 > p > a
+  {
+    color: rgba(22,129,174,1);
+  }
+  #module2 > p:nth-of-type(1)
+  {
+    padding: 20px 75px;
+    font-size: 16px;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 25%;
+  }
+  #module3
+  {
+    display: block;
+    padding-top:35px;
+    position: relative;
+    width: 100%;
+    /*background-color: orange;*/
+  }
+  #module3 > .techCompanies, 
+  #module3 > .government 
+  {
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+  }
+  #module3 > .techCompanies > a > img, 
+  #module3 > .government > a > img
+  {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-left: 40px;
+  }
+  #module2 > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    color: white;
+  }
+  #module2 > .btn:nth-of-type(2)
+  {
+    animation: blinker 1.5s linear infinite;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3500px;
+    top: 1400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2700px;
+    top: 4900px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 498px)
+{
+  /*header css*/
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .menu > label
+  {
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: rgba(0,0,0,);
+  }
+  #container > .menu > #nav + label + .page-menu
+  {
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 109px;
+    left: 0px;
+  } 
+   /**/
+  #container > .menu > .page-menu 
+  {
+    list-style-type: none;
+    position: relative;
+    /*background-color: grey;*/
+    width: 100%;
+    top:5px;
+    font-family: sans-serif;
+  }
+
+  #container > .menu > .page-menu > li
+  {
+    display: inline-block;
+    width: 100%;
+    margin-left: -4px;
+    text-align: left;
+    padding: 5px;
+    border-right: none;
+  }
+/**/
+  #container > .menu > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .menu > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+  }
+  #container > .menu > .page-menu > li:hover
+  {
+    background-color: rgba(22,129,174,0.7);
+    transition: 1s;
+  }
+  #container > .header
+  {
+    width: 100%;
+    height: 120px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    /*background-color: rgba(22,129,174,0.7);*/
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 5px;
+    font-size: 35px;
+    border: 10px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+  }
+  #container > .header > p
+  {
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-size: 13px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .page-title
+  {
+    width: 70%;
+    left: 15%;
+    top: 20px;
+    height: 100px;
+    padding: 28px 0px;
+    font-size: 35px;
+  }
+    #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1440px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #container > .passionProject > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #container > .passionProject > .passion-block1 > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+    padding-right: 20px;
+    padding-left: 24px;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block1 > img
+  {
+    width: 100%;
+    display: block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 64px;
+  }
+  /*second paragraph*/
+  #container > .passionProject > .passion-block2 > img
+  {
+    width: 40%;
+    float: left;
+    margin-left: -4px;
+    padding-top: 20px;
+    /*padding-right: 64px;
+    padding-left: 60px;*/
+  }
+  #container > .passionProject > .passion-block2 > p
+  {
+    position: relative;
+    top: 15px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    display: inline;
+    width: 100%;
+    margin-left: -4px;
+    padding-left: 15px;
+    padding-right: 0px;
+    vertical-align: top;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block3 > p
+  {
+    font-size: 15px;
+    padding: 0px;
+    position: relative;
+    padding-top: 15px;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 4870px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3500px;
+    top: 1400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2900px;
+    top: 4900px;
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    height: 950px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: white;
+  }
+  #paction > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #paction > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 98%;
+    margin-left: -4px;
+    padding-left: 24px;
+    padding-right: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  #container > .footer
+  {
+    top: 50px;
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 15px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
+  }
+
+  #container > .footer-background
+  {
+    top: 2520px;
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 448px)
+{
+  /*header css*/
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .menu > label
+  {
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: rgba(0,0,0,);
+  }
+  #container > .menu > #nav + label + .page-menu
+  {
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 109px;
+    left: 0px;
+  } 
+   /**/
+  #container > .menu > .page-menu 
+  {
+    list-style-type: none;
+    position: relative;
+    /*background-color: grey;*/
+    width: 100%;
+    top:5px;
+    font-family: sans-serif;
+  }
+
+  #container > .menu > .page-menu > li
+  {
+    display: inline-block;
+    width: 100%;
+    margin-left: -4px;
+    text-align: left;
+    padding: 5px;
+    border-right: none;
+  }
+/**/
+  #container > .menu > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .menu > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+  }
+  #container > .menu > .page-menu > li:hover
+  {
+    background-color: rgba(22,129,174,0.7);
+    transition: 1s;
+  }
+  #container > .header
+  {
+    width: 100%;
+    height: 120px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    /*background-color: rgba(22,129,174,0.7);*/
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 5px;
+    font-size: 35px;
+    border: 10px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+  }
+  #container > .header > p
+  {
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-size: 13px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .page-title
+  {
+    width: 70%;
+    left: 15%;
+    top: 20px;
+    height: 100px;
+    padding: 28px 0px;
+    font-size: 35px;
+  }
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1490px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #container > .passionProject > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #container > .passionProject > .passion-block1 > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+    padding-right: 20px;
+    padding-left: 24px;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block1 > img
+  {
+    width: 100%;
+    display: block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 64px;
+  }
+  /*second paragraph*/
+  #container > .passionProject > .passion-block2 > img
+  {
+    width: 40%;
+    float: left;
+    margin-left: -4px;
+    padding-top: 20px;
+    /*padding-right: 64px;
+    padding-left: 60px;*/
+  }
+  #container > .passionProject > .passion-block2 > p
+  {
+    position: relative;
+    top: 15px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    display: inline;
+    width: 100%;
+    margin-left: -4px;
+    padding-left: 15px;
+    padding-right: 0px;
+    vertical-align: top;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block3 > p
+  {
+    font-size: 15px;
+    padding: 0px;
+    position: relative;
+    padding-top: 15px;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 5000px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3550px;
+    top: 1400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 3100px;
+    top: 4900px;
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    height: 950px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: white;
+  }
+  #paction > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #paction > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 98%;
+    margin-left: -4px;
+    padding-left: 24px;
+    padding-right: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  #container > .footer
+  {
+    top: 50px;
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 15px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
+  }
+
+  #container > .footer-background
+  {
+    top: 2520px;
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 416px)
+{
+  /*header css*/
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .menu > label
+  {
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: rgba(0,0,0,);
+  }
+  #container > .menu > #nav + label + .page-menu
+  {
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 109px;
+    left: 0px;
+  } 
+   /**/
+  #container > .menu > .page-menu 
+  {
+    list-style-type: none;
+    position: relative;
+    /*background-color: grey;*/
+    width: 100%;
+    top:5px;
+    font-family: sans-serif;
+  }
+
+  #container > .menu > .page-menu > li
+  {
+    display: inline-block;
+    width: 100%;
+    margin-left: -4px;
+    text-align: left;
+    padding: 5px;
+    border-right: none;
+  }
+/**/
+  #container > .menu > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .menu > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+  }
+  #container > .menu > .page-menu > li:hover
+  {
+    background-color: rgba(22,129,174,0.7);
+    transition: 1s;
+  }
+  #container > .header
+  {
+    width: 100%;
+    height: 120px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    /*background-color: rgba(22,129,174,0.7);*/
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 5px;
+    font-size: 35px;
+    border: 10px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+  }
+  #container > .header > p
+  {
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-size: 13px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .page-title
+  {
+    width: 70%;
+    left: 15%;
+    top: 20px;
+    height: 100px;
+    padding: 28px 0px;
+    font-size: 35px;
+  }
+
+   #container > .sections
+  {
+    position: relative;
+    display: block;
+    width: 50%;
+    /*background-color: orange;*/
+    top: 0px;
+    height: 400px;
+    left: 25%;
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  #container > .sections > .section-box
+  {
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    height: 100px;
+    vertical-align: middle;
+    padding-top: 25px;
+  }
+  #container > .sections > .section-box > div
+  {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+    /*border: 3px solid black;*/
+    transition: 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(1)
+  {
+    background-color: rgba(22,129,174,1);
+    padding-top: 35px;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius:  25px;
+    border-top-right-radius:  25px;
+  }
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1590px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #container > .passionProject > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #container > .passionProject > .passion-block1 > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+    padding-right: 20px;
+    padding-left: 24px;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block1 > img
+  {
+    width: 100%;
+    display: block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 64px;
+  }
+  /*second paragraph*/
+  #container > .passionProject > .passion-block2 > img
+  {
+    width: 40%;
+    float: left;
+    margin-left: -4px;
+    padding-top: 20px;
+    /*padding-right: 64px;
+    padding-left: 60px;*/
+  }
+  #container > .passionProject > .passion-block2 > p
+  {
+    position: relative;
+    top: 15px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    display: inline;
+    width: 100%;
+    margin-left: -4px;
+    padding-left: 15px;
+    padding-right: 0px;
+    vertical-align: top;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block3 > p
+  {
+    font-size: 15px;
+    padding: 0px;
+    position: relative;
+    padding-top: 15px;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 5260px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 20%;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding:0 10px;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 20%;
+  }
+  #module3 > .techCompanies, 
+  #module3 > .government 
+  {
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+  }
+  #module3 > .techCompanies > a > img, 
+  #module3 > .government > a > img
+  {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 9px;
+  }
+  #container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 1600px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3550px;
+    top: 2000px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2900px;
+    top: 5500px;
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    height: 950px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: white;
+  }
+  #paction > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #paction > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 98%;
+    margin-left: -4px;
+    padding-left: 24px;
+    padding-right: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  #container > .footer
+  {
+    top: 50px;
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 15px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
+  }
+
+  #container > .footer-background
+  {
+    top: 2520px;
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 376px)
+{
+  /*header css*/
+  #container
+  {
+    width: 100%;
+    /*line below controls the background color if greater than 1080px, center it*/
+    margin: 0px auto;
+  }
+  #container > .menu > label
+  {
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    left: -2px solid transparent;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    color: rgba(0,0,0,);
+  }
+  #container > .menu > #nav + label + .page-menu
+  {
+    /*hide the navbar when checkbox is unchekced, using display: none */
+    display: none;
+    padding: 10px 5px; 
+    background-color: rgba(0,0,0,0.7);
+    text-align: left;
+    top: 109px;
+    left: 0px;
+  } 
+   /**/
+  #container > .menu > .page-menu 
+  {
+    list-style-type: none;
+    position: relative;
+    /*background-color: grey;*/
+    width: 100%;
+    top:5px;
+    font-family: sans-serif;
+  }
+
+  #container > .menu > .page-menu > li
+  {
+    display: inline-block;
+    width: 100%;
+    margin-left: -4px;
+    text-align: left;
+    padding: 5px;
+    border-right: none;
+  }
+/**/
+  #container > .menu > .page-menu 
+  {
+    position: absolute;
+    top: 1000px;
+    left: 60px;
+    z-index: 100;
+    text-align: left;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    width: 150px;
+  }  
+  #container > .menu > .page-menu > li > a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+  }
+  #container > .menu > .page-menu > li:hover
+  {
+    background-color: rgba(22,129,174,0.7);
+    transition: 1s;
+  }
+  #container > .header
+  {
+    width: 100%;
+    height: 120px;
+    /*line below is to change the background color of the header.*/
+    /*background-color: rgba(7,207,251,0.7);*/
+    /*background-color: rgba(22,129,174,0.7);*/
+    font-family: sans-serif;
+    left: 0px;
+  }
+  #container > .header > .name
+  {
+    display: inline-block;
+    top: 5px;
+    font-size: 35px;
+    border: 10px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+  }
+  #container > .header > p
+  {
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-size: 13px;
+  }
+  #container > .header > .quickContact
+  {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    
+  }
+  #container > .header > .quickContact > li > a
+  {
+    text-decoration: white;
+    color: black;
+    padding: 2px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+  }
+  #container > .page-title
+  {
+    width: 70%;
+    left: 15%;
+    top: 20px;
+    height: 100px;
+    padding: 28px 0px;
+    font-size: 35px;
+  }
+
+   #container > .sections
+  {
+    position: relative;
+    display: block;
+    width: 50%;
+    /*background-color: orange;*/
+    top: 0px;
+    height: 400px;
+    left: 25%;
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  #container > .sections > .section-box
+  {
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    height: 100px;
+    vertical-align: middle;
+    padding-top: 25px;
+  }
+  #container > .sections > .section-box > div
+  {
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+    /*border: 3px solid black;*/
+    transition: 1s;
+  }
+  #container > .sections > .section-box:nth-of-type(1)
+  {
+    background-color: rgba(22,129,174,1);
+    padding-top: 35px;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius:  25px;
+    border-top-right-radius:  25px;
+  }
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1650px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #container > .passionProject > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #container > .passionProject > .passion-block1 > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+    padding-right: 20px;
+    padding-left: 24px;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block1 > img
+  {
+    width: 100%;
+    display: block;
+    margin-left: -4px;
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 64px;
+  }
+  /*second paragraph*/
+  #container > .passionProject > .passion-block2 > img
+  {
+    width: 40%;
+    float: left;
+    margin-left: -4px;
+    padding-top: 20px;
+    /*padding-right: 64px;
+    padding-left: 60px;*/
+  }
+  #container > .passionProject > .passion-block2 > p
+  {
+    position: relative;
+    top: 15px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    display: inline;
+    width: 100%;
+    margin-left: -4px;
+    padding-left: 15px;
+    padding-right: 0px;
+    vertical-align: top;
+    font-size: 15px;
+  }
+  #container > .passionProject > .passion-block3 > p
+  {
+    font-size: 15px;
+    padding: 0px;
+    position: relative;
+    padding-top: 15px;
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 5370px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 20%;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 20%;
+  }
+  #module3 > .techCompanies, 
+  #module3 > .government 
+  {
+    display: block;
+    width: 100%;
+    margin-left: -4px;
+  }
+  #module3 > .techCompanies > a > img, 
+  #module3 > .government > a > img
+  {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 9px;
+  }
+  #container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 1800px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3550px;
+    top: 2200px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2900px;
+    top: 5700px;
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    height: 950px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: white;
+  }
+  #paction > h1
+  {
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  #paction > p
+  {
+    padding-top: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 98%;
+    margin-left: -4px;
+    padding-left: 24px;
+    padding-right: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  #container > .footer
+  {
+    top: 50px;
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 15px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
+  }
+
+  #container > .footer-background
+  {
+    top: 2520px;
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 356px)
+{
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1650px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 5470px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding:0 10px;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  #container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 2000px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3550px;
+    top: 2400px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2900px;
+    top: 5900px;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 338px)
+{
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1750px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 4870px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #brazil > p:nth-of-type(1)
+  {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+  #favreau > p:nth-of-type(1)
+  {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+  #trumpJr > p:nth-of-type(1)
+  {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+  #module2 > p:nth-of-type(1)
+  {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 14%;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 14%;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 8px;
+    padding:0 10px;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 8px;
+    padding: 0 10px;
+  }
+  #container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 1800px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3550px;
+    top: 2200px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2700px;
+    top: 5700px;
+  }
+  #container > .footer
+  {
+    top: 100px;
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 15px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
+  }
+
+  #container > .footer-background
+  {
+    top: 2520px;
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 323px)
+{
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    height: 1750px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    height: 4970px;
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+  #brazil > p:nth-of-type(1)
+  {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+  #favreau > p:nth-of-type(1)
+  {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+  #trumpJr > p:nth-of-type(1)
+  {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+  #module2 > p:nth-of-type(1)
+  {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+  #trumpJr > .tweet
+  {
+    position: relative;
+    width: 50%;
+    left: 14%;
+  }
+  #module2 > .tweet2
+  {
+    position: relative;
+    width: 50%;
+    left: 14%;
+  }
+  #favreau> p:nth-of-type(2)
+  {
+    font-size: 8px;
+    padding:0 10px;
+  }
+  #brazil > p:nth-of-type(2)
+  {
+    font-size: 8px;
+    padding: 0 10px;
+  }
+  ##container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 1800px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 3550px;
+    top: 2200px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 2700px;
+    top: 5700px;
+  }
+  #container > .footer
+  {
+    top: 150px;
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 15px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
+  }
+
+  #container > .footer-background
+  {
+    top: 2520px;
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    display: none;
+  }
+}
+
+
+
+
+
+
