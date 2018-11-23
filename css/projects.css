@@ -1,7 +1,6 @@
 /* importing especial characters */
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-@import url("//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css"); 
-@import url("https://use.fontawesome.com/releases/v5.0.9/css/all.css");
+@import url("//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css");
 @import url("https://fonts.googleapis.com/css?family=Caveat");
 
 * {
@@ -266,16 +265,34 @@ html
 {
   font-size: 18px;
 }
+#passionProject > .btn
+{
+  position: relative;
+  font-size: 25px;
+  /*background-color: orange;*/
+  width: 100%;
+  left: 50%;
+  color: white;
+}
 #fakeNews
 {
   display: block;
   width: 100%;
-  height: 4150px;
+  height: 4450px;
   /*background-color: orange;*/
   font-family: sans-serif;
   padding-left: 10px;
 }
-#fakeNews > h1
+#module1 > .btn
+{
+  position: relative;
+  font-size: 25px;
+  /*background-color: orange;*/
+  width: 100%;
+  left: 50%;
+  color: white;
+}
+#module1 > h1
 {
   padding-top: 50px;
   text-decoration: underline;
@@ -322,11 +339,11 @@ html
   width: 100%;
   padding-top: 20px;
 }
-#fakeNews > #fakeNewsMenu > h1
+#fakeNews > #fakeNewsMenu > .fakeNewsMenu >  h1
 {
   padding-bottom: 35px;
 }
-#fakeNews > #fakeNewsMenu > .dot-box
+#fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box
 {
   height: 155px;
   width: 155px;
@@ -341,14 +358,23 @@ html
   text-decoration: none;
   color: white;
 }
-#fakeNews > #fakeNewsMenu > .dot-box:nth-of-type(2)
+#fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box:nth-of-type(2)
 {
   margin-left: 25px;
   margin-right: 25px;
 }
-#fakeNews > #fakeNewsMenu > .dot-box > a 
+#fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
 {
   padding-top: 50px;
+}
+#fakeNewsMenu > .btn
+{
+  position: relative;
+  font-size: 25px;
+  /*background-color: orange;*/
+  width: 100%;
+  top: 30px;
+  color: white;
 }
 #fakeNews > hr
 {
@@ -356,6 +382,14 @@ html
   width: 50%;
   left: 25%;
   margin-top: 35px;
+}
+#brazil > .btn
+{
+  position: relative;
+  font-size: 25px;
+  /*background-color: orange;*/
+  width: 100%;
+  color: white;
 }
 #brazil
 {
@@ -412,6 +446,14 @@ html
   font-size: 12px;
   padding:0 145px;
 }
+#favreau > .btn
+{
+  position: relative;
+  font-size: 25px;
+  /*background-color: orange;*/
+  width: 100%;
+  color: white;
+}
 #trumpJr
 {
   display: block;
@@ -435,6 +477,14 @@ html
 #trumpJr > p > a
 {
   color: rgba(22,129,174,1);
+}
+#trumpJr > .btn
+{
+  position: relative;
+  font-size: 25px;
+  /*background-color: orange;*/
+  width: 100%;
+  color: white;
 }
 #module2
 {
@@ -479,11 +529,19 @@ html
 {
   width: 95%;
 }
+#module2 > .btn
+{
+  position: relative;
+  font-size: 25px;
+  /*background-color: orange;*/
+  width: 100%;
+  color: white;
+}
 #paction
 {
   display: block;
   width: 100%;
-  height: 1080px;
+  height: 1100px;
   /*background-color: orange;*/
   font-family: sans-serif;
   padding-left: 10px;
@@ -514,7 +572,16 @@ html
   position: relative;
   left: 10%;
 }
-
+#paction > .btn
+{
+  position: relative;
+  font-size: 25px;
+  /*background-color: orange;*/
+  width: 100%;
+  left: 49%;
+  top: 20px;
+  color: white;
+}
 #container > .pgBg1
 {
   position: absolute;
@@ -548,7 +615,7 @@ html
   background-image: linear-gradient(rgb(72,91,109), black, white); 
   left: 0px;
   display: block;
-  height: 2000px;
+  height: 2300px;
   top: 4900px;
 }
 
@@ -604,7 +671,7 @@ html
 {
   display: block;
   position: absolute;
-  top: 7035px;
+  top: 7364px;
   height: 130px;
   background-color: rgb(72,91,109);
   width: 100%;

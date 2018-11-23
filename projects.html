@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
       <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
   
 </head>
@@ -102,16 +103,21 @@
           Overall, this passion project has helped me realize what my true passion is. I went from wanting to simply wanting to play the guitar and singing to understanding what the role of the arts played in my career as a student. 
         </p>
       </div>
-
+      <a class="btn" href="#fakeNews" title="Next">
+          <i class="fas fa-chevron-down"></i>
+      </a>  
     </div>  
     <hr>
 
 <!-- based on the infographic I created on fake news -->
     <div class="fakeNews" id="fakeNews">
       <a name="subMenu"></a>
-      <h1>The Rise of "Fake News"</h2>
-        
+      <!-- <h1>The Rise of "Fake News"</h2> -->
       <div class="module" id="module1">
+        <a class="btn" href="#passionProject" title="Previous">
+          <i class="fas fa-chevron-up"></i>
+        </a>  
+        <h1>The Rise of "Fake News"</h2>
         <div class="start">
           <p class="title">When did it start?</p>
           <p>According to Columbia University Professor Andie Tucker, fake news is deeply rooted in American Journalism. in 1690, the first North American news paper got shut down after printing a fabricated story <a href="https://www.npr.org/2018/06/25/623231337/fake-news-an-origin-story" target="_blank">(Vendantam S., Cohen R., & Boyle T., 2018)</a></p>
@@ -124,45 +130,74 @@
         </div>
       </div>
       <div class="module" id="fakeNewsMenu" style="text-align:center">
-        <h1>Recent news about fake news</h1>
-        <a href= "#brazil" class="dot-box">
-          <p>Brazil's Elections</p>
-        </a>
-        <a href= "#favreau" class="dot-box">
-          <p>Jon Favreau's Tweet</p>
-        </a>
-        <a href= "#trumpJr" class="dot-box">
-          <p>Donald Trump Jr.'s Tweet</p>
-        </a>
+        <div class="fakeNewsMenu">
+          <h1>Recent news about fake news</h1>
+          <a href= "#brazil" class="dot-box">
+            <p>Brazil's Elections</p>
+          </a>
+          <a href= "#favreau" class="dot-box">
+            <p>Jon Favreau's Tweet</p>
+          </a>
+          <a href= "#trumpJr" class="dot-box">
+            <p>Donald Trump Jr.'s Tweet</p>
+          </a>
+        </div>
+        <!-- next arrow to brazil's election -->
+        <a class="btn" href="#brazil" title="Next">
+          <i class="fas fa-chevron-down"></i>
+        </a> 
       </div>
       <hr>
       <div class="module" id="brazil">
+        <!-- back to fake news sub menu -->
+        <a class="btn" href="#fakeNews" title="Previous">
+          <i class="fas fa-chevron-up"></i>
+        </a> 
         <h2>Brazil's Elections</h2>
         <p>From August 16 to October 7, the New York Times, the Federal University of Minas Gerais, the University of Sao Paulo and the fact-checking platform Agencia Lupa, collected and analyzed posts in 347 groups that are open to the public and focused on Brazilian politics. 50 political images were selected and examined that were widely shared out of the 100,000. Only 8% of the 50 most widely shared images were considered truthful <a href="https://www.nytimes.com/2018/10/17/opinion/brazil-election-fake-news-whatsapp.html" target="_blank">(The New York Times, 2018).</a></p>
         <img src="images/projects_page/brazilVote.jpg">
         <p>Image retreived from https://www.nytimes.com/2018/10/17/opinion/brazil-election-fake-news-whatsapp.html</p>
-        <a class="toSubMenu" href="#subMenu">Back to Sub-Menu</a>
+        <!-- <a class="toSubMenu" href="#subMenu">Back to Sub-Menu</a> -->
+        <!-- to favreau's section -->
+        <a class="btn" href="#favreau" title="Next">
+          <i class="fas fa-chevron-down"></i>
+        </a> 
       </div>
       <hr>
       <div class="module" id="favreau">
+        <a class="btn" href="#brazil" title="Previous">
+          <i class="fas fa-chevron-up"></i>
+        </a> 
         <h2>Jon Favreau's tweet</h2>
         <p>On May 27, 2018, Jon Favreau, a former Obama speechwriter, tweeted an image of two detainees lying on mats on the ground in a holding cell from an Arizona Republic story in 2014. This image was then widely shared by many public figures stating how Trump's administration was treating the children that were being deported. He then deleted the tweet and stated how the image was from 2014 and how today, in 2018, the government is creating unaccompanied minors <a href="https://www.forbes.com/sites/kalevleetaru/2018/06/15/could-google-image-search-help-fight-fake-news-on-social-media/#6f4ad52c4537" target="_blank">(Forbes, 2018).</a></p>
         <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F663032224%2F960x0.jpg%3Ffit%3Dscale">
         <p>Image retrieved from https://www.forbes.com/sites/kalevleetaru/2018/06/15/could-google-image-search-help-fight-fake-news-on-social-media/#724d63574537</p>
-        <a class="toSubMenu" href="#subMenu">Back to Sub-Menu</a>
+        <!-- <a class="toSubMenu" href="#subMenu">Back to Sub-Menu</a> -->
+        <a class="btn" href="#trumpJr" title="Next">
+          <i class="fas fa-chevron-down"></i>
+        </a> 
       </div>
       <hr>
       <div class="module" id="trumpJr">
+        <a class="btn" href="#favreau" title="Previous">
+          <i class="fas fa-chevron-up"></i>
+        </a> 
         <h2>Donald Trump Jr's Tweet</h2>
         <p>On September 16, 2018, Donald Trump Jr. tweeted a picture of Anderson Cooper, CNN's anchor, in what appears that Cooper is kneeling to make a flood from hurricane Florence seem worse than it was to make the President look bad. Cooper then went on live television to explain the details of the picture, which in fact was from 10 years ago, during hurricane Ike. While the waters seem to reach Cooper's waist, the water level reaches his crew member's knee, but that was because the crew member was on higher ground, while he was staying out of the way of rescue vehicles <a href="https://www.cnn.com/2018/09/18/politics/anderson-cooper-vs-donald-trump-jr-cnntv/index.html?utm_medium=social&utm_source=twCNN&utm_content=2018-09-18T10:08:10" target="_blank">(Vera A., 2018)</a>.</p>
         <div class="tweet">
           <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It’s a shame that CNN’s ratings are down 41%. What’s worse is there’s a simple solution that they refuse to accept. Stop Lying to try to make <a href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">@realDonaldTrump</a> look bad. <a href="https://t.co/O3XyWchsJh">https://t.co/O3XyWchsJh</a> <a href="https://t.co/BCUCxKnOvO">pic.twitter.com/BCUCxKnOvO</a></p>&mdash; Donald Trump Jr. (@DonaldJTrumpJr) <a href="https://twitter.com/DonaldJTrumpJr/status/1041310008623943680?ref_src=twsrc%5Etfw">September 16, 2018</a></blockquote>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
-        <a class="toSubMenu" href="#subMenu">Back to Sub-Menu</a>
+        <!-- <a class="toSubMenu" href="#subMenu">Back to Sub-Menu</a> -->
+        <a class="btn" href="#module2" title="Next">
+          <i class="fas fa-chevron-down"></i>
+        </a> 
       </div>
       <hr>
       <div class="module" id="module2">
+        <a class="btn" href="#trumpJr" title="Previous">
+          <i class="fas fa-chevron-up"></i>
+        </a> 
         <h1>Donald Trump's Statement</h1>
         <p>In a <a href="https://www.cnn.com/2018/10/25/politics/trump-blames-media-for-anger-after-attacks/index.html" target="_blank">tweet</a> from President Trump on October 25, 2018, he stated, "A very big part of the Anger we see today in our society is caused by the purposely false and inaccurate reporting of the Mainstream Media that I refer to as Fake News. It has gotten so bad and hateful that it is beyond description. Mainstream Media must clean up its act, FAST!" But how does the US population feel about tech companies restricting fake news online? (Statista, 2018)</p>
         <div class="tweet2">
@@ -170,24 +205,30 @@
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <div class="module3" id="module3">
-        <div class="techCompanies">
-          <a href="https://www.statista.com/statistics/829260/tech-company-intervention-fake-news/" target="_blank">
-            <img src="images/projects_page/techCompanies.png">
-          </a>
-        </div>
-        <div class="government">
-          <a href="https://www.statista.com/statistics/829242/government-intervention-fake-news/" target="_blank">
-            <img src="images/projects_page/govIntervention.png">
-          </a>
-        </div>
-          <a class="toSubMenu" href="#subMenu">Back to Sub-Menu</a>
-        </div>
+          <div class="techCompanies">
+            <a href="https://www.statista.com/statistics/829260/tech-company-intervention-fake-news/" target="_blank">
+              <img src="images/projects_page/techCompanies.png">
+            </a>
+          </div>
+          <div class="government">
+            <a href="https://www.statista.com/statistics/829242/government-intervention-fake-news/" target="_blank">
+              <img src="images/projects_page/govIntervention.png">
+            </a>
+          </div>
+            <!-- <a class="toSubMenu" href="#subMenu">Back to Sub-Menu</a> -->
+          </div>
+          <a class="btn" href="#paction" title="Next">
+          <i class="fas fa-chevron-down"></i>
+          </a> 
       </div>
       
     </div>
     <hr>
 
-    <div class="wordpressWebsite" id="paction">
+    <div class="module" id="paction">
+      <a class="btn" href="#fakeNews" title="Previous">
+          <i class="fas fa-chevron-up"></i>
+      </a> 
       <h1>Paction Productions</h1>
       <p>At the beginning of the fall semester of 2017, I was tasked to create a blog website in the Strategic Presentation class offered at Rutgers University. At the time I did not have any experience on web designing, but the assigned was to be done using WordPress, which I did not have any experience with it as well. As the course moved along, I began learning the uses of information and what ways that information can be delivered and presented. Each of the course assignments made me familiar with managing the Wordpress website more and more and I began liking it. By the end of the semester, I planned on making the website I created a portfolio with other things I have done since the beginning of college, but I postponed that side assingment. Another thing that this assignemnt allowed me to learn was about utilizing SoundCloud, which I had little experience on, but I was not familiar with publishing content. Furthermore, one last platform that we used was audacity, which I was somewhat familiar with the basic controls. This gave me an advantage, but I was not fully familiar with the use of effects such as Auto Duck which I began learning through more assignments. To visit the website, click <a href="https://pactionproductions.wordpress.com/" target="_blank">here</a> </p>
       <a href="https://pactionproductions.wordpress.com/" target="_blank">
