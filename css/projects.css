@@ -330,7 +330,6 @@ html
 {
   padding-top: 50px;
   text-decoration: underline;
-  text-decoration-color: blue;
   font-size: 35px;
   color: black;
 }
@@ -5084,7 +5083,7 @@ html
     display: block;
     width: 100%;
     /*background-color: orange;*/
-    height: 1590px;
+    height: 1610px;
     font-family: sans-serif;
     padding-left: 10px;
     /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
@@ -5153,7 +5152,7 @@ html
   {
     display: block;
     width: 100%;
-    height: 5260px;
+    height: 5350px;
     /*background-color: orange;*/
     font-family: sans-serif;
     padding-left: 10px;
@@ -5228,7 +5227,7 @@ html
     background-image: linear-gradient(rgb(72,91,109), black, white); 
     left: 0px;
     display: block;
-    height: 2900px;
+    height: 3000px;
     top: 5500px;
   }
   #paction
