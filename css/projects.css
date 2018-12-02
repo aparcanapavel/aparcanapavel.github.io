@@ -330,7 +330,13 @@ html
 {
   padding-top: 50px;
   text-decoration: underline;
+  text-decoration-color: blue;
   font-size: 35px;
+  color: black;
+}
+#module1 > h1 > a
+{
+  color: black;
 }
 #fakeNews > #module1
 {
