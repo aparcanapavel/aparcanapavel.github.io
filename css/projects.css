@@ -751,7 +751,7 @@ html
 
 
 
-@media (max-width: 960px)
+@media all and (max-width: 960px)
 {
   /*header css*/
   #container
@@ -846,7 +846,7 @@ html
 
 
 
-@media(max-width: 914px)
+@media all and (max-width: 914px)
 {
   #container > .sections
   {
@@ -1439,7 +1439,7 @@ html
 
 
   
-@media(max-width: 862px)
+@media all and (max-width: 862px)
 {
   #container > .sections
   {
@@ -2038,7 +2038,7 @@ html
 
 
 
-@media(max-width: 821px)
+@media all and (max-width: 821px)
 {
   #container > .sections
   {
@@ -2631,7 +2631,7 @@ html
 
 
 
-@media(max-width: 777px)
+@media all and (max-width: 777px)
 {
   #container > .sections
   {
@@ -3224,7 +3224,7 @@ html
 
 
 
-@media(max-width: 740px)
+@media all and (max-width: 740px)
 {
   #container > .sections
   {
@@ -3712,7 +3712,7 @@ html
 
 
 
-@media(max-width: 596px)
+@media all and (max-width: 596px)
 {
   #fakeNews
   {
@@ -3823,7 +3823,7 @@ html
 
 
 
-@media (max-width: 550px)
+@media all and (max-width: 550px)
 {
   /*header css*/
   #container
@@ -4266,7 +4266,7 @@ html
 
 
 
-@media (max-width: 498px)
+@media all and (max-width: 498px)
 {
   /*header css*/
   #container
@@ -4582,7 +4582,7 @@ html
 
 
 
-@media (max-width: 448px)
+@media all and (max-width: 448px)
 {
   /*header css*/
   #container
@@ -4902,7 +4902,7 @@ html
 
 
 
-@media (max-width: 416px)
+@media all and (max-width: 416px)
 {
   /*header css*/
   #container
@@ -5312,7 +5312,7 @@ html
 
 
 
-@media (max-width: 376px)
+@media all and (max-width: 376px)
 {
   /*header css*/
   #container
@@ -5711,7 +5711,7 @@ html
 
 
 
-@media (max-width: 356px)
+@media all and (max-width: 356px)
 {
   #container > .passionProject 
   {
@@ -5788,7 +5788,7 @@ html
 
 
 
-@media (max-width: 338px)
+@media all and (max-width: 338px)
 {
   #container > .passionProject 
   {
@@ -5940,7 +5940,7 @@ html
 
 
 
-@media (max-width: 323px)
+@media all and  (max-width: 323px)
 {
   #container > .passionProject 
   {
