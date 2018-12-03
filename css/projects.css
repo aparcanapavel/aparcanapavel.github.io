@@ -224,9 +224,9 @@ html
   display: block;
   width: 100%;
   /*background-color: orange;*/
-  height: 1300px;
+  /*height: 1300px;*/
   font-family: sans-serif;
-  padding-left: 10px;
+  padding-left: 1%;
   /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
   /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
 }
@@ -312,10 +312,11 @@ html
 {
   display: block;
   width: 100%;
-  height: 4450px;
+  /*height: 4450px;*/
   /*background-color: orange;*/
   font-family: sans-serif;
-  padding-left: 10px;
+  padding-left: 0.5%;
+  padding-top: 1%;
 }
 #module1 > .btn
 {
@@ -340,8 +341,8 @@ html
 #fakeNews > #module1
 {
   width: 100%;
-  padding-top: 20px;
-  /*background-color: orange;*/
+  padding-top: 2%;
+  /*background-color: blue;*/
 }
 #fakeNews > #module1 > .start
 {
@@ -376,7 +377,9 @@ html
 #fakeNews > #fakeNewsMenu
 {
   width: 100%;
-  padding-top: 20px;
+  padding-top: 2%;
+  /*background-color: red;*/
+  padding-bottom: 4%;
 }
 #fakeNewsMenu > .btn
 {
@@ -424,7 +427,7 @@ html
   position: relative;
   width: 50%;
   left: 25%;
-  margin-top: 35px;
+  margin-top: 0;
 }
 #brazil > .btn
 {
@@ -441,12 +444,13 @@ html
 #brazil
 {
   display: block;
-  padding-top: 35px;
-  padding-bottom: 20px;
+  padding-top: 3.5%;
+  padding-bottom: 2.5%;
   position: relative;
   width: 100%;
   text-align: center;
   color: white;
+  /*background-color: blue;*/
 }
 #brazil > p:nth-of-type(1)
 {
@@ -468,11 +472,13 @@ html
 #favreau
 {
   display: block;
-  padding-top:35px;
+  padding-top:3.5%;
+  padding-bottom: 2.5%;
   position: relative;
   width: 100%;
   text-align:center;
   color: white;
+  /*background-color: red;*/
 }
 #favreau > p > a
 {
@@ -508,11 +514,13 @@ html
 #trumpJr
 {
   display: block;
-  padding-top:35px;
+  padding-top:3.5%;
+  padding-bottom: 2.5%;
   position: relative;
   width: 100%;
   text-align:center;
   color: white;
+  /*background-color: blue;*/
 }
 #trumpJr > p:nth-of-type(1)
 {
@@ -544,11 +552,13 @@ html
 #module2
 {
   display: block;
-  padding-top:35px;
+  padding-top:3.5%;
+  padding-bottom: 0%;
   position: relative;
   width: 100%;
   text-align:center;
   color: white;
+  /*background-color: red;*/
 }
 #module2 > p > a
 {
@@ -568,9 +578,11 @@ html
 #module3
 {
   display: block;
-  padding-top:35px;
+  padding-top:3.5%;
+  padding-bottom: 1%;
   position: relative;
   width: 100%;
+  /*background-color: orange;*/
 }
 #module3 > .techCompanies, 
 #module3 > .government 
@@ -600,10 +612,11 @@ html
 {
   display: block;
   width: 100%;
-  height: 1100px;
+  /*height: 1100px;*/
   /*background-color: orange;*/
   font-family: sans-serif;
-  padding-left: 10px;
+  padding-left: 0.5%;
+  padding-bottom: 5%;
   color: white;
 }
 #paction > h1
@@ -637,7 +650,7 @@ html
   font-size: 25px;
   /*background-color: orange;*/
   width: 100%;
-  left: 49%;
+  left: 48.6%;
   top: 20px;
   color: white;
 }
@@ -730,7 +743,7 @@ html
 {
   display: block;
   position: absolute;
-  top: 7364px;
+  top: 7324px;
   height: 130px;
   background-color: rgb(72,91,109);
   width: 100%;
@@ -833,7 +846,115 @@ html
     padding: 28px 0px;
     font-size: 40px;
   }
-
+  #container > .passionProject 
+  {
+    display: block;
+    width: 100%;
+    /*background-color: orange;*/
+    /*height: 1300px;*/
+    font-family: sans-serif;
+    padding-left: 1%;
+    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
+    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
+  }
+  #fakeNews
+  {
+    display: block;
+    width: 100%;
+    /*height: 4450px;*/
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 0.5%;
+    padding-bottom: 0%;
+    padding-top: 1%;
+  }
+  #fakeNews > #module1
+  {
+    width: 100%;
+    padding-top: 2%;
+    /*background-color: blue;*/
+  }
+  #fakeNews > #fakeNewsMenu
+  {
+    width: 100%;
+    padding-top: 2%;
+    /*background-color: red;*/
+    padding-bottom: 4%;
+  }
+  #brazil
+  {
+    display: block;
+    padding-top: 3.5%;
+    padding-bottom: 2.5%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    /*background-color: blue;*/
+  }
+  #favreau
+  {
+    display: block;
+    padding-top:3.5%;
+    padding-bottom: 2.5%;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+    /*background-color: red;*/
+  }
+  #trumpJr
+  {
+    display: block;
+    padding-top:3.5%;
+    padding-bottom: 2.5%;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+    /*background-color: blue;*/
+  }
+  #module2
+  {
+    display: block;
+    padding-top:3.5%;
+    padding-bottom: 2.5%;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    color: white;
+    /*background-color: red;*/
+  }
+  #module3
+  {
+    display: block;
+    padding-top:3.5%;
+    padding-bottom: 2.5%;
+    position: relative;
+    width: 100%;
+    /*background-color: orange;*/
+  }
+  #paction
+  {
+    display: block;
+    width: 100%;
+    /*height: 1100px;*/
+    /*background-color: orange;*/
+    font-family: sans-serif;
+    padding-left: 0.5%;
+    padding-bottom: 5%;
+    color: white;
+  }
+  #paction > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 48.6%;
+    top: 20px;
+    color: white;
+  }
 }
 
 
@@ -912,17 +1033,7 @@ html
     left: 20%;
     top: 0px;
   }
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1150px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
+  
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -1003,15 +1114,12 @@ html
     font-size: 12px;
     color: white;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 4450px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
+
+
+
+
+
   #module1 > .btn
   {
     position: relative;
@@ -1026,12 +1134,6 @@ html
     padding-top: 50px;
     text-decoration: underline;
     font-size: 35px;
-  }
-  #fakeNews > #module1
-  {
-    width: 100%;
-    padding-top: 20px;
-    /*background-color: orange;*/
   }
   #fakeNews > #module1 > .start
   {
@@ -1062,11 +1164,6 @@ html
     width: 100%;
     padding-top: 10px;
     padding-right: 20px;
-  }
-  #fakeNews > #fakeNewsMenu
-  {
-    width: 100%;
-    padding-top: 20px;
   }
   #fakeNewsMenu > .btn
   {
@@ -1128,16 +1225,6 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #brazil
-  {
-    display: block;
-    padding-top: 35px;
-    padding-bottom: 20px;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -1155,15 +1242,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  #favreau
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -1195,15 +1274,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #trumpJr
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -1231,15 +1302,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #module2
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -1255,13 +1318,7 @@ html
     width: 50%;
     left: 25%;
   }
-  #module3
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-  }
+  
   #module3 > .techCompanies, 
   #module3 > .government 
   {
@@ -1286,16 +1343,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #paction
-  {
-    display: block;
-    width: 100%;
-    height: 1050px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-    color: white;
-  }
+  
   #paction > h1
   {
     padding-top: 50px;
@@ -1320,16 +1368,6 @@ html
     width: 80%;
     position: relative;
     left: 10%;
-  }
-  #paction > .btn
-  {
-    position: relative;
-    font-size: 25px;
-    /*background-color: orange;*/
-    width: 100%;
-    left: 49%;
-    top: 20px;
-    color: white;
   }
   #container > .pgBg1
   {
@@ -1505,17 +1543,7 @@ html
     left: 20%;
     top: 0px;
   }
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1170px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
+  
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -1596,15 +1624,7 @@ html
     font-size: 12px;
     color: white;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 4450px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #module1 > .btn
   {
     position: relative;
@@ -1620,12 +1640,7 @@ html
     text-decoration: underline;
     font-size: 35px;
   }
-  #fakeNews > #module1
-  {
-    width: 100%;
-    padding-top: 20px;
-    /*background-color: orange;*/
-  }
+  
   #fakeNews > #module1 > .start
   {
     width: 50%;
@@ -1656,11 +1671,7 @@ html
     padding-top: 10px;
     padding-right: 20px;
   }
-  #fakeNews > #fakeNewsMenu
-  {
-    width: 100%;
-    padding-top: 20px;
-  }
+  
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -1721,16 +1732,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #brazil
-  {
-    display: block;
-    padding-top: 35px;
-    padding-bottom: 20px;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
+  
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -1748,15 +1750,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  #favreau
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -1788,15 +1782,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #trumpJr
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -1824,15 +1810,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #module2
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -1848,13 +1826,7 @@ html
     width: 50%;
     left: 25%;
   }
-  #module3
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-  }
+  
   #module3 > .techCompanies, 
   #module3 > .government 
   {
@@ -1879,16 +1851,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #paction
-  {
-    display: block;
-    width: 100%;
-    height: 1050px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-    color: white;
-  }
+  
   #paction > h1
   {
     padding-top: 50px;
@@ -1913,16 +1876,6 @@ html
     width: 80%;
     position: relative;
     left: 10%;
-  }
-  #paction > .btn
-  {
-    position: relative;
-    font-size: 25px;
-    /*background-color: orange;*/
-    width: 100%;
-    left: 49%;
-    top: 20px;
-    color: white;
   }
   #container > .pgBg1
   {
@@ -2104,17 +2057,7 @@ html
     left: 20%;
     top: 0px;
   }
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1100px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
+  
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -2195,15 +2138,7 @@ html
     font-size: 12px;
     color: white;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 4350px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #module1 > .btn
   {
     position: relative;
@@ -2255,11 +2190,7 @@ html
     padding-top: 10px;
     padding-right: 20px;
   }
-  #fakeNews > #fakeNewsMenu
-  {
-    width: 100%;
-    padding-top: 20px;
-  }
+  
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -2320,16 +2251,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #brazil
-  {
-    display: block;
-    padding-top: 35px;
-    padding-bottom: 20px;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
+  
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -2347,15 +2269,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  #favreau
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -2387,15 +2301,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #trumpJr
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -2423,16 +2329,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #module2
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-    /*background-color: blue;*/
-  }
+  
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -2448,14 +2345,7 @@ html
     width: 50%;
     left: 25%;
   }
-  #module3
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    /*background-color: orange;*/
-  }
+  
   #module3 > .techCompanies, 
   #module3 > .government 
   {
@@ -2480,16 +2370,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #paction
-  {
-    display: block;
-    width: 100%;
-    height: 1050px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-    color: white;
-  }
+  
   #paction > h1
   {
     padding-top: 50px;
@@ -2514,16 +2395,6 @@ html
     width: 80%;
     position: relative;
     left: 10%;
-  }
-  #paction > .btn
-  {
-    position: relative;
-    font-size: 25px;
-    /*background-color: orange;*/
-    width: 100%;
-    left: 49%;
-    top: 20px;
-    color: white;
   }
   #container > .pgBg1
   {
@@ -2697,17 +2568,7 @@ html
     left: 20%;
     top: 0px;
   }
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1120px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
+  
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -2788,15 +2649,7 @@ html
     font-size: 12px;
     color: white;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 4350px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #module1 > .btn
   {
     position: relative;
@@ -2848,11 +2701,7 @@ html
     padding-top: 10px;
     padding-right: 20px;
   }
-  #fakeNews > #fakeNewsMenu
-  {
-    width: 100%;
-    padding-top: 20px;
-  }
+  
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -2913,16 +2762,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #brazil
-  {
-    display: block;
-    padding-top: 35px;
-    padding-bottom: 20px;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
+  
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -2940,15 +2780,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  #favreau
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -2980,15 +2812,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #trumpJr
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -3016,16 +2840,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #module2
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-    /*background-color: blue;*/
-  }
+  
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -3041,14 +2856,7 @@ html
     width: 50%;
     left: 25%;
   }
-  #module3
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    /*background-color: orange;*/
-  }
+  
   #module3 > .techCompanies, 
   #module3 > .government 
   {
@@ -3073,16 +2881,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #paction
-  {
-    display: block;
-    width: 100%;
-    height: 1050px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-    color: white;
-  }
+  
   #paction > h1
   {
     padding-top: 50px;
@@ -3107,16 +2906,6 @@ html
     width: 80%;
     position: relative;
     left: 10%;
-  }
-  #paction > .btn
-  {
-    position: relative;
-    font-size: 25px;
-    /*background-color: orange;*/
-    width: 100%;
-    left: 49%;
-    top: 20px;
-    color: white;
   }
   #container > .pgBg1
   {
@@ -3297,17 +3086,7 @@ html
     left: 20%;
     top: 0px;
   }
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1380px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
+  
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -3410,15 +3189,7 @@ html
     text-decoration: underline;
     font-size: 25px;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 4500px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #fakeNews > #module1
   {
     width: 100%;
@@ -3458,11 +3229,7 @@ html
     padding-right: 60px;
     padding-left: 40px;
   }
-  #fakeNews > #fakeNewsMenu
-  {
-    width: 100%;
-    padding-top: 20px;
-  }
+  
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -3523,16 +3290,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #brazil
-  {
-    display: block;
-    padding-top: 35px;
-    padding-bottom: 20px;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
+  
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 105px;
@@ -3550,15 +3308,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  #favreau
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -3590,15 +3340,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #trumpJr
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 105px;
@@ -3651,14 +3393,7 @@ html
     width: 50%;
     left: 25%;
   }
-  #module3
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    /*background-color: orange;*/
-  }
+  
   #module3 > .techCompanies, 
   #module3 > .government 
   {
@@ -3683,16 +3418,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #paction
-  {
-    display: block;
-    width: 100%;
-    height: 950px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-    color: white;
-  }
+  
   #paction > h1
   {
     padding-top: 50px;
@@ -3714,23 +3440,8 @@ html
 
 @media all and (max-width: 596px)
 {
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 5150px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
-  #module3
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    /*background-color: orange;*/
-  }
+  
+  
   #module3 > .techCompanies, 
   #module3 > .government 
   {
@@ -3954,21 +3665,8 @@ html
     padding: 28px 0px;
     font-size: 40px;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 4650px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
-  #fakeNews > #module1
-  {
-    width: 100%;
-    padding-top: 20px;
-    /*background-color: orange;*/
-  }
+  
+  
   #fakeNews > #module1 > .start
   {
     width: 100%;
@@ -4002,11 +3700,7 @@ html
     padding-right: 60px;
     padding-left: 40px;
   }
-  #fakeNews > #fakeNewsMenu
-  {
-    width: 100%;
-    padding-top: 20px;
-  }
+  
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -4067,16 +3761,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #brazil
-  {
-    display: block;
-    padding-top: 35px;
-    padding-bottom: 20px;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
+  
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 75px;
@@ -4094,15 +3779,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  #favreau
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -4134,15 +3811,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #trumpJr
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-  }
+  
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 75px;
@@ -4170,16 +3839,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #module2
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    text-align:center;
-    color: white;
-    /*background-color: blue;*/
-  }
+  
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -4195,14 +3855,7 @@ html
     width: 50%;
     left: 25%;
   }
-  #module3
-  {
-    display: block;
-    padding-top:35px;
-    position: relative;
-    width: 100%;
-    /*background-color: orange;*/
-  }
+  
   #module3 > .techCompanies, 
   #module3 > .government 
   {
@@ -4397,17 +4050,7 @@ html
     padding: 28px 0px;
     font-size: 35px;
   }
-    #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1440px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
+   
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -4467,15 +4110,7 @@ html
     position: relative;
     padding-top: 15px;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 4870px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #container > .pgBg2
   {
     position: absolute;
@@ -4485,7 +4120,7 @@ html
     background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
     left: 0px;
     display: block;
-    height: 3500px;
+    height: 3900px;
     top: 1400px;
   }
   #container > .pgBg3
@@ -4497,19 +4132,10 @@ html
     background-image: linear-gradient(rgb(72,91,109), black, white); 
     left: 0px;
     display: block;
-    height: 2900px;
-    top: 4900px;
+    height: 2600px;
+    top: 5300px;
   }
-  #paction
-  {
-    display: block;
-    width: 100%;
-    height: 950px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-    color: white;
-  }
+  
   #paction > h1
   {
     padding-top: 50px;
@@ -4529,6 +4155,17 @@ html
     padding-bottom: 20px;
     text-align: center;
   }
+  #paction > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 48%;
+    top: 20px;
+    color: white;
+  }
+}
 
   #container > .footer
   {
@@ -4713,17 +4350,7 @@ html
     padding: 28px 0px;
     font-size: 35px;
   }
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1490px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
+  
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -4783,15 +4410,7 @@ html
     position: relative;
     padding-top: 15px;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 5000px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #container > .pgBg2
   {
     position: absolute;
@@ -4813,19 +4432,10 @@ html
     background-image: linear-gradient(rgb(72,91,109), black, white); 
     left: 0px;
     display: block;
-    height: 3100px;
+    height: 5700px;
     top: 4900px;
   }
-  #paction
-  {
-    display: block;
-    width: 100%;
-    height: 950px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-    color: white;
-  }
+  
   #paction > h1
   {
     padding-top: 50px;
@@ -5078,17 +4688,7 @@ html
     border-top-left-radius:  25px;
     border-top-right-radius:  25px;
   }
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1610px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
+  
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -5148,15 +4748,7 @@ html
     position: relative;
     padding-top: 15px;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 5350px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #trumpJr > .tweet
   {
     position: relative;
@@ -5227,19 +4819,10 @@ html
     background-image: linear-gradient(rgb(72,91,109), black, white); 
     left: 0px;
     display: block;
-    height: 3000px;
+    height: 2900px;
     top: 5500px;
   }
-  #paction
-  {
-    display: block;
-    width: 100%;
-    height: 950px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-    color: white;
-  }
+  
   #paction > h1
   {
     padding-top: 50px;
@@ -5259,7 +4842,17 @@ html
     padding-bottom: 20px;
     text-align: center;
   }
-
+  #paction > .btn
+  {
+    position: relative;
+    font-size: 25px;
+    /*background-color: orange;*/
+    width: 100%;
+    left: 47.2%;
+    top: 20px;
+    color: white;
+  }
+}
   #container > .footer
   {
     top: 50px;
@@ -5305,6 +4898,45 @@ html
   }
 }
 
+@media all and (max-width: 395px)
+{
+ #container > .pgBg1
+  {
+    position: absolute;
+    z-index: -5;
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    left: 0px;
+    display: block;
+    height: 1800px;
+    top: 400px;
+  }
+  #container > .pgBg2
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    left: 0px;
+    display: block;
+    height: 4050px;
+    top: 4200px;
+  }
+  #container > .pgBg3
+  {
+    position: absolute;
+    z-index: -5;  
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    left: 0px;
+    display: block;
+    height: 3000px;
+    top: 6200px;
+  }
+}
 
 
 
@@ -5488,17 +5120,7 @@ html
     border-top-left-radius:  25px;
     border-top-right-radius:  25px;
   }
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1650px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
+  
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -5558,15 +5180,7 @@ html
     position: relative;
     padding-top: 15px;
   }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 5370px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #trumpJr > .tweet
   {
     position: relative;
@@ -5630,16 +5244,7 @@ html
     height: 2900px;
     top: 5700px;
   }
-  #paction
-  {
-    display: block;
-    width: 100%;
-    height: 950px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-    color: white;
-  }
+  
   #paction > h1
   {
     padding-top: 50px;
@@ -5713,29 +5318,10 @@ html
 
 @media all and (max-width: 356px)
 {
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1650px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 5470px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #favreau> p:nth-of-type(2)
   {
-    font-size: 12px;
+    font-size: 10px;
     padding:0 10px;
   }
   #brazil > p:nth-of-type(2)
@@ -5790,26 +5376,7 @@ html
 
 @media all and (max-width: 338px)
 {
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1750px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 4870px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 15px;
@@ -5942,26 +5509,7 @@ html
 
 @media all and  (max-width: 323px)
 {
-  #container > .passionProject 
-  {
-    display: block;
-    width: 100%;
-    /*background-color: orange;*/
-    height: 1750px;
-    font-family: sans-serif;
-    padding-left: 10px;
-    /*background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));*/
-    /*background-image: linear-gradient(rgb(72,91,109), rgb(72,91,109)); <-- dark blue*/
-  }
-  #fakeNews
-  {
-    display: block;
-    width: 100%;
-    height: 4970px;
-    /*background-color: orange;*/
-    font-family: sans-serif;
-    padding-left: 10px;
-  }
+  
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 15px;
