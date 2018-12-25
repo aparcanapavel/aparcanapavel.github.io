@@ -654,49 +654,49 @@ html
   top: 20px;
   color: white;
 }
-#container > .pgBg1
+#background 
 {
   position: absolute;
-  z-index: -5;
+  display: block;
+  width: 100%;
+  /*height: 100%;*/
+  top: 400px;
+  z-index: -11;
+  left: 0px;
+}
+#background > .pgBg
+{
+  display: inline-block;
+  /*position: absolute;*/
+  width: 100%;
+  margin-top: -4px;
+}
+
+#background > .pgBg:nth-of-type(1)
+{
   /*white to light blue to light blue*/
   background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
   width: 100%;
-  left: 0px;
-  display: block;
-  height: 1000px;
-  top: 400px;
+  height: 1200px;
 }
-#container > .pgBg2
+#background > .pgBg:nth-of-type(2)
 {
-  position: absolute;
-  z-index: -5;  
   width: 100%;
   /*light blue to dark blue to dark blue*/
-  background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-  left: 0px;
-  display: block;
-  height: 3500px;
-  top: 1400px;
+  background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+  height: 3200px;
 }
-#container > .pgBg3
+#background > .pgBg:nth-of-type(3)
 {
-  position: absolute;
-  z-index: -5;  
   width: 100%;
   /*dark blue to black to white*/
   background-image: linear-gradient(rgb(72,91,109), black, white); 
-  left: 0px;
-  display: block;
-  height: 2300px;
-  top: 4900px;
+  height: 2200px;
 }
-
-
-
 #container > .footer
 {
   position: relative;
-  top: 0px;
+  /*top: 180px;*/
   width: 100%;
   color: white;
 }
@@ -714,7 +714,6 @@ html
   padding-top: 20px;
   padding-bottom: 10px;
 }
-
 #container > .footer  > .quickLinks > li  
 {
   width: 30%;
@@ -743,7 +742,7 @@ html
 {
   display: block;
   position: absolute;
-  top: 7324px;
+  top: 7300px;
   height: 130px;
   background-color: rgb(72,91,109);
   width: 100%;
@@ -764,7 +763,7 @@ html
 
 
 
-@media all and (max-width: 960px)
+@media (max-width: 960px)
 {
   /*header css*/
   #container
@@ -955,7 +954,12 @@ html
     top: 20px;
     color: white;
   }
+  #container > .footer-background
+  {
+    display: none;
+  }
 }
+  
 
 
 
@@ -965,9 +969,7 @@ html
 
 
 
-
-
-@media all and (max-width: 914px)
+@media (max-width: 914px)
 {
   #container > .sections
   {
@@ -1114,10 +1116,6 @@ html
     font-size: 12px;
     color: white;
   }
-  
-
-
-
 
 
   #module1 > .btn
@@ -1405,79 +1403,17 @@ html
     height: 2300px;
     top: 4900px;
   }
-
-
-
-  #container > .footer
-  {
-    position: relative;
-    top: 0px;
-    width: 100%;
-    color: white;
-  }
-  #container > .footer  > .quickLinks
-  {
-    z-index: 100;
-    width: 100%;
-    height: 100px;
-    font-family: sans-serif;
-    background-color:  rgb(72,91,109);
-  }
-  #container > .footer  > .quickLinks > h3
-  {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  #container > .footer  > .quickLinks > li  
-  {
-    width: 30%;
-    color: white;
-    padding: 0px 90px;
-    list-style-type: none;
-    display: inline-block;
-  }
-  #container > .footer  > .quickLinks > li > a
-  {
-    width: 100%;
-    color: white;
-    text-decoration:none;
-    text-align: left;
-    padding-left: 30px;  
-  }
-  #container > .footer  > .signature
-  {
-    background-color: rgb(72,91,109);
-    text-align: right;
-    padding-right: 5px; 
-    color: white;
-  }
-
-  #container > .footer-background
-  {
-    display: none;
-    position: absolute;
-    top: 7364px;
-    height: 130px;
-    background-color: rgb(72,91,109);
-    width: 100%;
-    left: 0px;
-    z-index: -1;
-  }
 }
 
 
-
-
-
+  
 
 
 
 
 
   
-@media all and (max-width: 862px)
+@media (max-width: 862px)
 {
   #container > .sections
   {
@@ -1877,121 +1813,18 @@ html
     position: relative;
     left: 10%;
   }
-  #container > .pgBg1
-  {
-    position: absolute;
-    z-index: -5;
-    /*white to light blue to light blue*/
-    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
-    width: 100%;
-    left: 0px;
-    display: block;
-    height: 1000px;
-    top: 400px;
-  }
-  #container > .pgBg2
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3500px;
-    top: 1400px;
-  }
-  #container > .pgBg3
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2300px;
-    top: 4900px;
-  }
-
-
-
-  #container > .footer
-  {
-    position: relative;
-    top: 0px;
-    width: 100%;
-    color: white;
-  }
-  #container > .footer  > .quickLinks
-  {
-    z-index: 100;
-    width: 100%;
-    height: 100px;
-    font-family: sans-serif;
-    background-color:  rgb(72,91,109);
-  }
-  #container > .footer  > .quickLinks > h3
-  {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  #container > .footer  > .quickLinks > li  
-  {
-    width: 30%;
-    color: white;
-    padding: 0px 90px;
-    list-style-type: none;
-    display: inline-block;
-  }
-  #container > .footer  > .quickLinks > li > a
-  {
-    width: 100%;
-    color: white;
-    text-decoration:none;
-    text-align: left;
-    padding-left: 15px;  
-  }
-  #container > .footer  > .signature
-  {
-    background-color: rgb(72,91,109);
-    text-align: right;
-    padding-right: 5px; 
-    color: white;
-  }
-
-  #container > .footer-background
-  {
-    display: none;
-    position: absolute;
-    top: 7364px;
-    height: 130px;
-    background-color: rgb(72,91,109);
-    width: 100%;
-    left: 0px;
-    z-index: -1;
-  }
 }
 
 
 
+  
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-@media all and (max-width: 821px)
+@media (max-width: 821px)
 {
   #container > .sections
   {
@@ -2396,113 +2229,21 @@ html
     position: relative;
     left: 10%;
   }
-  #container > .pgBg1
-  {
-    position: absolute;
-    z-index: -5;
-    /*white to light blue to light blue*/
-    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
-    width: 100%;
-    left: 0px;
-    display: block;
-    height: 1000px;
-    top: 400px;
-  }
-  #container > .pgBg2
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3500px;
-    top: 1400px;
-  }
-  #container > .pgBg3
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2000px;
-    top: 4900px;
-  }
-
-
-
-  #container > .footer
-  {
-    position: relative;
-    top: 0px;
-    width: 100%;
-    color: white;
-  }
-  #container > .footer  > .quickLinks
-  {
-    z-index: 100;
-    width: 100%;
-    height: 100px;
-    font-family: sans-serif;
-    background-color:  rgb(72,91,109);
-  }
-  #container > .footer  > .quickLinks > h3
-  {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  #container > .footer  > .quickLinks > li  
-  {
-    width: 30%;
-    color: white;
-    padding: 0px 90px;
-    list-style-type: none;
-    display: inline-block;
-  }
-  #container > .footer  > .quickLinks > li > a
-  {
-    width: 100%;
-    color: white;
-    text-decoration:none;
-    text-align: left;
-    padding-left: 15px;  
-  }
-  #container > .footer  > .signature
-  {
-    background-color: rgb(72,91,109);
-    text-align: right;
-    padding-right: 5px; 
-    color: white;
-  }
-
-  #container > .footer-background
-  {
-    display: none;
-    position: absolute;
-    top: 7364px;
-    height: 130px;
-    background-color: rgb(72,91,109);
-    width: 100%;
-    left: 0px;
-    z-index: -1;
-  }
 }
 
 
 
+ 
 
 
 
 
 
 
-@media all and (max-width: 777px)
+
+
+
+@media (max-width: 777px)
 {
   #container > .sections
   {
@@ -2907,63 +2648,57 @@ html
     position: relative;
     left: 10%;
   }
-  #container > .pgBg1
+  #background 
   {
     position: absolute;
-    z-index: -5;
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    top: 400px;
+    z-index: -11;
+    left: 0px;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  #background > .pgBg:nth-of-type(1)
+  {
     /*white to light blue to light blue*/
     background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
     width: 100%;
-    left: 0px;
-    display: block;
-    height: 1000px;
-    top: 400px;
+    height: 1200px;
   }
-  #container > .pgBg2
+  #background > .pgBg:nth-of-type(2)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3500px;
-    top: 1400px;
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 3200px;
   }
-  #container > .pgBg3
+  #background > .pgBg:nth-of-type(3)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*dark blue to black to white*/
     background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2000px;
-    top: 4900px;
+    height: 2200px;
   }
-
-
-
   #container > .footer
   {
-    position: relative;
-    top: 0px;
+    /*top: 140px;*/
     width: 100%;
-    color: white;
   }
   #container > .footer  > .quickLinks
   {
-    z-index: 100;
     width: 100%;
     height: 100px;
-    font-family: sans-serif;
-    background-color:  rgb(72,91,109);
   }
   #container > .footer  > .quickLinks > h3
   {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
   }
@@ -2971,37 +2706,16 @@ html
   #container > .footer  > .quickLinks > li  
   {
     width: 30%;
-    color: white;
-    padding: 0px 90px;
-    list-style-type: none;
-    display: inline-block;
+    padding: 0px 35px;
   }
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    color: white;
-    text-decoration:none;
-    text-align: left;
-    padding-left: 15px;  
+    padding-left: 50px;  
   }
   #container > .footer  > .signature
   {
-    background-color: rgb(72,91,109);
-    text-align: right;
     padding-right: 5px; 
-    color: white;
-  }
-
-  #container > .footer-background
-  {
-    display: none;
-    position: absolute;
-    top: 7364px;
-    height: 130px;
-    background-color: rgb(72,91,109);
-    width: 100%;
-    left: 0px;
-    z-index: -1;
   }
 }
 
@@ -3013,7 +2727,10 @@ html
 
 
 
-@media all and (max-width: 740px)
+
+
+
+@media (max-width: 740px)
 {
   #container > .sections
   {
@@ -3158,30 +2875,6 @@ html
   }
   @keyframes blinker {  
     50% { opacity: 0; }
-  }
-  #container > .pgBg2
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3500px;
-    top: 1400px;
-  }
-  #container > .pgBg3
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2500px;
-    top: 4900px;
   }
   #module1 > h1
   {
@@ -3425,6 +3118,154 @@ html
     text-decoration: underline;
     font-size: 25px;
   }
+  #background 
+  {
+    position: absolute;
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    top: 550px;
+    z-index: -11;
+    left: 0px;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1200px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 3500px;
+  }
+  #background > .pgBg:nth-of-type(3)
+  {
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    height: 2200px;
+  }
+  #container > .footer
+  {
+    /*top: 140px;*/
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    padding: 0px 35px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 50px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 608px)
+{
+  #background 
+  {
+    position: absolute;
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    top: 550px;
+    z-index: -11;
+    left: 0px;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1200px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 3500px;
+  }
+  #background > .pgBg:nth-of-type(3)
+  {
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    height: 2200px;
+  }
+  #container > .footer
+  {
+    /*top: 140px;*/
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 30%;
+    padding: 0px 35px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 50px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+  }
 }
 
 
@@ -3435,13 +3276,8 @@ html
 
 
 
-
-
-
-@media all and (max-width: 596px)
-{
-  
-  
+@media (max-width: 596px)
+{ 
   #module3 > .techCompanies, 
   #module3 > .government 
   {
@@ -3454,49 +3290,57 @@ html
   {
     width: 95%;
   }
-  #container > .pgBg2
+  #background 
   {
     position: absolute;
-    z-index: -5;  
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    top: 550px;
+    z-index: -11;
+    left: 0px;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1200px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3500px;
-    top: 1400px;
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 3900px;
   }
-  #container > .pgBg3
+  #background > .pgBg:nth-of-type(3)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*dark blue to black to white*/
     background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 3300px;
-    top: 4900px;
+    height: 2500px;
   }
-
   #container > .footer
   {
-    position: relative;
-    top: 0px;
+    /*top: 140px;*/
     width: 100%;
-    color: white;
   }
   #container > .footer  > .quickLinks
   {
-    z-index: 100;
     width: 100%;
     height: 100px;
-    font-family: sans-serif;
-    background-color:  rgb(72,91,109);
   }
   #container > .footer  > .quickLinks > h3
   {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
   }
@@ -3504,25 +3348,16 @@ html
   #container > .footer  > .quickLinks > li  
   {
     width: 30%;
-    color: white;
-    padding: 0px 60px;
-    list-style-type: none;
-    display: inline-block;
+    padding: 0px 35px;
   }
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    color: white;
-    text-decoration:none;
-    text-align: left;
-    padding-left: 0px;  
+    padding-left: 50px;  
   }
   #container > .footer  > .signature
   {
-    background-color: rgb(72,91,109);
-    text-align: right;
     padding-right: 5px; 
-    color: white;
   }
 }
 
@@ -3534,7 +3369,8 @@ html
 
 
 
-@media all and (max-width: 550px)
+
+@media (max-width: 550px)
 {
   /*header css*/
   #container
@@ -3883,29 +3719,77 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #container > .pgBg2
+  #background 
   {
     position: absolute;
-    z-index: -5;  
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    top: 550px;
+    z-index: -11;
+    left: 0px;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1200px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
     height: 3500px;
-    top: 1400px;
   }
-  #container > .pgBg3
+  #background > .pgBg:nth-of-type(3)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*dark blue to black to white*/
     background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2700px;
-    top: 4900px;
+    height: 2400px;
+  }
+  #container > .footer
+  {
+    /*top: 140px;*/
+    width: 100%;
+  }
+  #container > .footer  > .quickLinks
+  {
+    width: 100%;
+    height: 100px;
+  }
+  #container > .footer  > .quickLinks > h3
+  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  #container > .footer  > .quickLinks > li  
+  {
+    width: 50%;
+    padding: 0px 35px;
+    margin-left: -4px;
+  }
+  #container > .footer  > .quickLinks > li > a
+  {
+    width: 100%;
+    padding-left: 50px;  
+  }
+  #container > .footer  > .signature
+  {
+    padding-right: 5px; 
+    bottom: -5px;
+    padding-top: 15px;
   }
 }
 
@@ -3919,7 +3803,7 @@ html
 
 
 
-@media all and (max-width: 498px)
+@media (max-width: 498px)
 {
   /*header css*/
   #container
@@ -4109,33 +3993,7 @@ html
     padding: 0px;
     position: relative;
     padding-top: 15px;
-  }
-  
-  #container > .pgBg2
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3900px;
-    top: 1400px;
-  }
-  #container > .pgBg3
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2600px;
-    top: 5300px;
-  }
-  
+  }  
   #paction > h1
   {
     padding-top: 50px;
@@ -4165,11 +4023,48 @@ html
     top: 20px;
     color: white;
   }
-}
+  #background 
+  {
+    position: absolute;
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    top: 550px;
+    z-index: -11;
+    left: 0px;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
 
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1200px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 3800px;
+  }
+  #background > .pgBg:nth-of-type(3)
+  {
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    height: 2300px;
+  }
   #container > .footer
   {
-    top: 50px;
+    /*top: 140px;*/
     width: 100%;
   }
   #container > .footer  > .quickLinks
@@ -4200,16 +4095,6 @@ html
     bottom: -5px;
     padding-top: 15px;
   }
-
-  #container > .footer-background
-  {
-    top: 2520px;
-    height: 130px;
-    width: 100%;
-    left: 0px;
-    z-index: -1;
-    display: none;
-  }
 }
 
 
@@ -4219,7 +4104,7 @@ html
 
 
 
-@media all and (max-width: 448px)
+@media (max-width: 448px)
 {
   /*header css*/
   #container
@@ -4410,32 +4295,6 @@ html
     position: relative;
     padding-top: 15px;
   }
-  
-  #container > .pgBg2
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3550px;
-    top: 1400px;
-  }
-  #container > .pgBg3
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 5700px;
-    top: 4900px;
-  }
-  
   #paction > h1
   {
     padding-top: 50px;
@@ -4455,49 +4314,44 @@ html
     padding-bottom: 20px;
     text-align: center;
   }
-
-  #container > .footer
+  #background 
   {
-    top: 50px;
+    position: absolute;
+    display: block;
     width: 100%;
-  }
-  #container > .footer  > .quickLinks
-  {
-    width: 100%;
-    height: 100px;
-  }
-  #container > .footer  > .quickLinks > h3
-  {
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  #container > .footer  > .quickLinks > li  
-  {
-    width: 50%;
-    padding: 0px 35px;
-    margin-left: -4px;
-  }
-  #container > .footer  > .quickLinks > li > a
-  {
-    width: 100%;
-    padding-left: 15px;  
-  }
-  #container > .footer  > .signature
-  {
-    padding-right: 5px; 
-    bottom: -5px;
-    padding-top: 15px;
-  }
-
-  #container > .footer-background
-  {
-    top: 2520px;
-    height: 130px;
-    width: 100%;
+    /*height: 100%;*/
+    top: 550px;
+    z-index: -11;
     left: 0px;
-    z-index: -1;
-    display: none;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1200px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 4200px;
+  }
+  #background > .pgBg:nth-of-type(3)
+  {
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    height: 2100px;
   }
 }
 
@@ -4512,7 +4366,7 @@ html
 
 
 
-@media all and (max-width: 416px)
+@media (max-width: 416px)
 {
   /*header css*/
   #container
@@ -4786,43 +4640,6 @@ html
     padding-right: 5px;
     padding-left: 9px;
   }
-  #container > .pgBg1
-  {
-    position: absolute;
-    z-index: -5;
-    /*white to light blue to light blue*/
-    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
-    width: 100%;
-    left: 0px;
-    display: block;
-    height: 1600px;
-    top: 400px;
-  }
-  #container > .pgBg2
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3550px;
-    top: 2000px;
-  }
-  #container > .pgBg3
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2900px;
-    top: 5500px;
-  }
-  
   #paction > h1
   {
     padding-top: 50px;
@@ -4852,10 +4669,99 @@ html
     top: 20px;
     color: white;
   }
+  #background 
+  {
+    position: absolute;
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    top: 550px;
+    z-index: -11;
+    left: 0px;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1200px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 4400px;
+  }
+  #background > .pgBg:nth-of-type(3)
+  {
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    height: 2000px;
+  }
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 395px)
+{
+  #background 
+  {
+    position: absolute;
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    top: 550px;
+    z-index: -11;
+    left: 0px;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1500px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 4200px;
+  }
+  #background > .pgBg:nth-of-type(3)
+  {
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    height: 2200px;
+  }
   #container > .footer
   {
-    top: 50px;
+    /*top: 140px;*/
     width: 100%;
   }
   #container > .footer  > .quickLinks
@@ -4886,56 +4792,6 @@ html
     bottom: -5px;
     padding-top: 15px;
   }
-
-  #container > .footer-background
-  {
-    top: 2520px;
-    height: 130px;
-    width: 100%;
-    left: 0px;
-    z-index: -1;
-    display: none;
-  }
-}
-
-@media all and (max-width: 395px)
-{
- #container > .pgBg1
-  {
-    position: absolute;
-    z-index: -5;
-    /*white to light blue to light blue*/
-    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
-    width: 100%;
-    left: 0px;
-    display: block;
-    height: 1800px;
-    top: 400px;
-  }
-  #container > .pgBg2
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 4050px;
-    top: 4200px;
-  }
-  #container > .pgBg3
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 3000px;
-    top: 6200px;
-  }
 }
 
 
@@ -4944,7 +4800,7 @@ html
 
 
 
-@media all and (max-width: 376px)
+@media (max-width: 376px)
 {
   /*header css*/
   #container
@@ -5207,44 +5063,7 @@ html
     padding-top: 10px;
     padding-right: 5px;
     padding-left: 9px;
-  }
-  #container > .pgBg1
-  {
-    position: absolute;
-    z-index: -5;
-    /*white to light blue to light blue*/
-    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
-    width: 100%;
-    left: 0px;
-    display: block;
-    height: 1800px;
-    top: 400px;
-  }
-  #container > .pgBg2
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3550px;
-    top: 2200px;
-  }
-  #container > .pgBg3
-  {
-    position: absolute;
-    z-index: -5;  
-    width: 100%;
-    /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2900px;
-    top: 5700px;
-  }
-  
+  }  
   #paction > h1
   {
     padding-top: 50px;
@@ -5264,49 +5083,44 @@ html
     padding-bottom: 20px;
     text-align: center;
   }
-
-  #container > .footer
+  #background 
   {
-    top: 50px;
+    position: absolute;
+    display: block;
     width: 100%;
-  }
-  #container > .footer  > .quickLinks
-  {
-    width: 100%;
-    height: 100px;
-  }
-  #container > .footer  > .quickLinks > h3
-  {
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  #container > .footer  > .quickLinks > li  
-  {
-    width: 50%;
-    padding: 0px 35px;
-    margin-left: -4px;
-  }
-  #container > .footer  > .quickLinks > li > a
-  {
-    width: 100%;
-    padding-left: 15px;  
-  }
-  #container > .footer  > .signature
-  {
-    padding-right: 5px; 
-    bottom: -5px;
-    padding-top: 15px;
-  }
-
-  #container > .footer-background
-  {
-    top: 2520px;
-    height: 130px;
-    width: 100%;
+    /*height: 100%;*/
+    top: 550px;
+    z-index: -11;
     left: 0px;
-    z-index: -1;
-    display: none;
+  }
+  #background > .pgBg
+  {
+    display: inline-block;
+    /*position: absolute;*/
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1600px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 4100px;
+  }
+  #background > .pgBg:nth-of-type(3)
+  {
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    height: 2200px;
   }
 }
 
@@ -5316,7 +5130,7 @@ html
 
 
 
-@media all and (max-width: 356px)
+@media (max-width: 356px)
 {
   
   #favreau> p:nth-of-type(2)
@@ -5329,41 +5143,56 @@ html
     font-size: 12px;
     padding: 0 10px;
   }
-  #container > .pgBg1
+  #background > .pgBg:nth-of-type(1)
   {
-    position: absolute;
-    z-index: -5;
     /*white to light blue to light blue*/
     background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
     width: 100%;
-    left: 0px;
-    display: block;
-    height: 2000px;
-    top: 400px;
+    height: 1700px;
   }
-  #container > .pgBg2
+  #background > .pgBg:nth-of-type(2)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3550px;
-    top: 2400px;
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 4200px;
   }
-  #container > .pgBg3
+  #background > .pgBg:nth-of-type(3)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*dark blue to black to white*/
     background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2900px;
-    top: 5900px;
+    height: 2250px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 341px)
+{
+  #background > .pgBg:nth-of-type(1)
+  {
+    /*white to light blue to light blue*/
+    background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
+    width: 100%;
+    height: 1700px;
+  }
+  #background > .pgBg:nth-of-type(2)
+  {
+    width: 100%;
+    /*light blue to dark blue to dark blue*/
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 4500px;
+  }
+  #background > .pgBg:nth-of-type(3)
+  {
+    width: 100%;
+    /*dark blue to black to white*/
+    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    height: 2200px;
   }
 }
 
@@ -5374,7 +5203,7 @@ html
 
 
 
-@media all and (max-width: 338px)
+@media (max-width: 338px)
 {
   
   #brazil > p:nth-of-type(1)
@@ -5419,84 +5248,26 @@ html
     font-size: 8px;
     padding: 0 10px;
   }
-  #container > .pgBg1
+  #background > .pgBg:nth-of-type(1)
   {
-    position: absolute;
-    z-index: -5;
     /*white to light blue to light blue*/
     background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
     width: 100%;
-    left: 0px;
-    display: block;
-    height: 1800px;
-    top: 400px;
+    height: 1000px;
   }
-  #container > .pgBg2
+  #background > .pgBg:nth-of-type(2)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3550px;
-    top: 2200px;
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 4500px;
   }
-  #container > .pgBg3
+  #background > .pgBg:nth-of-type(3)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*dark blue to black to white*/
     background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2700px;
-    top: 5700px;
-  }
-  #container > .footer
-  {
-    top: 100px;
-    width: 100%;
-  }
-  #container > .footer  > .quickLinks
-  {
-    width: 100%;
-    height: 100px;
-  }
-  #container > .footer  > .quickLinks > h3
-  {
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  #container > .footer  > .quickLinks > li  
-  {
-    width: 50%;
-    padding: 0px 35px;
-    margin-left: -4px;
-  }
-  #container > .footer  > .quickLinks > li > a
-  {
-    width: 100%;
-    padding-left: 15px;  
-  }
-  #container > .footer  > .signature
-  {
-    padding-right: 5px; 
-    bottom: -5px;
-    padding-top: 15px;
-  }
-
-  #container > .footer-background
-  {
-    top: 2520px;
-    height: 130px;
-    width: 100%;
-    left: 0px;
-    z-index: -1;
-    display: none;
+    height: 2200px;
   }
 }
 
@@ -5507,7 +5278,7 @@ html
 
 
 
-@media all and  (max-width: 323px)
+@media (max-width: 323px)
 {
   
   #brazil > p:nth-of-type(1)
@@ -5552,84 +5323,26 @@ html
     font-size: 8px;
     padding: 0 10px;
   }
-  ##container > .pgBg1
+  #background > .pgBg:nth-of-type(1)
   {
-    position: absolute;
-    z-index: -5;
     /*white to light blue to light blue*/
     background-image: linear-gradient(white,rgba(22,129,174,0.5),rgba(22,129,174,0.5));
     width: 100%;
-    left: 0px;
-    display: block;
-    height: 1800px;
-    top: 400px;
+    height: 1150px;
   }
-  #container > .pgBg2
+  #background > .pgBg:nth-of-type(2)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
-    left: 0px;
-    display: block;
-    height: 3550px;
-    top: 2200px;
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    height: 4500px;
   }
-  #container > .pgBg3
+  #background > .pgBg:nth-of-type(3)
   {
-    position: absolute;
-    z-index: -5;  
     width: 100%;
     /*dark blue to black to white*/
     background-image: linear-gradient(rgb(72,91,109), black, white); 
-    left: 0px;
-    display: block;
-    height: 2700px;
-    top: 5700px;
-  }
-  #container > .footer
-  {
-    top: 150px;
-    width: 100%;
-  }
-  #container > .footer  > .quickLinks
-  {
-    width: 100%;
-    height: 100px;
-  }
-  #container > .footer  > .quickLinks > h3
-  {
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  #container > .footer  > .quickLinks > li  
-  {
-    width: 50%;
-    padding: 0px 35px;
-    margin-left: -4px;
-  }
-  #container > .footer  > .quickLinks > li > a
-  {
-    width: 100%;
-    padding-left: 15px;  
-  }
-  #container > .footer  > .signature
-  {
-    padding-right: 5px; 
-    bottom: -5px;
-    padding-top: 15px;
-  }
-
-  #container > .footer-background
-  {
-    top: 2520px;
-    height: 130px;
-    width: 100%;
-    left: 0px;
-    z-index: -1;
-    display: none;
+    height: 2200px;
   }
 }
 
