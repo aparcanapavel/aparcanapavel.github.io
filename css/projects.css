@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-y: hidden;
+  /* overflow-y: scroll; */
 }
 /*header css*/
 .grayBackground
@@ -73,7 +73,7 @@
   font-size: 25px;
   top: 5px;
   right: 15px;
-  
+
 }
 #container > .header > .quickContact > li > a
 {
@@ -100,12 +100,12 @@
   left: 20%;
   color: solid black;
 }
-#container > .menu > input, 
+#container > .menu > input,
 #container > .menu > label
 {
   display: none;
 }
-#container > .menu > .page-menu 
+#container > .menu > .page-menu
 {
 	list-style-type: none;
 	position: relative;
@@ -151,7 +151,7 @@
   text-transform: uppercase;
   border: 3px solid black;
 }
-html 
+html
 {
   scroll-behavior: smooth;
 }
@@ -220,7 +220,7 @@ html
   left: 20%;
   top: 0px;
 }
-#container > .passionProject 
+#container > .passionProject
 {
   display: block;
   width: 100%;
@@ -288,9 +288,9 @@ html
   color: white;
   animation: blinker 1.5s linear infinite;
 }
-@keyframes blinker {  
+@keyframes blinker {
   50% { opacity: 0; }
-} 
+}
 .button
 {
   display: block;
@@ -410,7 +410,7 @@ html
   margin-left: 25px;
   margin-right: 25px;
 }
-#fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+#fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a
 {
   padding-top: 50px;
 }
@@ -585,14 +585,14 @@ html
   width: 100%;
   /*background-color: orange;*/
 }
-#module3 > .techCompanies, 
-#module3 > .government 
+#module3 > .techCompanies,
+#module3 > .government
 {
   display: inline-block;
   width: 50%;
   margin-left: -4px;
 }
-#module3 > .techCompanies > a > img, 
+#module3 > .techCompanies > a > img,
 #module3 > .government > a > img
 {
   width: 95%;
@@ -655,7 +655,7 @@ html
   top: 20px;
   color: white;
 }
-#background 
+#background
 {
   position: absolute;
   display: block;
@@ -684,14 +684,14 @@ html
 {
   width: 100%;
   /*light blue to dark blue to dark blue*/
-  background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+  background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
   height: 3200px;
 }
 #background > .pgBg:nth-of-type(3)
 {
   width: 100%;
   /*dark blue to black to white*/
-  background-image: linear-gradient(rgb(72,91,109), black, white); 
+  background-image: linear-gradient(rgb(72,91,109), black, white);
   height: 2200px;
 }
 #container > .footer
@@ -715,7 +715,7 @@ html
   padding-top: 20px;
   padding-bottom: 10px;
 }
-#container > .footer  > .quickLinks > li  
+#container > .footer  > .quickLinks > li
 {
   width: 30%;
   color: white;
@@ -729,13 +729,13 @@ html
   color: white;
   text-decoration:none;
   text-align: left;
-  padding-left: 50px;  
+  padding-left: 50px;
 }
 #container > .footer  > .signature
 {
   background-color: rgb(72,91,109);
   text-align: right;
-  padding-right: 5px; 
+  padding-right: 5px;
   color: white;
 }
 
@@ -811,12 +811,12 @@ html
     bottom: 0px;
     left: 20%;
   }
-  #container > .menu > input, 
+  #container > .menu > input,
   #container > .menu > label
   {
     display: none;
   }
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     width: 100%;
     top:5px;
@@ -846,7 +846,7 @@ html
     padding: 28px 0px;
     font-size: 40px;
   }
-  #container > .passionProject 
+  #container > .passionProject
   {
     display: block;
     width: 100%;
@@ -960,7 +960,7 @@ html
     display: none;
   }
 }
-  
+
 
 
 
@@ -1036,7 +1036,7 @@ html
     left: 20%;
     top: 0px;
   }
-  
+
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -1096,9 +1096,9 @@ html
     color: white;
     animation: blinker 1.5s linear infinite;
   }
-  @keyframes blinker {  
+  @keyframes blinker {
     50% { opacity: 0; }
-  } 
+  }
   .button
   {
     display: block;
@@ -1192,7 +1192,7 @@ html
     margin-left: 25px;
     margin-right: 25px;
   }
-  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a
   {
     padding-top: 50px;
   }
@@ -1241,7 +1241,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  
+
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -1273,7 +1273,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -1301,7 +1301,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -1317,15 +1317,15 @@ html
     width: 50%;
     left: 25%;
   }
-  
-  #module3 > .techCompanies, 
-  #module3 > .government 
+
+  #module3 > .techCompanies,
+  #module3 > .government
   {
     display: inline-block;
     width: 50%;
     margin-left: -4px;
   }
-  #module3 > .techCompanies > a > img, 
+  #module3 > .techCompanies > a > img,
   #module3 > .government > a > img
   {
     width: 95%;
@@ -1342,7 +1342,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #paction > h1
   {
     padding-top: 50px;
@@ -1383,10 +1383,10 @@ html
   #container > .pgBg2
   {
     position: absolute;
-    z-index: -5;  
+    z-index: -5;
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109)); 
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     left: 0px;
     display: block;
     height: 3500px;
@@ -1395,10 +1395,10 @@ html
   #container > .pgBg3
   {
     position: absolute;
-    z-index: -5;  
+    z-index: -5;
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     left: 0px;
     display: block;
     height: 2300px;
@@ -1407,13 +1407,13 @@ html
 }
 
 
-  
 
 
 
 
 
-  
+
+
 @media (max-width: 862px)
 {
   #container > .sections
@@ -1480,7 +1480,7 @@ html
     left: 20%;
     top: 0px;
   }
-  
+
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -1540,9 +1540,9 @@ html
     color: white;
     animation: blinker 1.5s linear infinite;
   }
-  @keyframes blinker {  
+  @keyframes blinker {
     50% { opacity: 0; }
-  } 
+  }
   .button
   {
     display: block;
@@ -1561,7 +1561,7 @@ html
     font-size: 12px;
     color: white;
   }
-  
+
   #module1 > .btn
   {
     position: relative;
@@ -1577,7 +1577,7 @@ html
     text-decoration: underline;
     font-size: 35px;
   }
-  
+
   #fakeNews > #module1 > .start
   {
     width: 50%;
@@ -1608,7 +1608,7 @@ html
     padding-top: 10px;
     padding-right: 20px;
   }
-  
+
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -1637,7 +1637,7 @@ html
     margin-left: 25px;
     margin-right: 25px;
   }
-  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a
   {
     padding-top: 50px;
   }
@@ -1669,7 +1669,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -1687,7 +1687,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  
+
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -1719,7 +1719,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -1747,7 +1747,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -1763,15 +1763,15 @@ html
     width: 50%;
     left: 25%;
   }
-  
-  #module3 > .techCompanies, 
-  #module3 > .government 
+
+  #module3 > .techCompanies,
+  #module3 > .government
   {
     display: inline-block;
     width: 50%;
     margin-left: -4px;
   }
-  #module3 > .techCompanies > a > img, 
+  #module3 > .techCompanies > a > img,
   #module3 > .government > a > img
   {
     width: 95%;
@@ -1788,7 +1788,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #paction > h1
   {
     padding-top: 50px;
@@ -1818,7 +1818,7 @@ html
 
 
 
-  
+
 
 
 
@@ -1891,7 +1891,7 @@ html
     left: 20%;
     top: 0px;
   }
-  
+
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -1951,9 +1951,9 @@ html
     color: white;
     animation: blinker 1.5s linear infinite;
   }
-  @keyframes blinker {  
+  @keyframes blinker {
     50% { opacity: 0; }
-  } 
+  }
   .button
   {
     display: block;
@@ -1972,7 +1972,7 @@ html
     font-size: 12px;
     color: white;
   }
-  
+
   #module1 > .btn
   {
     position: relative;
@@ -2024,7 +2024,7 @@ html
     padding-top: 10px;
     padding-right: 20px;
   }
-  
+
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -2053,7 +2053,7 @@ html
     margin-left: 25px;
     margin-right: 25px;
   }
-  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a
   {
     padding-top: 50px;
   }
@@ -2085,7 +2085,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -2103,7 +2103,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  
+
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -2135,7 +2135,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -2163,7 +2163,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -2179,15 +2179,15 @@ html
     width: 50%;
     left: 25%;
   }
-  
-  #module3 > .techCompanies, 
-  #module3 > .government 
+
+  #module3 > .techCompanies,
+  #module3 > .government
   {
     display: inline-block;
     width: 50%;
     margin-left: -4px;
   }
-  #module3 > .techCompanies > a > img, 
+  #module3 > .techCompanies > a > img,
   #module3 > .government > a > img
   {
     width: 95%;
@@ -2204,7 +2204,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #paction > h1
   {
     padding-top: 50px;
@@ -2234,7 +2234,7 @@ html
 
 
 
- 
+
 
 
 
@@ -2310,7 +2310,7 @@ html
     left: 20%;
     top: 0px;
   }
-  
+
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -2370,9 +2370,9 @@ html
     color: white;
     animation: blinker 1.5s linear infinite;
   }
-  @keyframes blinker {  
+  @keyframes blinker {
     50% { opacity: 0; }
-  } 
+  }
   .button
   {
     display: block;
@@ -2391,7 +2391,7 @@ html
     font-size: 12px;
     color: white;
   }
-  
+
   #module1 > .btn
   {
     position: relative;
@@ -2443,7 +2443,7 @@ html
     padding-top: 10px;
     padding-right: 20px;
   }
-  
+
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -2472,7 +2472,7 @@ html
     margin-left: 25px;
     margin-right: 25px;
   }
-  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a
   {
     padding-top: 50px;
   }
@@ -2504,7 +2504,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -2522,7 +2522,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  
+
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -2554,7 +2554,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 145px;
@@ -2582,7 +2582,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -2598,15 +2598,15 @@ html
     width: 50%;
     left: 25%;
   }
-  
-  #module3 > .techCompanies, 
-  #module3 > .government 
+
+  #module3 > .techCompanies,
+  #module3 > .government
   {
     display: inline-block;
     width: 50%;
     margin-left: -4px;
   }
-  #module3 > .techCompanies > a > img, 
+  #module3 > .techCompanies > a > img,
   #module3 > .government > a > img
   {
     width: 95%;
@@ -2623,7 +2623,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #paction > h1
   {
     padding-top: 50px;
@@ -2649,7 +2649,7 @@ html
     position: relative;
     left: 10%;
   }
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -2678,14 +2678,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 3200px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2200px;
   }
   #container > .footer
@@ -2704,7 +2704,7 @@ html
     padding-bottom: 10px;
   }
 
-  #container > .footer  > .quickLinks > li  
+  #container > .footer  > .quickLinks > li
   {
     width: 30%;
     padding: 0px 35px;
@@ -2712,11 +2712,11 @@ html
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    padding-left: 50px;  
+    padding-left: 50px;
   }
   #container > .footer  > .signature
   {
-    padding-right: 5px; 
+    padding-right: 5px;
   }
 }
 
@@ -2804,7 +2804,7 @@ html
     left: 20%;
     top: 0px;
   }
-  
+
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -2874,7 +2874,7 @@ html
     color: white;
     animation: blinker 1.5s linear infinite;
   }
-  @keyframes blinker {  
+  @keyframes blinker {
     50% { opacity: 0; }
   }
   #module1 > h1
@@ -2883,7 +2883,7 @@ html
     text-decoration: underline;
     font-size: 25px;
   }
-  
+
   #fakeNews > #module1
   {
     width: 100%;
@@ -2923,7 +2923,7 @@ html
     padding-right: 60px;
     padding-left: 40px;
   }
-  
+
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -2952,7 +2952,7 @@ html
     margin-left: 25px;
     margin-right: 25px;
   }
-  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a
   {
     padding-top: 50px;
   }
@@ -2984,7 +2984,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 105px;
@@ -3002,7 +3002,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  
+
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -3034,7 +3034,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 105px;
@@ -3087,15 +3087,15 @@ html
     width: 50%;
     left: 25%;
   }
-  
-  #module3 > .techCompanies, 
-  #module3 > .government 
+
+  #module3 > .techCompanies,
+  #module3 > .government
   {
     display: inline-block;
     width: 50%;
     margin-left: -4px;
   }
-  #module3 > .techCompanies > a > img, 
+  #module3 > .techCompanies > a > img,
   #module3 > .government > a > img
   {
     width: 95%;
@@ -3112,14 +3112,14 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #paction > h1
   {
     padding-top: 50px;
     text-decoration: underline;
     font-size: 25px;
   }
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -3148,14 +3148,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 3500px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2200px;
   }
   #container > .footer
@@ -3174,7 +3174,7 @@ html
     padding-bottom: 10px;
   }
 
-  #container > .footer  > .quickLinks > li  
+  #container > .footer  > .quickLinks > li
   {
     width: 30%;
     padding: 0px 35px;
@@ -3182,11 +3182,11 @@ html
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    padding-left: 50px;  
+    padding-left: 50px;
   }
   #container > .footer  > .signature
   {
-    padding-right: 5px; 
+    padding-right: 5px;
   }
 }
 
@@ -3198,7 +3198,7 @@ html
 
 @media (max-width: 608px)
 {
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -3227,14 +3227,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 3500px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2200px;
   }
   #container > .footer
@@ -3253,7 +3253,7 @@ html
     padding-bottom: 10px;
   }
 
-  #container > .footer  > .quickLinks > li  
+  #container > .footer  > .quickLinks > li
   {
     width: 30%;
     padding: 0px 35px;
@@ -3261,11 +3261,11 @@ html
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    padding-left: 50px;  
+    padding-left: 50px;
   }
   #container > .footer  > .signature
   {
-    padding-right: 5px; 
+    padding-right: 5px;
   }
 }
 
@@ -3278,20 +3278,20 @@ html
 
 
 @media (max-width: 596px)
-{ 
-  #module3 > .techCompanies, 
-  #module3 > .government 
+{
+  #module3 > .techCompanies,
+  #module3 > .government
   {
     display: block;
     width: 100%;
     margin-left: -4px;
   }
-  #module3 > .techCompanies > a > img, 
+  #module3 > .techCompanies > a > img,
   #module3 > .government > a > img
   {
     width: 95%;
   }
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -3320,14 +3320,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 3900px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2500px;
   }
   #container > .footer
@@ -3346,7 +3346,7 @@ html
     padding-bottom: 10px;
   }
 
-  #container > .footer  > .quickLinks > li  
+  #container > .footer  > .quickLinks > li
   {
     width: 30%;
     padding: 0px 35px;
@@ -3354,11 +3354,11 @@ html
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    padding-left: 50px;  
+    padding-left: 50px;
   }
   #container > .footer  > .signature
   {
-    padding-right: 5px; 
+    padding-right: 5px;
   }
 }
 
@@ -3396,14 +3396,14 @@ html
   {
     /*hide the navbar when checkbox is unchekced, using display: none */
     display: none;
-    padding: 10px 5px; 
+    padding: 10px 5px;
     background-color: rgba(0,0,0,0.7);
     text-align: left;
     top: 109px;
     left: 0px;
-  } 
+  }
    /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     list-style-type: none;
     position: relative;
@@ -3423,7 +3423,7 @@ html
     border-right: none;
   }
 /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     position: absolute;
     top: 1000px;
@@ -3433,7 +3433,7 @@ html
     background-color: rgba(0,0,0,0.7);
     list-style: none;
     width: 150px;
-  }  
+  }
   #container > .menu > .page-menu > li > a
   {
     text-decoration: none;
@@ -3483,7 +3483,7 @@ html
     font-size: 25px;
     top: 5px;
     right: 15px;
-    
+
   }
   #container > .header > .quickContact > li > a
   {
@@ -3502,8 +3502,8 @@ html
     padding: 28px 0px;
     font-size: 40px;
   }
-  
-  
+
+
   #fakeNews > #module1 > .start
   {
     width: 100%;
@@ -3537,7 +3537,7 @@ html
     padding-right: 60px;
     padding-left: 40px;
   }
-  
+
   #fakeNewsMenu > .btn
   {
     animation: blinker 1.5s linear infinite;
@@ -3566,7 +3566,7 @@ html
     margin-left: 5px;
     margin-right: 5px;
   }
-  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a 
+  #fakeNews > #fakeNewsMenu > .fakeNewsMenu> .dot-box > a
   {
     padding-top: 50px;
   }
@@ -3598,7 +3598,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 75px;
@@ -3616,7 +3616,7 @@ html
   {
     color: rgba(22,129,225,1);
   }
-  
+
   #favreau > p > a
   {
     color: rgba(22,129,174,1);
@@ -3648,7 +3648,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #trumpJr > p:nth-of-type(1)
   {
     padding: 20px 75px;
@@ -3676,7 +3676,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  
+
   #module2 > p > a
   {
     color: rgba(22,129,174,1);
@@ -3692,15 +3692,15 @@ html
     width: 50%;
     left: 25%;
   }
-  
-  #module3 > .techCompanies, 
-  #module3 > .government 
+
+  #module3 > .techCompanies,
+  #module3 > .government
   {
     display: block;
     width: 100%;
     margin-left: -4px;
   }
-  #module3 > .techCompanies > a > img, 
+  #module3 > .techCompanies > a > img,
   #module3 > .government > a > img
   {
     width: 100%;
@@ -3720,7 +3720,7 @@ html
   {
     animation: blinker 1.5s linear infinite;
   }
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -3749,14 +3749,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 3500px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2400px;
   }
   #container > .footer
@@ -3775,7 +3775,7 @@ html
     padding-bottom: 10px;
   }
 
-  #container > .footer  > .quickLinks > li  
+  #container > .footer  > .quickLinks > li
   {
     width: 50%;
     padding: 0px 35px;
@@ -3784,11 +3784,11 @@ html
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    padding-left: 50px;  
+    padding-left: 50px;
   }
   #container > .footer  > .signature
   {
-    padding-right: 5px; 
+    padding-right: 5px;
     bottom: -5px;
     padding-top: 15px;
   }
@@ -3829,14 +3829,14 @@ html
   {
     /*hide the navbar when checkbox is unchekced, using display: none */
     display: none;
-    padding: 10px 5px; 
+    padding: 10px 5px;
     background-color: rgba(0,0,0,0.7);
     text-align: left;
     top: 109px;
     left: 0px;
-  } 
+  }
    /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     list-style-type: none;
     position: relative;
@@ -3856,7 +3856,7 @@ html
     border-right: none;
   }
 /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     position: absolute;
     top: 1000px;
@@ -3866,7 +3866,7 @@ html
     background-color: rgba(0,0,0,0.7);
     list-style: none;
     width: 150px;
-  }  
+  }
   #container > .menu > .page-menu > li > a
   {
     text-decoration: none;
@@ -3916,7 +3916,7 @@ html
     font-size: 25px;
     top: 5px;
     right: 15px;
-    
+
   }
   #container > .header > .quickContact > li > a
   {
@@ -3935,7 +3935,7 @@ html
     padding: 28px 0px;
     font-size: 35px;
   }
-   
+
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -3994,7 +3994,7 @@ html
     padding: 0px;
     position: relative;
     padding-top: 15px;
-  }  
+  }
   #paction > h1
   {
     padding-top: 50px;
@@ -4024,7 +4024,7 @@ html
     top: 20px;
     color: white;
   }
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -4053,14 +4053,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 3800px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2300px;
   }
   #container > .footer
@@ -4079,7 +4079,7 @@ html
     padding-bottom: 10px;
   }
 
-  #container > .footer  > .quickLinks > li  
+  #container > .footer  > .quickLinks > li
   {
     width: 50%;
     padding: 0px 35px;
@@ -4088,11 +4088,11 @@ html
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    padding-left: 15px;  
+    padding-left: 15px;
   }
   #container > .footer  > .signature
   {
-    padding-right: 5px; 
+    padding-right: 5px;
     bottom: -5px;
     padding-top: 15px;
   }
@@ -4130,14 +4130,14 @@ html
   {
     /*hide the navbar when checkbox is unchekced, using display: none */
     display: none;
-    padding: 10px 5px; 
+    padding: 10px 5px;
     background-color: rgba(0,0,0,0.7);
     text-align: left;
     top: 109px;
     left: 0px;
-  } 
+  }
    /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     list-style-type: none;
     position: relative;
@@ -4157,7 +4157,7 @@ html
     border-right: none;
   }
 /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     position: absolute;
     top: 1000px;
@@ -4167,7 +4167,7 @@ html
     background-color: rgba(0,0,0,0.7);
     list-style: none;
     width: 150px;
-  }  
+  }
   #container > .menu > .page-menu > li > a
   {
     text-decoration: none;
@@ -4217,7 +4217,7 @@ html
     font-size: 25px;
     top: 5px;
     right: 15px;
-    
+
   }
   #container > .header > .quickContact > li > a
   {
@@ -4236,7 +4236,7 @@ html
     padding: 28px 0px;
     font-size: 35px;
   }
-  
+
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -4315,7 +4315,7 @@ html
     padding-bottom: 20px;
     text-align: center;
   }
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -4344,14 +4344,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 4200px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2100px;
   }
 }
@@ -4392,14 +4392,14 @@ html
   {
     /*hide the navbar when checkbox is unchekced, using display: none */
     display: none;
-    padding: 10px 5px; 
+    padding: 10px 5px;
     background-color: rgba(0,0,0,0.7);
     text-align: left;
     top: 109px;
     left: 0px;
-  } 
+  }
    /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     list-style-type: none;
     position: relative;
@@ -4419,7 +4419,7 @@ html
     border-right: none;
   }
 /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     position: absolute;
     top: 1000px;
@@ -4429,7 +4429,7 @@ html
     background-color: rgba(0,0,0,0.7);
     list-style: none;
     width: 150px;
-  }  
+  }
   #container > .menu > .page-menu > li > a
   {
     text-decoration: none;
@@ -4479,7 +4479,7 @@ html
     font-size: 25px;
     top: 5px;
     right: 15px;
-    
+
   }
   #container > .header > .quickContact > li > a
   {
@@ -4543,7 +4543,7 @@ html
     border-top-left-radius:  25px;
     border-top-right-radius:  25px;
   }
-  
+
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -4603,7 +4603,7 @@ html
     position: relative;
     padding-top: 15px;
   }
-  
+
   #trumpJr > .tweet
   {
     position: relative;
@@ -4626,14 +4626,14 @@ html
     width: 50%;
     left: 20%;
   }
-  #module3 > .techCompanies, 
-  #module3 > .government 
+  #module3 > .techCompanies,
+  #module3 > .government
   {
     display: block;
     width: 100%;
     margin-left: -4px;
   }
-  #module3 > .techCompanies > a > img, 
+  #module3 > .techCompanies > a > img,
   #module3 > .government > a > img
   {
     width: 100%;
@@ -4670,7 +4670,7 @@ html
     top: 20px;
     color: white;
   }
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -4699,14 +4699,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 4400px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2000px;
   }
 }
@@ -4721,7 +4721,7 @@ html
 
 @media (max-width: 395px)
 {
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -4750,14 +4750,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 4200px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2200px;
   }
   #container > .footer
@@ -4776,7 +4776,7 @@ html
     padding-bottom: 10px;
   }
 
-  #container > .footer  > .quickLinks > li  
+  #container > .footer  > .quickLinks > li
   {
     width: 50%;
     padding: 0px 35px;
@@ -4785,11 +4785,11 @@ html
   #container > .footer  > .quickLinks > li > a
   {
     width: 100%;
-    padding-left: 15px;  
+    padding-left: 15px;
   }
   #container > .footer  > .signature
   {
-    padding-right: 5px; 
+    padding-right: 5px;
     bottom: -5px;
     padding-top: 15px;
   }
@@ -4826,14 +4826,14 @@ html
   {
     /*hide the navbar when checkbox is unchekced, using display: none */
     display: none;
-    padding: 10px 5px; 
+    padding: 10px 5px;
     background-color: rgba(0,0,0,0.7);
     text-align: left;
     top: 109px;
     left: 0px;
-  } 
+  }
    /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     list-style-type: none;
     position: relative;
@@ -4853,7 +4853,7 @@ html
     border-right: none;
   }
 /**/
-  #container > .menu > .page-menu 
+  #container > .menu > .page-menu
   {
     position: absolute;
     top: 1000px;
@@ -4863,7 +4863,7 @@ html
     background-color: rgba(0,0,0,0.7);
     list-style: none;
     width: 150px;
-  }  
+  }
   #container > .menu > .page-menu > li > a
   {
     text-decoration: none;
@@ -4913,7 +4913,7 @@ html
     font-size: 25px;
     top: 5px;
     right: 15px;
-    
+
   }
   #container > .header > .quickContact > li > a
   {
@@ -4977,7 +4977,7 @@ html
     border-top-left-radius:  25px;
     border-top-right-radius:  25px;
   }
-  
+
   #container > .passionProject > h1
   {
     padding-top: 50px;
@@ -5037,7 +5037,7 @@ html
     position: relative;
     padding-top: 15px;
   }
-  
+
   #trumpJr > .tweet
   {
     position: relative;
@@ -5050,21 +5050,21 @@ html
     width: 50%;
     left: 20%;
   }
-  #module3 > .techCompanies, 
-  #module3 > .government 
+  #module3 > .techCompanies,
+  #module3 > .government
   {
     display: block;
     width: 100%;
     margin-left: -4px;
   }
-  #module3 > .techCompanies > a > img, 
+  #module3 > .techCompanies > a > img,
   #module3 > .government > a > img
   {
     width: 100%;
     padding-top: 10px;
     padding-right: 5px;
     padding-left: 9px;
-  }  
+  }
   #paction > h1
   {
     padding-top: 50px;
@@ -5084,7 +5084,7 @@ html
     padding-bottom: 20px;
     text-align: center;
   }
-  #background 
+  #background
   {
     position: absolute;
     display: block;
@@ -5113,14 +5113,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 4100px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2200px;
   }
 }
@@ -5133,7 +5133,7 @@ html
 
 @media (max-width: 356px)
 {
-  
+
   #favreau> p:nth-of-type(2)
   {
     font-size: 10px;
@@ -5155,14 +5155,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 4200px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2250px;
   }
 }
@@ -5185,14 +5185,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 4500px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2200px;
   }
 }
@@ -5206,7 +5206,7 @@ html
 
 @media (max-width: 338px)
 {
-  
+
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 15px;
@@ -5260,14 +5260,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 4500px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2200px;
   }
 }
@@ -5281,7 +5281,7 @@ html
 
 @media (max-width: 323px)
 {
-  
+
   #brazil > p:nth-of-type(1)
   {
     padding: 20px 15px;
@@ -5335,20 +5335,14 @@ html
   {
     width: 100%;
     /*light blue to dark blue to dark blue*/
-    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));  
+    background-image: linear-gradient(rgba(22,129,174,0.5),rgb(72,91,109), rgb(72,91,109));
     height: 4500px;
   }
   #background > .pgBg:nth-of-type(3)
   {
     width: 100%;
     /*dark blue to black to white*/
-    background-image: linear-gradient(rgb(72,91,109), black, white); 
+    background-image: linear-gradient(rgb(72,91,109), black, white);
     height: 2200px;
   }
 }
-
-
-
-
-
-
