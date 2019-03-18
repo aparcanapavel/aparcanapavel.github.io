@@ -117,10 +117,11 @@ var AppComponent = /** @class */ (function () {
             $("#pages").toggleClass("slide");
             // console.log("clicked!");
         });
+        // makes menu close once the Anchor has been clicked
         $(".menuItem > a").click(function () {
             $("#main-menu > label").toggleClass("active");
             $("#pages").toggleClass("slide");
-            console.log("clicked!");
+            // console.log("clicked!");
         });
     };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
