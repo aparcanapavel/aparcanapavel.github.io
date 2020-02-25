@@ -165,7 +165,7 @@
           "imageCaption": "false",
           "sectionTitle": "false",
           "firstLetter": "false",
-          "blogParagraph": "After the interview ended, which lasts about 45 minutes (it goes quicker than you think), then I was left feeling anxious, but also confident. I know it sounds like two complete opposites but hear me out. I was sure I managed to finish all coding problems, but I was not too sure about what they thought about me. Anyway, after a couple of days, I got a really awesome email from App Academy, which relieved all the anxiety I had, and left me full of confidence. The contents of this email were contracts, starting date, what I should be doing in the meantime, and other useful information."
+          "blogParagraph": "After the interview ended, which lasts about 45 minutes (it goes quicker than you think), then I was left feeling anxious, but also confident. I know it sounds like two complete opposites but hear me out. I was sure I managed to finish all the coding challenges, but I was not too sure about what they thought about me. Anyway, after a couple of days, I got a really awesome email from App Academy, which relieved all the anxiety I had, and left me full of confidence. The contents of this email were contracts, starting date, what I should be doing in the meantime, and other useful information."
         },
         {
           "sectionBreak": "true",
@@ -173,7 +173,7 @@
           "imageCaption": "false",
           "sectionTitle": "The First Week",
           "firstLetter": "A",
-          "blogParagraph": "t the beginning, the online lectures are a continuation of the intro Ruby lectures they give you during the application process. The first four weeks, we are able to go through the lectures at our own time but are required to be present during the office hours. As of right now, office hours are Monday through Friday 1pm (PT)-5pm (PT). As you may have noticed, that is in pacific standard time, which means that I had to adjust to eastern time (4pm- 8pm EST). During the first week, you get to learn more terminology, methods, and are being continuously introduced to new aspects of the Ruby programming language, along with practice problems that you have to complete prior to the next office hours. The first week also holds the first practice assessment. This assessment was a wakeup call for me. I ended up getting stuck in a problem, and then began panicking. Unfortunately, I ended up spending too much time in that problem that I had to rush through the rest of the problems. As you probably know, rushing things is never okay, and many things can go wrong, which they did for me. I was not happy with my performance at all. "
+          "blogParagraph": "t the beginning, the online lectures are a continuation of the intro Ruby lectures they give you during the application process. The first four weeks, we are able to go through the lectures at our own time but are required to be present during the office hours. As of right now, office hours are Monday through Friday 1pm (PT)-5pm (PT). As you may have noticed, that is in pacific standard time, which means that I had to adjust to eastern time (4pm- 8pm EST). During the first week, you get to learn more terminology, methods, are being continuously introduced to new aspects of the Ruby programming language, and are given practice problems that you have to complete prior to the next office hours. The first week also holds the first practice assessment. This assessment was a wakeup call for me. I ended up getting stuck in a problem, and then began panicking. Unfortunately, I ended up spending too much time in that problem that I had to rush through the rest of the problems. As you probably know, rushing things is never okay, and many things can go wrong, which they did for me. I was not happy with my performance at all. "
         },
         {
           "sectionBreak": "false",
@@ -189,7 +189,7 @@
           "imageCaption": "false",
           "sectionTitle": "The Second Week",
           "firstLetter": "W",
-          "blogParagraph": "When the second week started, the programming assignments began getting a tiny bit more complex. Do not let this scare you though, as they actually made things more interesting. Everything we learned actually started coming together. There was a second assessment as well, and this time, I took everything I had learned during the first assessment and I was able to successfully finish it in time. "
+          "blogParagraph": "hen the second week started, the programming assignments began getting a tiny bit more complex. Do not let this scare you though, as they actually made things more interesting. Everything we learned actually started coming together. There was a second assessment as well, and this time, I took everything I had learned during the first assessment and I was able to successfully finish it in time. "
         },
         {
           "sectionBreak": "false",
@@ -197,7 +197,7 @@
           "imageCaption": "false",
           "sectionTitle": "false",
           "firstLetter": "false",
-          "blogParagraph": "I just finished the second week of the course and I am very happy that I have been understanding all the topics until now. That is not to say that I have not been working on practice problems outside of app academy. Actually, I found these to be very helpful, and also, I have been challenging myself into creating my own small programs. Further, I have also been getting together with some members of my cohort through \"zoom\". This primarily helps me review things and also helps with repetition, as that is one of the ways I am able to remember things."
+          "blogParagraph": "I just finished the second week of the course and I am very happy that I have been understanding all the topics until now. That is not to say that I have not been working on practice problems outside of app academy. Actually, I found these to be very helpful, and also, I have been challenging myself into creating my own small algorithms. Further, I have also been getting together with some members of my cohort through \"zoom\". This primarily helps me review things and also helps with repetition, as that is one of the ways I am able to remember things."
         },
         {
           "sectionBreak": "true",
@@ -213,7 +213,7 @@
           "imageCaption": "false",
           "sectionTitle": "false",
           "firstLetter": "false",
-          "blogParagraph": "I personally got a little bit ahead onto the next day (Week 3: Day 1), and I was able to work on two super small and simple projects, but those projects have allowed me to understand more and more how Ruby classes are."
+          "blogParagraph": "I personally got a little bit ahead onto the next day (Week 3: Day 1), and I was able to work on two super small and simple projects. These projects allowed me to understand more and more how Ruby classes are and how object oriented programming works."
         },
         {
           "sectionBreak": "false",
@@ -221,7 +221,7 @@
           "imageCaption": "false",
           "sectionTitle": "false",
           "firstLetter": "false",
-          "blogParagraph": "So far, after two weeks of the program, I feel like everything was explained extremely well. Everything I learned prior to App academy, like the angular framework, is finally beginning to make more sense. I now understand why certain things, like classes and test cases, are structured in a very specific way. If this has only been the first two weeks of learning, I wonder what other programming skills, not just languages, but also the structure of my code, I will have by the end of the program!"
+          "blogParagraph": "So far, after two weeks of the program, I feel like everything was explained extremely well. Everything I learned prior to App academy, like the Angular framework, is finally beginning to make more sense. I now understand why certain things, like classes and test cases, are structured in a very specific way. If this has only been the first two weeks of learning, I wonder what other programming skills, not just languages, but also the structure of my code, I will have by the end of the program!"
         }
       ]
     },

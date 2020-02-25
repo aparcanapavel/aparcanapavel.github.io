@@ -138,7 +138,7 @@
           "projParagraph" : "During the Spring 2018 semester, I took my first web design class. For the final project, we were assigned to design a website for a local restaurant or campus organization. Being a member of Alpha Phi Delta fraternity, I noticed that my organization did not have a website for the Rutgers entity, so I decided to design one. This project allowed me to get a strong introduction to HTML, CSS, and jQuery, as well as Google domains, GitHub, and codepen.io."
         },
         {
-          "projParagraph" : "The first version of rutgersapd.org had bugs, the HTML and CSS structure were not property written, and all previous image links were now outdated which led to the page becoming unformatted and meshed. After working with the Angular 7 tutorial, I wanted to become more familiar with angular, so I began rebuilding the website. This time around, i madesure that the HTML and CSS were properly written, as well as storing images in a local folder."
+          "projParagraph" : "The first version of rutgersapd.org had bugs, the HTML and CSS structure were not property written, and all previous image links were now outdated which led to the page becoming unformatted and meshed. After working with the Angular 7 tutorial, I wanted to become more familiar with Angular, so I began rebuilding the website. This time around, I made sure that the HTML and CSS were properly written, as well as storing images in a local folder."
         }
       ]
     },
@@ -241,7 +241,10 @@
           "projParagraph" : "We were assigned to have a landing page, an experience page, an interest page, a projects page, and a contact page with our choice of content per page. At the end of the semester, the project became my official personal website. As I continue to learn new things for web design, I look back at my projects and see what other things I can bring to make them better. For example, after working with Angular 7, I rebuilt this website with better aesthetics and gave it a more professional look. That became version 1.5 of this website and it stayed like that for a couple of months."
         },
         {
-          "projParagraph" : "On May 2019, I decided to upgrade the website once again, which turned out to be a rebuilt. I wanted to really think about the information being displayed and how it was displayed. Further, I wanted to add a blog to it. Today, the website is on version 2.0, with an upgraded navigation menu, colors, banners, and content."
+          "projParagraph" : "On May 2019, I decided to upgrade the website once again, which turned out to be a rebuilt. I wanted to really think about the information being displayed and how it was displayed. Further, I wanted to add a blog to it. That was version 2.0 of the website, and I upgraded the navigation menu, colors, banners, and content."
+        },
+        {
+          "projParagraph" : "On January 2020, I refreshed my website once again, making today's live version, version 3.0. In this, I deleted some pages that were no longer necessary, redesigned the structure with new wireframes, new colors, and tailored to be more of a portfolio website."
         }
       ]
     },
@@ -305,7 +308,7 @@
           "projParagraph" : "At the beginning of the month of April, a client reached out to me to rebuild his website. This was the first time since working closely with Angular that I was approached to redesign and rebuild a website. The client had asked me to make sure that the website had a home page, an experience page, a contact page, and an added blog section."
         },
         {
-          "projParagraph" : "Before beginning, I went ahead to look at the website he had built to check the design and to begin transferring the data onto JavaScript Object Notation (JSON). At this stage, I also chose to go with a similar color combination and began the project."
+          "projParagraph" : "Before beginning, I went ahead to look at the website he had built to check the design and to begin transferring the data onto JavaScript Object Notation (JSON). At this stage, I also chose to go with a similar color combination that the client had and began the project."
         },
         {
           "projParagraph" : "At the end of my version of the project (version2), I learned how to write JSON accordingly, as well as how to transfer information through the HTTP service that Angular provides. Lastly, I learned how to manipulate the HTML better to meet my desired design and I also learned how Angular transitions work. Overall, this project challenged my knowledge of Angular, HTML, CSS, and TypeScript. Fortunately, I was able to overcome these challenges and create a whole new website and design that I am proud to put my name on it."
