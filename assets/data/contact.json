@@ -25,7 +25,7 @@
   ],
   "contact" : [
     {
-      "contactImg" : "assets/contact/ContactMe.png",
+      "contactImg" : "assets/Pavel_Aparcana.jpg",
       "phoneNumber": "8629023780",
       "email" : "aparcanapavel@gmail.com",
       "twitter" : "https://twitter.com/PavelAparcana",
@@ -34,7 +34,7 @@
       "linkedin" : "https://www.linkedin.com/in/pavel-aparcana/",
       "myQuote" : "I believe meaningful relationships are built on respect and honesty. I intend on building relationships with my peers and to work together toward a common goal. Further, I hope to achieve success through collaboration, passion, and hard work.",
       "angelList" : "https://angel.co/pavel-andrei-aparcana",
-      "resume" : "../../assets/resume.pdf"
+      "resume" : "../../assets/Pavel_Aparcana_Resume.pdf"
     }
   ],
   "blogs" : [
@@ -295,6 +295,47 @@
           "sectionTitle": "false",
           "firstLetter": "false",
           "blogParagraph": "All in all, App Academy has been a great journey for me. Time has flown since the last blog entry and in that time, I have learned and become proficient in modern technologies for web development. What is next on this journey? Practice algorithms and Data Structures!"
+        }
+      ]
+    },
+    {
+      "blogId": "5",
+      "blogTitle": "Interesting Times",
+      "blogDate": "6 July 2020",
+      "blogSummary": "Systems Design? Linux? and my first Job!",
+      "blogImage": "assets/contact/blog/5_08062020.jpg",
+      "blogEssay": [
+        {
+          "sectionBreak": "false; if 'true', a small line break will appear",
+          "paragraphImg": "false",
+          "imageCaption": "false",
+          "sectionTitle": "false",
+          "firstLetter": "H",
+          "blogParagraph": "ello! Since my last blog post, things have been interesting around the world and for my life. It feels as if someone started playing Jumanji and now we are in a huge mess all because of a virus, Covid-19. However, I used the quarantine to my advantage! Not only did I continue exercising my skills, but I have also been learning other skills, such as Systems Design and Working with Linux, and I got my first job!! After tapping into these new fields, I have realized that there is so(oooooooo) much more to learn in the computing world. Anyway, thanks to the government mandated quarantine, I was able to sit down and focus on one thing: improving my current skills and way of thinking when programming. "
+        },
+        {
+          "sectionBreak": "false; if 'true', a small line break will appear",
+          "paragraphImg": "false",
+          "imageCaption": "false",
+          "sectionTitle": "false",
+          "firstLetter": "S",
+          "blogParagraph": "ystems Design is definitely something that interests me, as you get to think of everything, then write a program based of the system if you’d like. It is definitely something I knew I had to learn, and I am happy that I got the chance to take an online course on Educative, \"Grokking the System Design Interview\", which explains how it all works, and how one, as a developer should always be thinking."
+        },
+        {
+          "sectionBreak": "false; if 'true', a small line break will appear",
+          "paragraphImg": "false",
+          "imageCaption": "false",
+          "sectionTitle": "false",
+          "firstLetter": "I",
+          "blogParagraph": " have also been exploring working with Linux and I will be writing my journey on shifting from MacOS to a Linux distro in the next blog, but to summarize it, it opens pandora’s box into computers. Some issues I still have yet to resolve, is that my laptop touchpad, keyboard, wi-fi, and audio jack do not work. To work around these issues, I use my external keyboard, which has always been part of my setup, a wi-fi/Ethernet port adapter, and a USB adapter audio jack. Nevertheless, I have enjoyed working with Linux and developing in it. There are books that I have read on the Linux Kernel that will be mentioned on my next blog."
+        },
+        {
+          "sectionBreak": "false; if 'true', a small line break will appear",
+          "paragraphImg": "false",
+          "imageCaption": "false",
+          "sectionTitle": "false",
+          "firstLetter": "F",
+          "blogParagraph": "inally, I landed my first Job!! My current position is a Junior Web Developer for Kraus Marketing in New Jersey, where I work closely with the design teams to develop pixel perfect websites. I enjoy talking to everyone in the company and it has been a great journey so far. Since the first day, I felt welcomed and based on my skills, I was able to hit the ground running!"
         }
       ]
     }
