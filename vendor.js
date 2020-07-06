@@ -29,7 +29,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵPRE_STYLE", function() { return ɵPRE_STYLE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵAnimationGroupPlayer", function() { return AnimationGroupPlayer; });
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -1255,7 +1255,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/animations */ "./node_modules/@angular/animations/fesm5/animations.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -5976,7 +5976,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -11947,7 +11947,7 @@ function isPlatformWorkerUi(platformId) {
 /**
  * @publicApi
  */
-var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('7.2.16');
+var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('7.2.15');
 
 /**
  * @license
@@ -12195,7 +12195,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -14509,7 +14509,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "R3BoundTarget", function() { return R3BoundTarget; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -30276,7 +30276,7 @@ function publishFacade(global) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var VERSION$1 = new Version('7.2.16');
+var VERSION$1 = new Version('7.2.15');
 
 /**
  * @license
@@ -41994,7 +41994,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -52739,7 +52739,7 @@ var Version = /** @class */ (function () {
 /**
  * @publicApi
  */
-var VERSION = new Version('7.2.16');
+var VERSION = new Version('7.2.15');
 
 /**
  * @license
@@ -66508,7 +66508,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -66945,7 +66945,7 @@ var CachedResourceLoader = /** @class */ (function (_super) {
 /**
  * @publicApi
  */
-var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('7.2.16');
+var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('7.2.15');
 
 /**
  * @license
@@ -67020,7 +67020,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/animations/browser */ "./node_modules/@angular/animations/fesm5/browser.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -67541,7 +67541,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -70015,7 +70015,7 @@ var By = /** @class */ (function () {
 /**
  * @publicApi
  */
-var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Version"]('7.2.16');
+var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Version"]('7.2.15');
 
 /**
  * @license
@@ -70132,7 +70132,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /**
- * @license Angular v7.2.16
+ * @license Angular v7.2.15
  * (c) 2010-2019 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -75873,7 +75873,7 @@ function provideRouterInitializer() {
 /**
  * @publicApi
  */
-var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Version"]('7.2.16');
+var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Version"]('7.2.15');
 
 /**
  * @license
@@ -75931,11 +75931,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CarouselModule", function() { return CarouselModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SlideComponent", function() { return SlideComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CarouselConfig", function() { return CarouselConfig; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ngx-bootstrap/utils */ "./node_modules/ngx-bootstrap/utils/fesm5/ngx-bootstrap-utils.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
+/* harmony import */ var ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ngx-bootstrap/utils */ "./node_modules/ngx-bootstrap/utils/fesm5/ngx-bootstrap-utils.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 
 
 
@@ -75962,63 +75960,12 @@ var CarouselConfig = /** @class */ (function () {
          * Show carousel-indicators
          */
         this.showIndicators = true;
-        /* If value more then 1 — carousel works in multilist mode */
-        this.itemsPerSlide = 1;
-        /* If `true` — carousel shifts by one element. By default carousel shifts by number
-            of visible elements (itemsPerSlide field) */
-        this.singleSlideOffset = false;
     }
     CarouselConfig.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Injectable"] }
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"] }
     ];
     return CarouselConfig;
 }());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
- */
-/**
- * Returns the index of the last element in the array where predicate is true, and -1
- * otherwise.
- * @template T
- * @param {?} array The source array to search in
- * @param {?} predicate find calls predicate once for each element of the array, in descending
- * order, until it finds one where predicate returns true. If such an element is found,
- * findLastIndex immediately returns that element index. Otherwise, findLastIndex returns -1.
- * @return {?}
- */
-function findLastIndex(array, predicate) {
-    /** @type {?} */
-    var l = array.length;
-    while (l--) {
-        if (predicate(array[l], l, array)) {
-            return l;
-        }
-    }
-    return -1;
-}
-/**
- * @template T
- * @param {?} array
- * @param {?} size
- * @return {?}
- */
-function chunkByNumber(array, size) {
-    /** @type {?} */
-    var out = [];
-    /** @type {?} */
-    var n = Math.ceil((array.length) / size);
-    /** @type {?} */
-    var i = 0;
-    while (i < n) {
-        /** @type {?} */
-        var chunk = array.splice(0, (i === n - 1) && size < array.length ? array.length : size);
-        out.push(chunk);
-        i++;
-    }
-    return out;
-}
 
 /**
  * @fileoverview added by tsickle
@@ -76039,28 +75986,12 @@ Direction[Direction.PREV] = 'PREV';
 var CarouselComponent = /** @class */ (function () {
     function CarouselComponent(config, ngZone) {
         this.ngZone = ngZone;
-        /* If value more then 1 — carousel works in multilist mode */
-        this.itemsPerSlide = 1;
-        /* If `true` — carousel shifts by one element. By default carousel shifts by number
-             of visible elements (itemsPerSlide field) */
-        this.singleSlideOffset = false;
         /**
          * Will be emitted when active slide has been changed. Part of two-way-bindable [(activeSlide)] property
          */
-        this.activeSlideChange = new _angular_core__WEBPACK_IMPORTED_MODULE_3__["EventEmitter"](false);
-        /**
-         * Will be emitted when active slides has been changed in multilist mode
-         */
-        this.slideRangeChange = new _angular_core__WEBPACK_IMPORTED_MODULE_3__["EventEmitter"]();
-        /* Index to start display slides from it */
-        this.startFromIndex = 0;
-        this._slides = new ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["LinkedList"]();
-        this._currentVisibleSlidesIndex = 0;
+        this.activeSlideChange = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["EventEmitter"](false);
+        this._slides = new ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_0__["LinkedList"]();
         this.destroyed = false;
-        this.getActive = function (slide) { return slide.active; };
-        this.makeSlidesConsistent = function (slides) {
-            slides.forEach(function (slide, index) { return slide.item.order = index; });
-        };
         Object.assign(this, config);
     }
     Object.defineProperty(CarouselComponent.prototype, "activeSlide", {
@@ -76077,9 +76008,6 @@ var CarouselComponent = /** @class */ (function () {
          * @return {?}
          */
         function (index) {
-            if (this.multilist) {
-                return;
-            }
             if (this._slides.length && index !== this._currentActiveSlide) {
                 this._select(index);
             }
@@ -76126,26 +76054,11 @@ var CarouselComponent = /** @class */ (function () {
          * @return {?}
          */
         function () {
-            return !Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["isBs3"])();
+            return !Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_0__["isBs3"])();
         },
         enumerable: true,
         configurable: true
     });
-    /**
-     * @return {?}
-     */
-    CarouselComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        setTimeout(function () {
-            if (_this.multilist) {
-                _this._chunkedSlides = chunkByNumber(_this.mapSlidesAndIndexes(), _this.itemsPerSlide);
-                _this.selectInitialSlides();
-            }
-        }, 0);
-    };
     /**
      * @return {?}
      */
@@ -76174,11 +76087,8 @@ var CarouselComponent = /** @class */ (function () {
      */
     function (slide) {
         this._slides.add(slide);
-        if (this.multilist && this._slides.length <= this.itemsPerSlide) {
-            slide.active = true;
-        }
-        if (!this.multilist && this._slides.length === 1) {
-            this._currentActiveSlide = undefined;
+        if (this._slides.length === 1) {
+            this._currentActiveSlide = void 0;
             this.activeSlide = 0;
             this.play();
         }
@@ -76249,7 +76159,7 @@ var CarouselComponent = /** @class */ (function () {
      */
     function (force) {
         if (force === void 0) { force = false; }
-        this.move(Direction.NEXT, force);
+        this.activeSlide = this.findNextSlideIndex(Direction.NEXT, force);
     };
     /**
      * Rolling to previous slide
@@ -76267,56 +76177,7 @@ var CarouselComponent = /** @class */ (function () {
      */
     function (force) {
         if (force === void 0) { force = false; }
-        this.move(Direction.PREV, force);
-    };
-    /**
-     * @return {?}
-     */
-    CarouselComponent.prototype.getFirstVisibleIndex = /**
-     * @return {?}
-     */
-    function () {
-        return this.slides.findIndex(this.getActive);
-    };
-    /**
-     * @return {?}
-     */
-    CarouselComponent.prototype.getLastVisibleIndex = /**
-     * @return {?}
-     */
-    function () {
-        return findLastIndex(this.slides, this.getActive);
-    };
-    /**
-     * @param {?} direction
-     * @param {?=} force
-     * @return {?}
-     */
-    CarouselComponent.prototype.move = /**
-     * @param {?} direction
-     * @param {?=} force
-     * @return {?}
-     */
-    function (direction, force) {
-        if (force === void 0) { force = false; }
-        /** @type {?} */
-        var firstVisibleIndex = this.getFirstVisibleIndex();
-        /** @type {?} */
-        var lastVisibleIndex = this.getLastVisibleIndex();
-        if (this.noWrap) {
-            if (direction === Direction.NEXT &&
-                this.isLast(lastVisibleIndex) ||
-                direction === Direction.PREV &&
-                    firstVisibleIndex === 0) {
-                return;
-            }
-        }
-        if (!this.multilist) {
-            this.activeSlide = this.findNextSlideIndex(direction, force);
-        }
-        else {
-            this.moveMultilist(direction);
-        }
+        this.activeSlide = this.findNextSlideIndex(Direction.PREV, force);
     };
     /**
      * Rolling to specified slide
@@ -76333,12 +76194,7 @@ var CarouselComponent = /** @class */ (function () {
      * @return {?}
      */
     function (index) {
-        if (!this.multilist) {
-            this.activeSlide = index;
-        }
-        else {
-            this.selectSlideRange(index);
-        }
+        this.activeSlide = index;
     };
     /**
      * Starts a auto changing of slides
@@ -76386,7 +76242,7 @@ var CarouselComponent = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        return this._slides.findIndex(this.getActive);
+        return this._slides.findIndex(function (slide) { return slide.active; });
     };
     /**
      * Defines, whether the specified index is last in collection
@@ -76404,56 +76260,6 @@ var CarouselComponent = /** @class */ (function () {
      */
     function (index) {
         return index + 1 >= this._slides.length;
-    };
-    /**
-     * Defines, whether the specified index is first in collection
-     * @param index
-     */
-    /**
-     * Defines, whether the specified index is first in collection
-     * @param {?} index
-     * @return {?}
-     */
-    CarouselComponent.prototype.isFirst = /**
-     * Defines, whether the specified index is first in collection
-     * @param {?} index
-     * @return {?}
-     */
-    function (index) {
-        return index === 0;
-    };
-    /**
-     * @private
-     * @return {?}
-     */
-    CarouselComponent.prototype.selectInitialSlides = /**
-     * @private
-     * @return {?}
-     */
-    function () {
-        /** @type {?} */
-        var startIndex = this.startFromIndex <= this._slides.length
-            ? this.startFromIndex
-            : 0;
-        this.hideSlides();
-        if (this.singleSlideOffset) {
-            this._slidesWithIndexes = this.mapSlidesAndIndexes();
-            if (this._slides.length - startIndex < this.itemsPerSlide) {
-                /** @type {?} */
-                var slidesToAppend = this._slidesWithIndexes.slice(0, startIndex);
-                this._slidesWithIndexes = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(this._slidesWithIndexes, slidesToAppend).slice(slidesToAppend.length)
-                    .slice(0, this.itemsPerSlide);
-            }
-            else {
-                this._slidesWithIndexes = this._slidesWithIndexes.slice(startIndex, startIndex + this.itemsPerSlide);
-            }
-            this._slidesWithIndexes.forEach(function (slide) { return slide.item.active = true; });
-            this.makeSlidesConsistent(this._slidesWithIndexes);
-        }
-        else {
-            this.selectRangeByNestedIndex(startIndex);
-        }
-        this.slideRangeChange.emit(this.getVisibleIndexes());
     };
     /**
      * Defines next slide index, depending of direction
@@ -76482,7 +76288,7 @@ var CarouselComponent = /** @class */ (function () {
             (this.isLast(this.activeSlide) &&
                 direction !== Direction.PREV &&
                 this.noWrap)) {
-            return undefined;
+            return void 0;
         }
         switch (direction) {
             case Direction.NEXT:
@@ -76508,271 +76314,6 @@ var CarouselComponent = /** @class */ (function () {
         return nextSlideIndex;
     };
     /**
-     * @private
-     * @return {?}
-     */
-    CarouselComponent.prototype.mapSlidesAndIndexes = /**
-     * @private
-     * @return {?}
-     */
-    function () {
-        return this.slides
-            .slice()
-            .map(function (slide, index) {
-            return {
-                index: index,
-                item: slide
-            };
-        });
-    };
-    /**
-     * @private
-     * @param {?} index
-     * @return {?}
-     */
-    CarouselComponent.prototype.selectSlideRange = /**
-     * @private
-     * @param {?} index
-     * @return {?}
-     */
-    function (index) {
-        if (this.isIndexInRange(index)) {
-            return;
-        }
-        this.hideSlides();
-        if (!this.singleSlideOffset) {
-            this.selectRangeByNestedIndex(index);
-        }
-        else {
-            /** @type {?} */
-            var startIndex = this.isIndexOnTheEdges(index)
-                ? index
-                : index - this.itemsPerSlide + 1;
-            /** @type {?} */
-            var endIndex = this.isIndexOnTheEdges(index)
-                ? index + this.itemsPerSlide
-                : index + 1;
-            this._slidesWithIndexes = this.mapSlidesAndIndexes().slice(startIndex, endIndex);
-            this.makeSlidesConsistent(this._slidesWithIndexes);
-            this._slidesWithIndexes.forEach(function (slide) { return slide.item.active = true; });
-        }
-        this.slideRangeChange.emit(this.getVisibleIndexes());
-    };
-    /**
-     * @private
-     * @param {?} index
-     * @return {?}
-     */
-    CarouselComponent.prototype.selectRangeByNestedIndex = /**
-     * @private
-     * @param {?} index
-     * @return {?}
-     */
-    function (index) {
-        /** @type {?} */
-        var selectedRange = this._chunkedSlides
-            .map(function (slidesList, i) {
-            return {
-                index: i,
-                list: slidesList
-            };
-        })
-            .find(function (slidesList) {
-            return slidesList.list.find(function (slide) { return slide.index === index; }) !== undefined;
-        });
-        this._currentVisibleSlidesIndex = selectedRange.index;
-        this._chunkedSlides[selectedRange.index].forEach(function (slide) {
-            slide.item.active = true;
-        });
-    };
-    /**
-     * @private
-     * @param {?} index
-     * @return {?}
-     */
-    CarouselComponent.prototype.isIndexOnTheEdges = /**
-     * @private
-     * @param {?} index
-     * @return {?}
-     */
-    function (index) {
-        return (index + 1 - this.itemsPerSlide <= 0 ||
-            index + this.itemsPerSlide <= this._slides.length);
-    };
-    /**
-     * @private
-     * @param {?} index
-     * @return {?}
-     */
-    CarouselComponent.prototype.isIndexInRange = /**
-     * @private
-     * @param {?} index
-     * @return {?}
-     */
-    function (index) {
-        if (this.singleSlideOffset) {
-            /** @type {?} */
-            var visibleIndexes = this._slidesWithIndexes.map(function (slide) { return slide.index; });
-            return visibleIndexes.indexOf(index) >= 0;
-        }
-        return (index <= this.getLastVisibleIndex() &&
-            index >= this.getFirstVisibleIndex());
-    };
-    /**
-     * @private
-     * @return {?}
-     */
-    CarouselComponent.prototype.hideSlides = /**
-     * @private
-     * @return {?}
-     */
-    function () {
-        this.slides.forEach(function (slide) { return slide.active = false; });
-    };
-    /**
-     * @private
-     * @return {?}
-     */
-    CarouselComponent.prototype.isVisibleSlideListLast = /**
-     * @private
-     * @return {?}
-     */
-    function () {
-        return this._currentVisibleSlidesIndex === this._chunkedSlides.length - 1;
-    };
-    /**
-     * @private
-     * @return {?}
-     */
-    CarouselComponent.prototype.isVisibleSlideListFirst = /**
-     * @private
-     * @return {?}
-     */
-    function () {
-        return this._currentVisibleSlidesIndex === 0;
-    };
-    /**
-     * @private
-     * @param {?} direction
-     * @return {?}
-     */
-    CarouselComponent.prototype.moveSliderByOneItem = /**
-     * @private
-     * @param {?} direction
-     * @return {?}
-     */
-    function (direction) {
-        /** @type {?} */
-        var firstVisibleIndex;
-        /** @type {?} */
-        var lastVisibleIndex;
-        /** @type {?} */
-        var indexToHide;
-        /** @type {?} */
-        var indexToShow;
-        if (this.noWrap) {
-            firstVisibleIndex = this.getFirstVisibleIndex();
-            lastVisibleIndex = this.getLastVisibleIndex();
-            indexToHide = direction === Direction.NEXT
-                ? firstVisibleIndex
-                : lastVisibleIndex;
-            indexToShow = direction !== Direction.NEXT
-                ? firstVisibleIndex - 1
-                : !this.isLast(lastVisibleIndex)
-                    ? lastVisibleIndex + 1 : 0;
-            this._slides.get(indexToHide).active = false;
-            this._slides.get(indexToShow).active = true;
-            /** @type {?} */
-            var slidesToReorder = this.mapSlidesAndIndexes().filter(function (slide) { return slide.item.active; });
-            this.makeSlidesConsistent(slidesToReorder);
-            this.slideRangeChange.emit(this.getVisibleIndexes());
-        }
-        else {
-            /** @type {?} */
-            var displayedIndex = void 0;
-            firstVisibleIndex = this._slidesWithIndexes[0].index;
-            lastVisibleIndex = this._slidesWithIndexes[this._slidesWithIndexes.length - 1].index;
-            if (direction === Direction.NEXT) {
-                this._slidesWithIndexes.shift();
-                displayedIndex = this.isLast(lastVisibleIndex)
-                    ? 0
-                    : lastVisibleIndex + 1;
-                this._slidesWithIndexes.push({
-                    index: displayedIndex,
-                    item: this._slides.get(displayedIndex)
-                });
-            }
-            else {
-                this._slidesWithIndexes.pop();
-                displayedIndex = this.isFirst(firstVisibleIndex)
-                    ? this._slides.length - 1
-                    : firstVisibleIndex - 1;
-                this._slidesWithIndexes = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])([{
-                        index: displayedIndex,
-                        item: this._slides.get(displayedIndex)
-                    }], this._slidesWithIndexes);
-            }
-            this.hideSlides();
-            this._slidesWithIndexes.forEach(function (slide) { return slide.item.active = true; });
-            this.makeSlidesConsistent(this._slidesWithIndexes);
-            this.slideRangeChange.emit(this._slidesWithIndexes.map(function (slide) { return slide.index; }));
-        }
-    };
-    /**
-     * @private
-     * @param {?} direction
-     * @return {?}
-     */
-    CarouselComponent.prototype.moveMultilist = /**
-     * @private
-     * @param {?} direction
-     * @return {?}
-     */
-    function (direction) {
-        if (this.singleSlideOffset) {
-            this.moveSliderByOneItem(direction);
-        }
-        else {
-            this.hideSlides();
-            if (this.noWrap) {
-                this._currentVisibleSlidesIndex = direction === Direction.NEXT
-                    ? this._currentVisibleSlidesIndex + 1
-                    : this._currentVisibleSlidesIndex - 1;
-            }
-            else {
-                if (direction === Direction.NEXT) {
-                    this._currentVisibleSlidesIndex = this.isVisibleSlideListLast()
-                        ? 0
-                        : this._currentVisibleSlidesIndex + 1;
-                }
-                else {
-                    this._currentVisibleSlidesIndex = this.isVisibleSlideListFirst()
-                        ? this._chunkedSlides.length - 1
-                        : this._currentVisibleSlidesIndex - 1;
-                }
-            }
-            this._chunkedSlides[this._currentVisibleSlidesIndex].forEach(function (slide) { return slide.item.active = true; });
-            this.slideRangeChange.emit(this.getVisibleIndexes());
-        }
-    };
-    /**
-     * @private
-     * @return {?}
-     */
-    CarouselComponent.prototype.getVisibleIndexes = /**
-     * @private
-     * @return {?}
-     */
-    function () {
-        if (!this.singleSlideOffset) {
-            return this._chunkedSlides[this._currentVisibleSlidesIndex]
-                .map(function (slide) { return slide.index; });
-        }
-        else {
-            return this._slidesWithIndexes.map(function (slide) { return slide.index; });
-        }
-    };
-    /**
      * Sets a slide, which specified through index, as active
      * @param index
      */
@@ -76793,12 +76334,10 @@ var CarouselComponent = /** @class */ (function () {
             this.pause();
             return;
         }
-        if (!this.multilist) {
-            /** @type {?} */
-            var currentSlide = this._slides.get(this._currentActiveSlide);
-            if (currentSlide) {
-                currentSlide.active = false;
-            }
+        /** @type {?} */
+        var currentSlide = this._slides.get(this._currentActiveSlide);
+        if (currentSlide) {
+            currentSlide.active = false;
         }
         /** @type {?} */
         var nextSlide = this._slides.get(index);
@@ -76847,16 +76386,6 @@ var CarouselComponent = /** @class */ (function () {
             });
         }
     };
-    Object.defineProperty(CarouselComponent.prototype, "multilist", {
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this.itemsPerSlide > 1;
-        },
-        enumerable: true,
-        configurable: true
-    });
     /**
      * Stops loop of auto changing of slides
      */
@@ -76877,27 +76406,23 @@ var CarouselComponent = /** @class */ (function () {
         }
     };
     CarouselComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"], args: [{
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"], args: [{
                     selector: 'carousel',
-                    template: "<div (mouseenter)=\"pause()\" (mouseleave)=\"play()\" (mouseup)=\"play()\" class=\"carousel slide\">\n  <ol class=\"carousel-indicators\" *ngIf=\"showIndicators && slides.length > 1\">\n    <li *ngFor=\"let slidez of slides; let i = index;\" [class.active]=\"slidez.active === true\" (click)=\"selectSlide(i)\"></li>\n  </ol>\n  <div class=\"carousel-inner\" [ngStyle]=\"{'display': multilist ? 'flex' : 'block'}\"><ng-content></ng-content></div>\n  <a class=\"left carousel-control carousel-control-prev\" [class.disabled]=\"activeSlide === 0 && noWrap\" (click)=\"previousSlide()\" *ngIf=\"slides.length > 1\">\n    <span class=\"icon-prev carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n    <span *ngIf=\"isBs4\" class=\"sr-only\">Previous</span>\n  </a>\n  <a class=\"right carousel-control carousel-control-next\" (click)=\"nextSlide()\"  [class.disabled]=\"isLast(activeSlide) && noWrap\" *ngIf=\"slides.length > 1\">\n    <span class=\"icon-next carousel-control-next-icon\" aria-hidden=\"true\"></span>\n    <span class=\"sr-only\">Next</span>\n  </a>\n</div>\n\n\n"
+                    template: "<div (mouseenter)=\"pause()\" (mouseleave)=\"play()\" (mouseup)=\"play()\" class=\"carousel slide\">\n  <ol class=\"carousel-indicators\" *ngIf=\"showIndicators && slides.length > 1\">\n    <li *ngFor=\"let slidez of slides; let i = index;\" [class.active]=\"slidez.active === true\" (click)=\"selectSlide(i)\"></li>\n  </ol>\n  <div class=\"carousel-inner\"><ng-content></ng-content></div>\n  <a class=\"left carousel-control carousel-control-prev\" [class.disabled]=\"activeSlide === 0 && noWrap\" (click)=\"previousSlide()\" *ngIf=\"slides.length > 1\">\n    <span class=\"icon-prev carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n    <span *ngIf=\"isBs4\" class=\"sr-only\">Previous</span>\n  </a>\n  <a class=\"right carousel-control carousel-control-next\" (click)=\"nextSlide()\"  [class.disabled]=\"isLast(activeSlide) && noWrap\" *ngIf=\"slides.length > 1\">\n    <span class=\"icon-next carousel-control-next-icon\" aria-hidden=\"true\"></span>\n    <span class=\"sr-only\">Next</span>\n  </a>\n</div>\n"
                 }] }
     ];
     /** @nocollapse */
     CarouselComponent.ctorParameters = function () { return [
         { type: CarouselConfig },
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["NgZone"] }
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgZone"] }
     ]; };
     CarouselComponent.propDecorators = {
-        noWrap: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Input"] }],
-        noPause: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Input"] }],
-        showIndicators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Input"] }],
-        itemsPerSlide: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Input"] }],
-        singleSlideOffset: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Input"] }],
-        activeSlideChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Output"] }],
-        slideRangeChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Output"] }],
-        activeSlide: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Input"] }],
-        startFromIndex: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Input"] }],
-        interval: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Input"] }]
+        noWrap: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"] }],
+        noPause: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"] }],
+        showIndicators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"] }],
+        activeSlideChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Output"] }],
+        activeSlide: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"] }],
+        interval: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"] }]
     };
     return CarouselComponent;
 }());
@@ -76908,8 +76433,6 @@ var CarouselComponent = /** @class */ (function () {
  */
 var SlideComponent = /** @class */ (function () {
     function SlideComponent(carousel) {
-        this.itemWidth = '100%';
-        this.order = 0;
         /**
          * Wraps element by appropriate CSS classes
          */
@@ -76927,7 +76450,6 @@ var SlideComponent = /** @class */ (function () {
      */
     function () {
         this.carousel.addSlide(this);
-        this.itemWidth = 100 / this.carousel.itemsPerSlide + "%";
     };
     /** Fires changes in container collection after removing of this slide instance */
     /**
@@ -76942,7 +76464,7 @@ var SlideComponent = /** @class */ (function () {
         this.carousel.removeSlide(this);
     };
     SlideComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"], args: [{
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"], args: [{
                     selector: 'slide',
                     template: "\n    <div [class.active]=\"active\" class=\"item\">\n      <ng-content></ng-content>\n    </div>\n  ",
                     host: {
@@ -76955,10 +76477,8 @@ var SlideComponent = /** @class */ (function () {
         { type: CarouselComponent }
     ]; };
     SlideComponent.propDecorators = {
-        active: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["HostBinding"], args: ['class.active',] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Input"] }],
-        itemWidth: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["HostBinding"], args: ['style.width',] }],
-        order: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["HostBinding"], args: ['style.order',] }],
-        addClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["HostBinding"], args: ['class.item',] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["HostBinding"], args: ['class.carousel-item',] }]
+        active: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["HostBinding"], args: ['class.active',] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"] }],
+        addClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["HostBinding"], args: ['class.item',] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["HostBinding"], args: ['class.carousel-item',] }]
     };
     return SlideComponent;
 }());
@@ -76980,8 +76500,8 @@ var CarouselModule = /** @class */ (function () {
         return { ngModule: CarouselModule, providers: [] };
     };
     CarouselModule.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"], args: [{
-                    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"]],
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"], args: [{
+                    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]],
                     declarations: [SlideComponent, CarouselComponent],
                     exports: [SlideComponent, CarouselComponent],
                     providers: [CarouselConfig]
@@ -77097,10 +76617,6 @@ ComponentLoader = /** @class */ (function () {
         this.onHidden = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this._providers = [];
         this._isHiding = false;
-        /**
-         * A selector used if container element was not found
-         */
-        this.containerDefaultSelector = 'body';
         this._listenOpts = {};
         this._globalListener = Function.prototype;
     }
@@ -77204,11 +76720,10 @@ ComponentLoader = /** @class */ (function () {
             if (this.container instanceof _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]) {
                 this.container.nativeElement.appendChild(this._componentRef.location.nativeElement);
             }
-            if (typeof this.container === 'string' && typeof document !== 'undefined') {
-                /** @type {?} */
-                var selectedElement = document.querySelector(this.container) ||
-                    document.querySelector(this.containerDefaultSelector);
-                selectedElement.appendChild(this._componentRef.location.nativeElement);
+            if (this.container === 'body' && typeof document !== 'undefined') {
+                document
+                    .querySelector((/** @type {?} */ (this.container)))
+                    .appendChild(this._componentRef.location.nativeElement);
             }
             if (!this.container &&
                 this._elementRef &&
@@ -77409,19 +76924,16 @@ ComponentLoader = /** @class */ (function () {
         if (this._zoneSubscription || !this.attachment) {
             return;
         }
-        this.onShown.subscribe(function () {
+        this._zoneSubscription = this._ngZone.onStable.subscribe(function () {
+            if (!_this._componentRef) {
+                return;
+            }
             _this._posService.position({
                 element: _this._componentRef.location,
                 target: _this._elementRef,
                 attachment: _this.attachment,
                 appendToBody: _this.container === 'body'
             });
-        });
-        this._zoneSubscription = this._ngZone.onStable.subscribe(function () {
-            if (!_this._componentRef) {
-                return;
-            }
-            _this._posService.calcPosition();
         });
     };
     /**
@@ -78208,7 +77720,7 @@ function getArea(_a) {
  * @return {?}
  */
 function computeAutoPlacement(placement, refRect, target, host, allowedPositions, boundariesElement, padding) {
-    if (allowedPositions === void 0) { allowedPositions = ['top', 'bottom', 'right', 'left']; }
+    if (allowedPositions === void 0) { allowedPositions = ['top', 'left', 'bottom', 'right']; }
     if (boundariesElement === void 0) { boundariesElement = 'viewport'; }
     if (padding === void 0) { padding = 0; }
     if (placement.indexOf('auto') === -1) {
@@ -78242,23 +77754,20 @@ function computeAutoPlacement(placement, refRect, target, host, allowedPositions
     /** @type {?} */
     var filteredAreas = sortedAreas.filter(function (_a) {
         var width = _a.width, height = _a.height;
-        return width >= target.clientWidth
-            && height >= target.clientHeight;
+        return width >= target.clientWidth && height >= target.clientHeight;
     });
-    filteredAreas = filteredAreas.filter(function (position) {
-        return allowedPositions
-            .some(function (allowedPosition) {
-            return allowedPosition === position.key;
-        });
-    });
+    filteredAreas = allowedPositions
+        .reduce(function (obj, key) {
+        var _a;
+        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, obj, (_a = {}, _a[key] = filteredAreas[key], _a));
+    }, {});
     /** @type {?} */
     var computedPlacement = filteredAreas.length > 0
         ? filteredAreas[0].key
         : sortedAreas[0].key;
     /** @type {?} */
     var variation = placement.split(' ')[1];
-    // for tooltip on auto position
-    target.className = target.className.replace(/bs-tooltip-auto/g, "bs-tooltip-" + computedPlacement);
+    target.className = target.className.replace(/auto/g, computedPlacement);
     return computedPlacement + (variation ? "-" + variation : '');
 }
 
@@ -78440,28 +77949,50 @@ function isNumeric(n) {
  * @param {?=} renderer
  * @return {?}
  */
-function updateContainerClass(data, renderer) {
+function setAllStyles$$1(data, renderer) {
     /** @type {?} */
     var target = data.instance.target;
     /** @type {?} */
-    var containerClass = target.className;
+    var offsets = getOffsets(data);
+    setStyles(target, {
+        'will-change': 'transform',
+        top: '0px',
+        left: '0px',
+        transform: "translate3d(" + offsets.left + "px, " + offsets.top + "px, 0px)"
+    }, renderer);
+    if (data.instance.arrow) {
+        setStyles(data.instance.arrow, data.offsets.arrow, renderer);
+    }
     if (data.placementAuto) {
-        containerClass = containerClass.replace(/bs-popover-auto/g, "bs-popover-" + data.placement);
-        containerClass = containerClass.replace(/bs-tooltip-auto/g, "bs-tooltip-" + data.placement);
-        containerClass = containerClass.replace(/\sauto/g, " " + data.placement);
-        if (containerClass.indexOf('popover') !== -1 && containerClass.indexOf('popover-auto') === -1) {
-            containerClass += ' popover-auto';
+        if (renderer) {
+            renderer.setAttribute(target, 'class', target.className.replace(/bs-popover-auto/g, "bs-popover-" + data.placement));
+            renderer.setAttribute(target, 'class', target.className.replace(/bs-tooltip-auto/g, "bs-tooltip-" + data.placement));
+            renderer.setAttribute(target, 'class', target.className.replace(/\sauto/g, "s" + data.placement));
+            if (target.className.match(/popover/g)) {
+                renderer.addClass(target, 'popover-auto');
+            }
+            if (target.className.match(/tooltip/g)) {
+                renderer.addClass(target, 'tooltip-auto');
+            }
         }
-        if (containerClass.indexOf('tooltip') !== -1 && containerClass.indexOf('tooltip-auto') === -1) {
-            containerClass += ' tooltip-auto';
+        else {
+            target.className = target.className.replace(/bs-popover-auto/g, "bs-popover-" + data.placement);
+            target.className = target.className.replace(/bs-tooltip-auto/g, "bs-tooltip-" + data.placement);
+            target.className = target.className.replace(/\sauto/g, "s" + data.placement);
+            if (target.className.match(/popover/g)) {
+                target.classList.add('popover-auto');
+            }
+            if (target.className.match(/tooltip/g)) {
+                target.classList.add('tooltip-auto');
+            }
         }
     }
-    containerClass = containerClass.replace(/left|right|top|bottom/g, "" + data.placement.split(' ')[0]);
     if (renderer) {
-        renderer.setAttribute(target, 'class', containerClass);
-        return;
+        renderer.setAttribute(target, 'class', target.className.replace(/left|right|top|bottom/g, "" + data.placement));
     }
-    target.className = containerClass;
+    else {
+        target.className = target.className.replace(/left|right|top|bottom/g, "" + data.placement);
+    }
 }
 
 /**
@@ -78593,7 +78124,9 @@ function flip(data) {
     /** @type {?} */
     var host = data.instance.host;
     /** @type {?} */
-    var adaptivePosition = computeAutoPlacement('auto', offsetsHost, target, host, data.options.allowedPositions);
+    var adaptivePosition = variation
+        ? computeAutoPlacement('auto', offsetsHost, target, host, ['top', 'bottom'])
+        : computeAutoPlacement('auto', offsetsHost, target, host);
     /** @type {?} */
     var flipOrder = [placement, adaptivePosition];
     /* tslint:disable-next-line: cyclomatic-complexity */
@@ -78661,21 +78194,16 @@ function flip(data) {
 function initData(targetElement, hostElement, position, options) {
     /** @type {?} */
     var hostElPosition = getReferenceOffsets(targetElement, hostElement);
-    if (!position.match(/^(auto)*\s*(left|right|top|bottom)*$/)
-        && !position.match(/^(left|right|top|bottom)*\s*(start|end)*$/)) {
-        /* tslint:disable-next-line: no-parameter-reassignment */
-        position = 'auto';
-    }
     /** @type {?} */
     var placementAuto = !!position.match(/auto/g);
     // support old placements 'auto left|right|top|bottom'
     /** @type {?} */
-    var placement = position.match(/auto\s(left|right|top|bottom)/)
-        ? position.split(' ')[1] || 'auto'
+    var placement = !!position.match(/auto\s(left|right|top|bottom)/g)
+        ? position.split(' ')[1] || ''
         : position;
     /** @type {?} */
     var targetOffset = getTargetOffsets(targetElement, hostElPosition, placement);
-    placement = computeAutoPlacement(placement, hostElPosition, targetElement, hostElement, options ? options.allowedPositions : undefined);
+    placement = computeAutoPlacement(placement, hostElPosition, targetElement, hostElement);
     return {
         options: options,
         instance: {
@@ -78703,9 +78231,6 @@ function initData(targetElement, hostElement, position, options) {
  * @return {?}
  */
 function preventOverflow(data) {
-    if (!isModifierEnabled(data.options, 'preventOverflow')) {
-        return data;
-    }
     // NOTE: DOM access here
     // resets the targetOffsets's position so that the document size can be calculated excluding
     // the size of the targetOffsets element itself
@@ -78803,9 +78328,9 @@ function shift(data) {
         var measurement = isVertical ? 'width' : 'height';
         /** @type {?} */
         var shiftOffsets = {
-            start: (_a = {}, _a[side] = host[side], _a),
-            end: (_b = {},
-                _b[side] = host[side] + host[measurement] - target[measurement],
+            left: (_a = {}, _a[side] = host[side], _a),
+            right: (_b = {},
+                _b[side] = host[side] + host[measurement] - host[measurement],
                 _b)
         };
         data.offsets.target = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, target, ((/** @type {?} */ (shiftOffsets)))[shiftvariation]);
@@ -78894,18 +78419,7 @@ var positionService = new Positioning();
 function positionElements(hostElement, targetElement, placement, appendToBody, options, renderer) {
     /** @type {?} */
     var data = positionService.positionElements(hostElement, targetElement, placement, appendToBody, options);
-    /** @type {?} */
-    var offsets = getOffsets(data);
-    setStyles(targetElement, {
-        'will-change': 'transform',
-        top: '0px',
-        left: '0px',
-        transform: "translate3d(" + offsets.left + "px, " + offsets.top + "px, 0px)"
-    }, renderer);
-    if (data.instance.arrow) {
-        setStyles(data.instance.arrow, data.offsets.arrow, renderer);
-    }
-    updateContainerClass(data, renderer);
+    setAllStyles$$1(data, renderer);
 }
 
 /**
@@ -78937,6 +78451,7 @@ var PositioningService = /** @class */ (function () {
      */
     function (options) {
         this.addPositionElement(options);
+        this.update$$.next();
     };
     /**
      * @param {?} options
@@ -78948,15 +78463,6 @@ var PositioningService = /** @class */ (function () {
      */
     function (options) {
         this.positionElements.set(_getHtmlElement(options.element), options);
-    };
-    /**
-     * @return {?}
-     */
-    PositioningService.prototype.calcPosition = /**
-     * @return {?}
-     */
-    function () {
-        this.update$$.next();
     };
     /**
      * @param {?} elRef
@@ -79058,10 +78564,6 @@ __webpack_require__.r(__webpack_exports__);
  */
 var TooltipConfig = /** @class */ (function () {
     function TooltipConfig() {
-        /**
-         * sets disable adaptive position
-         */
-        this.adaptivePosition = true;
         /**
          * tooltip placement, supported positions: 'top', 'bottom', 'left', 'right'
          */
@@ -79367,6 +78869,13 @@ var TooltipDirective = /** @class */ (function () {
      */
     function () {
         var _this = this;
+        this._positionService.setOptions({
+            modifiers: {
+                flip: {
+                    enabled: true
+                }
+            }
+        });
         this._tooltip.listen({
             triggers: this.triggers,
             show: function () { return _this.show(); }
@@ -79414,16 +78923,6 @@ var TooltipDirective = /** @class */ (function () {
      */
     function () {
         var _this = this;
-        this._positionService.setOptions({
-            modifiers: {
-                flip: {
-                    enabled: this.adaptivePosition
-                },
-                preventOverflow: {
-                    enabled: this.adaptivePosition
-                }
-            }
-        });
         if (this.isOpen ||
             this.isDisabled ||
             this._delayTimeoutId ||
@@ -79524,7 +79023,6 @@ var TooltipDirective = /** @class */ (function () {
         { type: ngx_bootstrap_positioning__WEBPACK_IMPORTED_MODULE_6__["PositioningService"] }
     ]; };
     TooltipDirective.propDecorators = {
-        adaptivePosition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_4__["Input"] }],
         tooltip: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_4__["Input"] }],
         tooltipChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_4__["Output"] }],
         placement: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_4__["Input"] }],
@@ -93178,7 +92676,7 @@ __webpack_require__.r(__webpack_exports__);
 /*!*****************************************!*\
   !*** ./node_modules/tslib/tslib.es6.js ***!
   \*****************************************/
-/*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __createBinding, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
+/*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __exportStar, __values, __read, __spread, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -93191,12 +92689,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__metadata", function() { return __metadata; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__awaiter", function() { return __awaiter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__generator", function() { return __generator; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__createBinding", function() { return __createBinding; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__exportStar", function() { return __exportStar; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__values", function() { return __values; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__read", function() { return __read; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__spread", function() { return __spread; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__spreadArrays", function() { return __spreadArrays; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__await", function() { return __await; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncGenerator", function() { return __asyncGenerator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__asyncDelegator", function() { return __asyncDelegator; });
@@ -93204,21 +92700,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__makeTemplateObject", function() { return __makeTemplateObject; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importStar", function() { return __importStar; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__importDefault", function() { return __importDefault; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__classPrivateFieldGet", function() { return __classPrivateFieldGet; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__classPrivateFieldSet", function() { return __classPrivateFieldSet; });
 /*! *****************************************************************************
-Copyright (c) Microsoft Corporation.
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted.
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
 ***************************************************************************** */
 /* global Reflect, Promise */
 
@@ -93251,10 +92745,8 @@ function __rest(s, e) {
     for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
         t[p] = s[p];
     if (s != null && typeof Object.getOwnPropertySymbols === "function")
-        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
-                t[p[i]] = s[p[i]];
-        }
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) if (e.indexOf(p[i]) < 0)
+            t[p[i]] = s[p[i]];
     return t;
 }
 
@@ -93274,11 +92766,10 @@ function __metadata(metadataKey, metadataValue) {
 }
 
 function __awaiter(thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
         function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 }
@@ -93311,25 +92802,19 @@ function __generator(thisArg, body) {
     }
 }
 
-function __createBinding(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}
-
 function __exportStar(m, exports) {
-    for (var p in m) if (p !== "default" && !exports.hasOwnProperty(p)) exports[p] = m[p];
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 
 function __values(o) {
-    var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
+    var m = typeof Symbol === "function" && o[Symbol.iterator], i = 0;
     if (m) return m.call(o);
-    if (o && typeof o.length === "number") return {
+    return {
         next: function () {
             if (o && i >= o.length) o = void 0;
             return { value: o && o[i++], done: !o };
         }
     };
-    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
 }
 
 function __read(o, n) {
@@ -93354,14 +92839,6 @@ function __spread() {
         ar = ar.concat(__read(arguments[i]));
     return ar;
 }
-
-function __spreadArrays() {
-    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
-    for (var r = Array(s), k = 0, i = 0; i < il; i++)
-        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
-            r[k] = a[j];
-    return r;
-};
 
 function __await(v) {
     return this instanceof __await ? (this.v = v, this) : new __await(v);
@@ -93408,21 +92885,6 @@ function __importStar(mod) {
 
 function __importDefault(mod) {
     return (mod && mod.__esModule) ? mod : { default: mod };
-}
-
-function __classPrivateFieldGet(receiver, privateMap) {
-    if (!privateMap.has(receiver)) {
-        throw new TypeError("attempted to get private field on non-instance");
-    }
-    return privateMap.get(receiver);
-}
-
-function __classPrivateFieldSet(receiver, privateMap, value) {
-    if (!privateMap.has(receiver)) {
-        throw new TypeError("attempted to set private field on non-instance");
-    }
-    privateMap.set(receiver, value);
-    return value;
 }
 
 
